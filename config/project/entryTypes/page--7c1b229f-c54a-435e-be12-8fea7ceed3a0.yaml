@@ -1,0 +1,93 @@
+color: rose
+description: null
+fieldLayouts:
+  2870a64a-29c8-4cef-8162-e0d64f8d3561:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-10T15:15:53+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: cd694907-4b58-4f52-b3f9-371eaf9ca535
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-10T15:19:21+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 5e185216-9afd-4df9-beb2-e2289bd2492e # Blocks
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c488a0bf-e343-4882-b762-cb339d8c79ea
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1d41b5a7-7c11-4d73-a749-83df29d1fe3a
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T15:19:21+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 32c1a0e7-223d-4621-a973-a36daf057365 # SEO
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c4bdf014-10e3-43c1-a423-1550e6275770
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: f31b6d25-9e91-4ce7-9834-212126e13b67
+        userCondition: null
+handle: page
+hasTitleField: true
+icon: null
+name: Page
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 5aa2454b-593c-4148-b89b-e964a43e7f2c # Services
+handle: services
+maxAuthors: 1
+name: Services
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  203be7d0-1104-40bc-88e9-d49e038b32ae: # $CRAFT_SITE_NAME
+    enabledByDefault: true
+    hasUrls: true
+    template: services/_entry.twig
+    uriFormat: 'services/{slug}'
+type: channel

@@ -1,15 +1,34 @@
-dateModified: 1757517072
+dateModified: 1757517658
 email:
   fromEmail: hi@jackwhiting.co.uk
   fromName: Haddletons
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    0a1dc461-ccdc-4bd5-8298-afb756fce502: Services # Services
+    5aa2454b-593c-4148-b89b-e964a43e7f2c: Services # Services
+    5e185216-9afd-4df9-beb2-e2289bd2492e: Blocks # Blocks
+    6b6e6e7f-1444-40ea-a678-8fd231ecb29f: Text # Text
+    7c1b229f-c54a-435e-be12-8fea7ceed3a0: Page # Page
     20a1dc66-66af-44b9-afa8-a8dc0534a9c3: Haddletons # Haddletons
+    32c1a0e7-223d-4621-a973-a36daf057365: SEO # SEO
     66acbf03-0bdc-4f33-87a3-6365e66d1432: 'Contact Form' # Contact Form
+    94c494ee-1756-40b0-9548-39a8b6d05a99: 'Contact Page' # Contact Page
+    166cfb30-28b6-494f-bd52-e27b2fdb91a1: Project # Project
     203be7d0-1104-40bc-88e9-d49e038b32ae: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
+    640b0639-40ae-45f3-91e4-7df7c304389e: Pages # Pages
     9623dcea-2086-4b21-8134-f35087c8bf21: New # New
+    9977292a-e6b7-4791-90d9-8a01a62c72fa: 'Services Page' # Services Page
+    23015700-02c7-4378-a22a-2b644516a091: 'Home Page' # Home Page
+    a6a370d2-95d3-4af2-87ca-69c7dc90de54: 'About Page' # About Page
     afc106b6-54a4-4ba9-9799-dddb8fd55ce6: Simple # Simple
+    b53285ee-90b7-417c-9941-42df98ec813c: 'Services Page' # Services Page
+    d4bd7261-9243-40ea-bb4b-6f536fb20a8e: 'Project Page' # Project Page
+    d12bbeb8-7db6-4f9f-80c4-3c25ed163cc7: Projects # Projects
+    dace3e33-0b77-4c29-af31-f65549d05de1: 'Contact Page' # Contact Page
+    db14e80c-4d4b-4c42-b4b9-55a78f5c0d87: 'Home Page' # Home Page
+    ef04ab26-7fb3-430b-ab5e-65f49fb31f15: 'About Page' # About Page
+    fe38ad5f-99d7-4208-9d80-897398c634f9: 'Project Page' # Project Page
 plugins:
   ckeditor:
     edition: standard
@@ -45,9 +64,10 @@ plugins:
 system:
   edition: solo
   live: true
-  name: Haddletons
+  name: $CRAFT_SITE_NAME
+  retryDuration: null
   schemaVersion: 5.8.0.3
-  timeZone: America/Los_Angeles
+  timeZone: UTC
 users:
   allowPublicRegistration: false
   defaultGroup: null

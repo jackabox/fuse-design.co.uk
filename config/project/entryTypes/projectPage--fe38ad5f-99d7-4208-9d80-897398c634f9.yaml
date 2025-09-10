@@ -1,0 +1,76 @@
+color: rose
+description: null
+fieldLayouts:
+  842e4a71-968d-4202-ac0e-c18579cccc5e:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-10T15:11:46+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 60f469cf-38f3-46c6-ba14-cf3c5b6d15e7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 44bcc536-0014-4bff-9167-4aa0ca14e96c
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T15:19:44+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 32c1a0e7-223d-4621-a973-a36daf057365 # SEO
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 929e9eb0-b328-4c35-824e-3f12524daf68
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 584dc327-83a7-4898-ae5c-167943099d77
+        userCondition: null
+handle: projectPage
+hasTitleField: true
+icon: null
+name: 'Project Page'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

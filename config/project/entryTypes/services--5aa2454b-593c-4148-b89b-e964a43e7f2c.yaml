@@ -1,0 +1,76 @@
+color: rose
+description: null
+fieldLayouts:
+  00c76ad7-23da-4516-83b6-6a45d647ce90:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-10T15:14:41+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e29ec7a3-021d-4120-ba08-29a888f5b0b7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 73b1f7de-0574-4392-aa36-a47e0295f014
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T15:19:53+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 32c1a0e7-223d-4621-a973-a36daf057365 # SEO
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bb3bc8cd-0f82-4db4-92eb-846a8299821f
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 19de2526-99c4-4596-8068-0316763f4fd6
+        userCondition: null
+handle: services
+hasTitleField: true
+icon: null
+name: Services
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

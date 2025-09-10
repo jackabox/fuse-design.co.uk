@@ -1,0 +1,76 @@
+color: rose
+description: null
+fieldLayouts:
+  eac2c523-9b3c-43ce-938c-6a59191495cd:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-10T15:13:36+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 0b61a7ab-3639-4e23-aae6-a66ebcfc9279
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c7837c2b-6f0f-4408-b94e-c102f2ca6c5f
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T15:18:52+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 32c1a0e7-223d-4621-a973-a36daf057365 # SEO
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ba5a8582-8fa6-4915-9623-2e2bffca107f
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 0e16d100-7fb9-479e-840e-6a6eedc8bc4b
+        userCondition: null
+handle: aboutPage
+hasTitleField: true
+icon: null
+name: 'About Page'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,76 @@
+color: rose
+description: null
+fieldLayouts:
+  93924db9-6a6a-4e19-a241-b374a2527ee4:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-10T15:15:29+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 832c9da1-8678-4ba9-9a79-f17c12e751a8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: df924cd6-86a8-49ca-99a3-70edcdb54eb1
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-10T15:19:01+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 32c1a0e7-223d-4621-a973-a36daf057365 # SEO
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6f106154-e32d-4024-a4b8-268eb14ace90
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 1ebc24e7-b759-40d8-ba3a-9bbc7d8e4a6b
+        userCondition: null
+handle: contactPage
+hasTitleField: true
+icon: null
+name: 'Contact Page'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
