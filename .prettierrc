@@ -1,0 +1,18 @@
+{
+	"semi": false,
+	"singleQuote": false,
+	"jsxBracketSameLine": false,
+	"arrowParens": "always",
+	"printWidth": 120,
+	"html.format.wrapAttributes": "force-expand-multiline",
+	"twig.format.wrapAttributes": "force-expand",
+	"twigAlwaysBreakObjects": false,
+	"twigMultiTags": [
+		"nav,endnav",
+		"switch,case,default,endswitch",
+		"ifchildren,endifchildren",
+		"if,endif",
+		"cache,endcache",
+		"tag,endtag"
+	]
+}

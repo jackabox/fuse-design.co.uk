@@ -1,0 +1,36 @@
+{# Variables #}
+{% set color = color ?? 'blue' %}
+{% set url = url ?? null %}
+{% set text = text ?? 'Change Me' %}
+{% set icon = icon ?? null %}
+{% set showIcon = showIcon ?? true %}
+{% set class = class ?? '' %}
+{% set attributes = attributes ?? {} %}
+{% set baseClass =
+  'group transition border-b-2 pb-1 text-md items-center inline-flex gap-3 uppercase hover:cursor-pointer'
+%}
+
+{% switch color %}
+  {% case 'white' %}
+    {% set class = class ~ ' border-white' %}
+  {% default %}
+    {% set class = class ~ ' border-red' %}
+{% endswitch %}
+
+{# Output #}
+<!-- Template: {{ _self }}.twig -->
+{% if url != null %}
+  <a href="{{ url }}" class="{{ twMerge(baseClass, class) }}" {{ attr(attributes) }}>
+    <span class="p font-medium !leading-tight">{{ text }}</span>
+
+    {# {% if showIcon %}
+      <span class="transition duration-300 -translate-x-1 group-hover:translate-x-0">
+        {{ svg('@webroot/svg/button-arrow.svg')|attr({ class: 'w-5' }) }}
+      </span>
+    {% endif %} #}
+  </a>
+{% else %}
+  <button type="{{ type ?? 'button' }}" class="{{ twMerge(baseClass, class) }}" {{ attr(attributes) }}>
+    <span class="p font-medium !leading-tight">{{ text }}</span>
+  </button>
+{% endif %}

@@ -1,0 +1,28 @@
+<!-- Template: {{ _self }} -->
+<header x-data="header" x-resize.document="resizeEvent">
+  <div
+    class="w-full fixed top-0 left-0 right-0 py-5 px-5 flex gap-4 items-center justify-between transition-all duration-500 z-40 bg-purple-900 text-black"
+    @scroll.window="handleScroll"
+    :class="{
+		'translate-y-0' : atTop,
+		'-translate-y-full' : !atTop,
+		'translate-y-0': !atTop && scrollingUp
+	}"
+  >
+    <a href="/" title="{{ siteName }}">{{ svg('@webroot/svg/logo.svg')|attr({}) }}</a>
+
+    {{ include('_components/navigation/main') }}
+
+    <div class="lg:hidden relative z-[31]">
+      <button
+        type="button"
+        class="inline-flex items-center gap-4 py-2 border-b border-transparent transition duration-300 uppercase font-medium text-white text-lg hover:text-red hover:cursor-pointer"
+        x-on:click="toggleNav"
+        aria-label="Open/Close the mobile menu"
+      >
+        <span x-show="!showNav">Menu</span>
+        <span x-show="showNav" style="display: none">Close</span>
+      </button>
+    </div>
+  </div>
+</header>

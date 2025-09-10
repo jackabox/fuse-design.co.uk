@@ -1,0 +1,9 @@
+{% from '_macros/components' import block %}
+
+{% set blocks = blocks ?? '' %}
+
+{% for block in blocks %}
+  {# Get the handle, regex to match file #}
+  {% set type = block.type.handle|replace('/(^|[a-z])([A-Z])/', '\\1-\\2')|lower %}
+  {{ block(type, { block: block, branding: branding }) }}
+{% endfor %}

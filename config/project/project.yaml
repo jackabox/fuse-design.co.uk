@@ -1,0 +1,57 @@
+dateModified: 1757517072
+email:
+  fromEmail: hi@jackwhiting.co.uk
+  fromName: Haddletons
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    20a1dc66-66af-44b9-afa8-a8dc0534a9c3: Haddletons # Haddletons
+    66acbf03-0bdc-4f33-87a3-6365e66d1432: 'Contact Form' # Contact Form
+    203be7d0-1104-40bc-88e9-d49e038b32ae: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
+    9623dcea-2086-4b21-8134-f35087c8bf21: New # New
+    afc106b6-54a4-4ba9-9799-dddb8fd55ce6: Simple # Simple
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  formie:
+    edition: standard
+    enabled: false
+    licenseKey: 6OEURRN8DWDBYZ0C0O76ZK12
+    schemaVersion: 3.4.10
+  minify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: 54K5RH8IDLIW0HYYQPRQQDLM
+    schemaVersion: 2.1.1
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: X3YZLJV6WZKYUB1E1AIUE59F
+    schemaVersion: 3.0.13
+  tailwind-merge:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: Haddletons
+  schemaVersion: 5.8.0.3
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

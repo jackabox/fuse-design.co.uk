@@ -1,0 +1,29 @@
+{% set nav = craft.navigation.nodes('footerPrivacy').all() %}
+
+<!-- Template: {{ _self }}.twig -->
+<nav role="navigation">
+	<ul class="flex flex-col sm:flex-row sm:flex-wrap justify-end gap-3 sm:gap-5 leading-loose">
+		{% for node in nav %}
+			<li class="m-0 leading-loose">
+				<a
+					href="{{ node.url }}"
+					class="text-xxs font-light"
+					{% if node.newWindow %}target="_blank" rel="noopener noreferrer"{% endif %}
+				>
+					{{- node.title -}}
+				</a>
+			</li>
+		{% endfor %}
+
+		<li class="m-0 leading-loose">
+			 <a
+			  href="https://jackwhiting.co.uk"
+			  class=""
+			  target="_blank" rel=""
+			  title="Link to Jack Whiting's Website"
+			>
+				   Website by <b>Jack Whiting</b>
+			</a>
+		</li>
+	</ul>
+</nav>

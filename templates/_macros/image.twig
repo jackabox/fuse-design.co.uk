@@ -1,0 +1,120 @@
+{% macro image(image = null, transform = null, options = {}) %}
+	{% set defaultOptions = {
+		class: 'block',
+		wrapperClass: '',
+		lazy: false,
+		attributes: {}
+	} %}
+
+	{% set options = defaultOptions|merge(options) %}
+
+	{% if image.extension == 'svg' %}
+		<img
+			  src="{{ image.url }}"
+			 alt="{{ image.alt }}"
+			 width="{{ image.width }}"
+			 height="{{ image.height }}"
+			 class="{{ options.class }}"
+			 loading="{{ options.lazy ? 'lazy' : 'eager' }}"
+		  />
+	{% else %}
+		{% set thumb = {
+			mode: 'crop',
+			width: 100,
+			height: 100,
+			quality: 75,
+			position: 'top-center'
+		} %}
+	
+		<picture class="{{ options.wrapperClass }}">
+			<source {{ attr({
+				type: 'image/avif',
+				srcset: image.getSrcset(
+					[360, 600, 768, 1024, 1280, 1440, 1600, 1920],
+					{ format: 'avif', }
+				),
+				sizes: '100vw',
+				class: options.class
+			}) }}>
+		
+			<source {{ attr({
+				type: 'image/webp',
+				srcset: image.getSrcset(
+					[360, 600, 768, 1024, 1280, 1440, 1600, 1920],
+					{ format: 'webp', }
+				),
+				sizes: '100vw',
+				class: options.class
+			}) }}>
+			
+			<source {{ attr({
+				type: 'image/jpeg',
+				srcset: image.getSrcset(
+					[360, 600, 768, 1024, 1280, 1440, 1600, 1920],
+					{ format: 'jpg', }
+				),
+				sizes: '100vw',
+				class: options.class
+			}) }}>
+		
+			<img 
+				src="{{ image.getUrl(thumb) }}" 
+				alt="{{ image.alt }}" 
+				width="{{ image.getWidth(thumb) }}"
+				height="{{ image.getThumb(thumb) }}" 
+				class="{{ options.class }}"
+				loading="{{ options.lazy ? 'lazy' : 'eager' }}"
+			>
+	</picture>
+
+	{% endif %}
+{% endmacro %}
+
+
+{% macro imager(image = null, transform = null, options = {}) %}
+	{% set defaultOptions = {
+		class: 'block',
+		wrapperClass: '',
+		lazy: false,
+		attributes: {}
+	} %}
+
+	{% set options = defaultOptions|merge(options) %}
+
+	{% if image.extension == 'svg' %}
+		<img
+			  src="{{ image.url }}"
+			 alt="{{ image.alt }}"
+			 width="{{ image.width }}"
+			 height="{{ image.height }}"
+			 class="{{ options.class }}"
+			 loading="{{ options.lazy ? 'lazy' : 'eager' }}"
+		  />
+	{% else %}
+		{% set transformedBase = craft.imagerx.transformImage(image, transform) %}
+		{% set transformedWebp = craft.imagerx.transformImage(image, transform, {
+			format: 'webp'
+		}) %}
+		{% set transformedAvif = craft.imagerx.transformImage(image, transform, {
+			format: 'avif'
+		}) %}
+
+		<picture
+			class="{{ options.wrapperClass }}"
+			{{ attr(options.attributes) }}
+		>
+			<source srcset="{{ transformedAvif | srcset }}" sizes="100vw" type="image/avif">
+			<source srcset="{{ transformedWebp | srcset }}"	sizes="100vw" type="image/webp">
+			<img
+				src="{{ craft.imagerx.placeholder({ width: 160, height: 90 }) }}"
+				srcset="{{ transformedBase|srcset }}"
+				sizes="100vw"
+				alt="{{ image.alt }}"
+				width="{{ image.width }}"
+				height="{{ image.height }}"
+				class="{{ options.class }}"
+				loading="{{ options.lazy ? 'lazy' : 'eager' }}"
+			/>
+		</picture>
+	{% endif %}
+{% endmacro %}

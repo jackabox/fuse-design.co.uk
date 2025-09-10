@@ -1,0 +1,30 @@
+{%- minify -%}
+<!DOCTYPE html>
+<html lang="{{ craft.app.language|slice(0, 2) }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    {# Fonts #}
+    {{ include('_components/global/fonts', ignore_missing: true) }}
+
+    {# CSS / JS #}
+    {{ craft.vite.script('/src/index.js', false) }}
+
+    {# Favicons #}
+    {{ craft.vite.inline('@webroot/dist/favicons/webapp.html') }}
+
+    {# AlpineJS "blip" Fix #}
+    <style>
+      [x-cloak] { display: none; }
+    </style>
+  </head>
+
+  <body class="font-sans pt-[90px] antialiased">
+    {% block body %}
+
+    {% endblock %}
+  </body>
+</html>
+{%- endminify -%}

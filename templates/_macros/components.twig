@@ -1,0 +1,23 @@
+{% macro component(name, variables = {}) %}
+	{% include ['_components/' ~ name, '_components/fallback'] with variables %}
+{% endmacro %}
+
+{% macro block(name, variables = {}) %}
+	{% include ['_blocks/' ~ name, '_components/fallback'] with variables %}
+{% endmacro %}
+
+{% macro spacer(spacingTop = 'default', spacingBottom = 'default') %}
+	{% set spacingTopValues = {
+		default: 'pt-12',
+		none: '',
+		small: 'pt-6',
+		large: 'pt-24',
+	} %}
+	{% set spacingBottomValues = {
+		default: 'pb-12',
+		none: '',
+		small: 'pb-6',
+		large: 'pb-24',
+	} %}
+	{{ spacingTopValues[spacingTop] ~ ' ' ~ spacingBottomValues[spacingBottom] }}
+{% endmacro %}

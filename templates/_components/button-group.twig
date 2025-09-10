@@ -1,0 +1,24 @@
+{% from '_macros/components' import component %}
+
+{% if buttons|length %}
+  <div class="{{ twMerge('flex flex-wrap gap-10', class ?? '') }}">
+    {% for button in buttons %}
+      {{
+        component(
+          'button',
+          {
+            text: button.title,
+            url: button.href.url,
+            color: button.colour,
+            attributes: {
+              'aria-label': button.href.ariaLabel,
+              target: button.href.target,
+              title: button.href.title,
+              download: button.href.download ?? false
+            }
+          }
+        )
+      }}
+    {% endfor %}
+  </div>
+{% endif %}

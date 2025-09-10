@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: $CRAFT_SITE_NAME
+primary: true
+siteGroup: 20a1dc66-66af-44b9-afa8-a8dc0534a9c3 # Haddletons
+sortOrder: 1

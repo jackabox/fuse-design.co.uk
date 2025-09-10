@@ -1,0 +1,42 @@
+{% from '_macros/components' import component %}
+{% from '_macros/image' import imager %}
+
+{% set footerNav1 = craft.navigation.nodes('footerServices').all() %}
+
+<footer class="pt-24 pb-16 bg-purple-800 border-t border-white">
+  <div class="container mx-auto">
+    <a href="/" title="Go to homepage" class="flex flex-wrap items-center gap-6 sm:gap-12">
+      {{ svg('@webroot/svg/logo.svg') }}
+    </a>
+
+    {# <a
+			class="font-medium text-base underline underline-offset-4"
+			href="tel:{{ footer.phone }}"
+			title="Call Haddletons on {{ footer.phone }}"
+		>
+			{{ footer.phone }}
+		</a> #}
+
+    {# <a
+			class="font-medium text-base underline underline-offset-4"
+			href="mailto:{{ footer.email }}"
+			title="Email Haddletons at {{ footer.email }}"
+		>
+			{{ footer.email }}
+		</a> #}
+
+    {{ component('navigation/footer', { nav: footerNav1 }) }}
+
+    <div class="grid grid-cols-12 gap-8 lg:gap-12 lg:items-end">
+      <div class="col-span-full lg:col-span-8">
+        <p class="text-xxs font-light leading-loose">
+          {# {{ footer.copyrightText|nl2br }} #}
+        </p>
+      </div>
+
+      <div class="col-span-full lg:col-span-4">
+        {{ component('navigation/footer-privacy') }}
+      </div>
+    </div>
+  </div>
+</footer>

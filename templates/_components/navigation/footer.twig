@@ -1,0 +1,19 @@
+{% set nav = nav ?? null %}
+
+<!-- Template: {{ _self }}.twig -->
+<nav role="navigation">
+	<ul class="flex flex-col gap-5">
+		{% for node in nav %}
+			<li class="">
+				<a
+					href="{{ node.url }}"
+					class="text-xxs font-medium"
+					{% if node.newWindow %}target="_blank" rel="noopener noreferrer"{% endif %}
+					{% for attribute in node.customAttributes %}{{ attribute.attribute }}="{{ attribute.value }}"{% endfor %}
+				>
+					{{- node.title -}}
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+</nav>

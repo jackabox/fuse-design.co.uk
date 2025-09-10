@@ -1,0 +1,6 @@
+{% set class = class ?? '' %}
+{% set tag = tag ?? 'h3' %}
+
+<{{ tag }} class="{{ twMerge('', class) }}">
+    {{ heading ?? '' }}
+</{{ tag }}>
