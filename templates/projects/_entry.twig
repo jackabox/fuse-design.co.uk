@@ -1,0 +1,6 @@
+{% extends '_layouts/global' %}
+
+{% block site %}
+  {{ include('_components/project-hero') }}
+  {{ include('_components/page-builder', { blocks: entry.projectBlocks.all() }) }}
+{% endblock %}

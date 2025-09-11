@@ -1,4 +1,4 @@
-{% macro image(image = null, transform = null, options = {}) %}
+{% macro image(image = null, options = {}) %}
 	{% set defaultOptions = {
 		class: 'block',
 		wrapperClass: '',
@@ -60,8 +60,8 @@
 			<img 
 				src="{{ image.getUrl(thumb) }}" 
 				alt="{{ image.alt }}" 
-				width="{{ image.getWidth(thumb) }}"
-				height="{{ image.getThumb(thumb) }}" 
+				width="{{ image.getWidth() }}"
+				height="{{ image.getHeight() }}" 
 				class="{{ options.class }}"
 				loading="{{ options.lazy ? 'lazy' : 'eager' }}"
 			>

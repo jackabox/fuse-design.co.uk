@@ -1,0 +1,11 @@
+{% set class = class ?? '' %}
+{% set tags = tags ?? null %}
+
+<!-- Template: {{ _self }} -->
+<div class="{{ twMerge('flex flex-wrap gap-4', class) }}">
+  {% for tag in tags %}
+    <span class="bg-white/40 py-3 px-4 rounded-lg leading-none min-w-[90px] text-center text-black">
+      {{ tag.title }}
+    </span>
+  {% endfor %}
+</div>

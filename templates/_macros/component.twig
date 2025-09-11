@@ -3,7 +3,7 @@
 {% endmacro %}
 
 {% macro block(name, variables = {}) %}
-	{% include ['_blocks/' ~ name, '_components/fallback'] with variables %}
+	{% include ['_components/blocks/' ~ name, '_components/fallback'] with variables %}
 {% endmacro %}
 
 {% macro spacer(spacingTop = 'default', spacingBottom = 'default') %}

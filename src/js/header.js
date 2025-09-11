@@ -1,10 +1,11 @@
 export default () => ({
   showNav: false,
-  atTop: false,
+  atTop: true,
   scrollingUp: true,
 
   init() {
     this.resizeEvent()
+    this.atTop = window.scrollY < 200
   },
 
   loadSearch() {

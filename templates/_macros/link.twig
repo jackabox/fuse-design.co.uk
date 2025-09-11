@@ -8,7 +8,7 @@
 		download: link.download ?? false
 	} %}
 	
-    <a href="{{ link.url }}" class="{{ twMerge('', class) }}" {{ attr(attributes) }}>
+    <a href="{{ link.url }}" class="{{ twMerge('', options.class) }}" {{ attr(attributes) }}>
 		{{ link.label }}
 	</a>
 {% endmacro %}

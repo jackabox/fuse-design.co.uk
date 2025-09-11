@@ -1,0 +1,11 @@
+fill: null
+format: avif
+handle: smAvif
+height: null
+interlace: none
+mode: crop
+name: 'SM AVif'
+position: center-center
+quality: null
+upscale: true
+width: 600

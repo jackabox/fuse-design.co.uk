@@ -74,8 +74,30 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2025-09-11T03:18:11+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: fbbd67cd-d950-4703-8997-71104696f7f1 # Project Colour
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Colour
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 32927f3a-6d5d-4fcb-aaba-a092f3dfcb24
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: 7564d953-3d3c-49ec-80a2-2b49cc99bcd3
+        userCondition: null
+      -
+        elementCondition: null
+        name: Style
+        uid: 0396910b-b73c-4964-ac93-e29843eafdbd
         userCondition: null
 handle: testimonials
 hasTitleField: true

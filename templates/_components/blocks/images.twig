@@ -1,0 +1,14 @@
+{% from '_macros/image' import image %}
+{% from '_macros/link' import link %}
+{% from '_macros/component' import component, spacer %}
+
+<!-- Template: {{ _self }} -->
+<section class="container {{ spacer(block.spacingTop, block.spacingBottom)|spaceless }}">
+  <div class="grid gap-11 {{ block.imagePerRow == 'two' ? 'grid-cols-2' : 'grid-cols-1' }}">
+    {% for image in block.images.all() %}
+      <div class="col-span-1">
+        {{ image(image, { class: 'w-full h-auto rounded-2xl' }) }}
+      </div>
+    {% endfor %}
+  </div>
+</section>

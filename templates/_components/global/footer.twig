@@ -1,8 +1,9 @@
-{% from '_macros/components' import component %}
+{% from '_macros/component' import component, spacer %}
+
 {% set currentYear = now|date('Y') %}
 {% set socials = footer.socials %}
 
-<footer class="container mx-auto">
+<footer class="container {{ spacer('default', 'none')|spaceless }}">
   <div class="p-16 bg-black text-white rounded-2xl grid grid-cols-2 gap-x-24 gap-y-20">
     {{ component('typography/h3', { heading: footer.heading, class: 'text-2xl col-span-full' }) }}
 
