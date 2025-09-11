@@ -1,0 +1,53 @@
+columnSuffix: null
+handle: projectBlocks
+instructions: null
+name: 'Project Blocks'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 293e86c8-cff5-492b-88e2-bea7d62b4adc # Text
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 457be00e-227c-4d1b-8153-5d37bdf7ac9a # Images
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 336a734d-4eb6-4f8c-b8ba-1ee9f2de0a2a # Full Width Image
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 568fe7c2-f0bd-413b-9f04-8d7081ba761f # Testimonial
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

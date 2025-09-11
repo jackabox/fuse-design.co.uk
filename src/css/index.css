@@ -43,6 +43,8 @@
 
   --flex-base: 1 0 auto;
 
+  --drop-shadow-nav: 0 0 8px rgba(0, 0, 0, 0.15);
+
   --text-sm: clamp(0.75rem, 0.6989rem + 0.2273vw, 0.875rem); /* 12-14px */
   --text-base: 1rem; /* 16px */
   --text-lg: clamp(0.9375rem, 0.832rem + 0.4688vw, 1.3125rem); /* 15px-21px */
@@ -75,6 +77,14 @@ main {
 
 footer {
   flex-shrink: 0;
+}
+
+.container {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+  max-width: var(--breakpoint-3xl);
 }
 
 /* Offset amount for anchor. This usually accounts for the header if it's sticky. */

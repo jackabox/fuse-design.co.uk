@@ -37,8 +37,157 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2025-09-11T02:06:05+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 9daba4be-465f-45a9-8f39-003ab04ac199 # Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b1f29e68-2da4-4df9-87dc-04587a5f5771
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-11T02:04:50+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 6beb3f07-e677-4659-b409-2176f97b9fa6 # Client Name
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fc531929-df34-4c6d-a26b-f2b63e57f67b
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-09-11T02:06:05+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b989621d-5af6-448e-98c0-9fd351f12ac4 # Project Categories
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ceef841e-4fd0-4011-8bef-1f560e96da24
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-09-11T02:06:05+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 54e89074-690f-4470-acd5-39367985c214 # Keyline
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 184a469b-413c-4217-835e-82cd8c1404f7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-11T02:04:50+00:00'
+            elementCondition: null
+            heading: 'Page Layout'
+            type: craft\fieldlayoutelements\Heading
+            uid: a53d55b7-b56c-4a81-9d5b-456a1a239e91
+            userCondition: null
+          -
+            dateAdded: '2025-09-11T02:04:50+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: f9817227-6725-495c-8e47-c65d58087fcc # Project Blocks
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d92e79e2-4cbd-4e98-897a-2a2e507fe400
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-11T02:04:50+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 44973d52-9b7d-43d4-8fb7-ec670cf1666f # Related Projects
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 07a942e3-2127-49ab-b318-83783019a760
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: c9f25703-f44e-4e35-bc74-7c27db06e414
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-11T02:04:50+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: fbbd67cd-d950-4703-8997-71104696f7f1 # Project Colour
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ffd0bb80-10bc-4c8b-8afc-5643ef54243d
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-09-11T02:04:50+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 8e3c728a-18f9-47d8-ad44-57a54597708d # Project Card Style
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5a05f708-0854-4ef9-8439-65d36f7175c8
+            userCondition: null
+            warning: null
+            width: 50
+        name: Style
+        uid: 11b11fd0-538c-497b-bd55-5da49693516a
         userCondition: null
       -
         elementCondition: null

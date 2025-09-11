@@ -1,0 +1,97 @@
+color: null
+description: null
+fieldLayouts:
+  c37b3204-5948-477c-a002-7d2b7a18b143:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-11T01:54:17+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 2a35871a-a659-49f2-a65f-210feadb7163 # Images
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8fddb8b6-8bb9-47b8-b43a-a99636db7767
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0384050b-c41f-49bf-98b0-5d64dc5d1347
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-11T01:54:17+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3f5c8f0a-945f-4282-b103-4656d640ec1a # Spacing Top
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6ea0285d-116f-4de7-b367-66ba664070b4
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-09-11T01:54:17+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 315e419f-401e-4161-a287-7cfd8f011a58 # Spacing Bottom
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4c450114-a418-4eaa-bd21-c412049d2ade
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-09-11T01:54:17+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: af05e971-bfab-4d1b-b311-f3caa64316e3 # Image Per Row
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 715c0d32-740d-433d-a2f2-aa6bd34769b2
+            userCondition: null
+            warning: null
+            width: 50
+        name: Style
+        uid: e5355bee-4e41-483c-aaf3-b992e21256fc
+        userCondition: null
+handle: images
+hasTitleField: false
+icon: rectangle-vertical-history
+name: Images
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

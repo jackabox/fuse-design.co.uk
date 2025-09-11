@@ -1,0 +1,80 @@
+color: lime
+description: null
+fieldLayouts:
+  05793305-1b10-4289-a4ec-95d131834147:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-11T01:55:08+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 9daba4be-465f-45a9-8f39-003ab04ac199 # Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 77954a49-3021-4a62-9906-2b2313f39336
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f19ff236-f27e-48a3-928b-8b7cb172e9a2
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-11T01:55:08+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3f5c8f0a-945f-4282-b103-4656d640ec1a # Spacing Top
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 757be73a-759a-4470-b746-4ca60c518cf4
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-09-11T01:55:08+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 315e419f-401e-4161-a287-7cfd8f011a58 # Spacing Bottom
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 27b2e3aa-3fb8-4585-a235-6eaf96638eea
+            userCondition: null
+            warning: null
+            width: 50
+        name: Style
+        uid: 6a8c864d-0148-45a5-9f46-de72595964f2
+        userCondition: null
+handle: fullWidthImage
+hasTitleField: false
+icon: file-image
+name: 'Full Width Image'
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

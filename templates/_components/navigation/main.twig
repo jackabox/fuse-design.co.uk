@@ -2,7 +2,7 @@
 
 <nav 
 	role="navigation" 
-	class="fixed inset-0 h-dvh lg:h-auto bg-grey-100 z-30 py-36 px-4 lg:px-0 lg:py-0 lg:relative lg:bg-transparent lg:ml-auto"
+	class="fixed inset-0 h-dvh lg:h-auto bg-white/60 backdrop-blur-sm z-30 lg:relative lg:ml-auto lg:rounded-full p-1 lg:flex gap-1 items-center transition duration-300"
 	x-show="showNav"
 	x-transition:enter="transition ease-in-sharp duration-700"
 	x-transition:enter-start="transform -translate-y-full"
@@ -12,74 +12,26 @@
 	x-transition:leave-end="transform -translate-y-full"
 	style="display: none;"
 >
-	<ul class="flex flex-col lg:flex-row lg:flex-wrap gap-4 lg:gap-8">
+	<a href="/" title="{{ siteName }}"
+		class="w-[56px] h-[56px] transition-all duration-200"
+		:class="{
+			'opacity-0 hidden' : atTop,
+			'opacity-100 block' : !atTop,
+		}"
+	>{{ svg('@webroot/svg/logo-sm.svg')|attr({ class: 'w-full h-full' }) }}</a>
+
+	<ul class="flex flex-col lg:flex-row">
+		
 		{% for node in mainNav %}
-			<li 
-				class="relative"
-				x-data="{ open: false }"
-				x-on:click.away="open = false"
-				x-on:scroll.window.debounce="open = false"
-			>
+			<li class="relative">
 				<a
-					class="text-lg lg:text-xs font-medium text-white uppercase flex gap-2 items-center py-2"
+					class="py-2 text-base leading-normal relative px-5 py-4 block hover:bg-black hover:text-white rounded-full"
 					href="{{ node.url }}"
 					{% if node.newWindow %} target="_blank" rel="noopener" {% endif %}
 					{% for attribute in node.customAttributes %}{{ attribute.attribute }}="{{ attribute.value }}"{% endfor %}
-					{% if node.children|length %}
-						x-on:click.prevent="open = !open"
-					{% endif %}
 				>
-					<span class="leading-normal motion-safe:transition-all ease-out duration-300 group-hover:text-red">{{ node.title }}</span>
-					
-					{% if node.children|length %}
-						<span 
-							class="-rotate-90 lg:rotate-0 motion-safe:transition-all ease-out duration-300"
-							:class="open ? 'lg:rotate-180 lg:text-red mt-0' : '-mt-1'"
-						>
-							{{ svg('@webroot/svg/icon-chevron.svg') }}
-						</span>
-					{% endif %}
+					<span class="leading-normal motion-safe:transition-all ease-out duration-300">{{ node.title }}</span>
 				</a>
-
-				{% if node.children|length %}
-					<div
-						class="fixed h-dvh lg:h-auto inset-0 py-36 px-4 lg:px-0 lg:py-0 z-30 lg:absolute lg:left-auto lg:bottom-auto lg:top-full lg:right-0"
-						x-show="open"
-						x-transition:enter="motion-safe:transition-all ease-out duration-500"
-						x-transition:enter-start="transform -translate-x-full lg:translate-x-0 lg:opacity-0"
-						x-transition:enter-end="transform translate-x-0 lg:translate-x-0 lg:opacity-100"
-						x-transition:leave="transition ease-in-sharp duration-700"
-						x-transition:leave-start="transform translate-x-0 lg:translate-x-0 lg:opacity-100"
-						x-transition:leave-end="transform -translate-x-full lg:translate-x-0 lg:opacity-0"
-						style="display: none;"
-					>
-						<ul class="flex flex-col gap-5 lg:gap-0 lg:px-2 lg:min-w-[240px]">
-							<li class="lg:hidden">
-								<button type="button" aria-label="Back to previous menu" x-on:click="open = false" class="hover:cursor-pointer flex gap-2 py-2  text-white">
-									<span 
-										class="rotate-90 lg:rotate-0 motion-safe:transition-all ease-out duration-300"
-									>
-										{{ svg('@webroot/svg/icon-chevron.svg') }}
-									</span>
-									<span>Back to menu</span>
-								</button>    
-							</li>
-							
-							{% for child in node.children %}
-								<li>
-									<a
-										class="block text-white lg:text-black py-2 lg:py-4 lg:px-2 motion-safe:transition-all ease-out duration-300 hover:text-red"
-										href="{{ child.url }}"
-										{% if node.newWindow %} target="_blank" rel="noopener" {% endif %}
-										{% for attribute in node.customAttributes %}{{ attribute.attribute }}="{{ attribute.value }}"{% endfor %}
-									>
-										{{- child.title -}}
-									</a>
-								</li>
-							{% endfor %}
-						</ul>
-					</div>
-				{% endif %}
 			</li>
 		{% endfor %}
 	</ul>

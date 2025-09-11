@@ -1,0 +1,40 @@
+columnSuffix: null
+handle: imagePerRow
+instructions: null
+name: 'Image Per Row'
+searchable: false
+settings:
+  customOptions: false
+  iconsOnly: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - One
+        -
+          - value
+          - one
+        -
+          - icon
+          - '1'
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Two
+        -
+          - value
+          - two
+        -
+          - icon
+          - '2'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\ButtonGroup

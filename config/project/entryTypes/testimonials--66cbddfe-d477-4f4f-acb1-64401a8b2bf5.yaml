@@ -1,0 +1,90 @@
+color: pink
+description: null
+fieldLayouts:
+  83aa6815-c4f2-49ab-94fd-1dcf91dd9465:
+    cardThumbAlignment: end
+    cardView:
+      - 'layoutElement:12933116-085f-423a-9b32-7f61c33179f8'
+      - 'layoutElement:202594ad-ec79-4ec2-aacd-5cdc297af6b0'
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-11T01:56:19+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: Author
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e831d8f1-d347-4244-9e7b-063c84d0f2f1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-11T01:57:51+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 6beb3f07-e677-4659-b409-2176f97b9fa6 # Client Name
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 12933116-085f-423a-9b32-7f61c33179f8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-11T01:57:51+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b94200d6-cc19-453f-a8ca-4f1dd462e005 # Testimonial
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 202594ad-ec79-4ec2-aacd-5cdc297af6b0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 7564d953-3d3c-49ec-80a2-2b49cc99bcd3
+        userCondition: null
+handle: testimonials
+hasTitleField: true
+icon: null
+name: Testimonials
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

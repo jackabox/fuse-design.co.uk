@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: blocks
+handle: relatedProjects
 instructions: null
-name: Blocks
+name: 'Related Projects'
 searchable: false
 settings:
   createButtonLabel: null
@@ -12,12 +12,12 @@ settings:
       __assoc__:
         -
           - uid
-          - 6b6e6e7f-1444-40ea-a678-8fd231ecb29f
+          - 76fbdb53-0281-4ef9-bb2e-7e0f36a47faa # Related Projects
         -
           - group
           - General
   includeTableView: false
-  maxEntries: null
+  maxEntries: 1
   minEntries: null
   pageSize: null
   propagationKeyFormat: null

@@ -1,0 +1,80 @@
+color: null
+description: null
+fieldLayouts:
+  cb26b4d4-2e5c-45b6-8a95-b0b8f680abce:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-11T01:59:55+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: f7855764-1078-4b7b-8115-68862ff5bb61 # Testimonials
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8486a0f0-c53b-470f-a2a3-c340d93914d8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 93f84668-4e45-4532-ba7d-138daa94c627
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-11T01:59:55+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3f5c8f0a-945f-4282-b103-4656d640ec1a # Spacing Top
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 59830fb5-e6ab-46e5-848f-a8e2a377f3de
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-09-11T01:59:55+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 315e419f-401e-4161-a287-7cfd8f011a58 # Spacing Bottom
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 224144c7-5fc1-4790-af72-d0e93978bc12
+            userCondition: null
+            warning: null
+            width: 50
+        name: Spacing
+        uid: 008b6025-c440-40ff-aefa-153eccc9b499
+        userCondition: null
+handle: testimonial
+hasTitleField: false
+icon: message-quote
+name: Testimonial
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
