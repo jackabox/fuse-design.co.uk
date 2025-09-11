@@ -1,0 +1,108 @@
+columnSuffix: null
+handle: socials
+instructions: null
+name: Socials
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - 92e52124-db74-423f-9a0f-bf497718f587
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    1:
+                      - uid
+                      - 5e605176-11c0-4a5a-9ab5-f864fa7c25a7
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-10T23:49:36+00:00'
+                            11:
+                              - uid
+                              - f42df25e-ae6e-4829-9a27-18c062cfddaa
+                            14:
+                              - fieldUid
+                              - 4a538b83-8308-41a4-93e2-38005b80affd # Instagram
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-10T23:49:36+00:00'
+                            11:
+                              - uid
+                              - 3b5cdc0f-8835-49fe-910d-0a4a6823e8a6
+                            14:
+                              - fieldUid
+                              - 69b1ece3-71c8-480f-8770-29557c0e6f51 # Twitter / X
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-10T23:49:36+00:00'
+                            11:
+                              - uid
+                              - 8a7a499f-2ac1-475c-97e1-ab9e36ac68f9
+                            14:
+                              - fieldUid
+                              - c4840206-fedb-4bac-927b-55c73db6de49 # LinkedIn
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

@@ -1,36 +1,49 @@
 {# Variables #}
-{% set color = color ?? 'blue' %}
-{% set url = url ?? null %}
-{% set text = text ?? 'Change Me' %}
+{% set button = button ?? null %}
+{% set color = color ?? 'black' %}
 {% set icon = icon ?? null %}
+{% set showText = showText ?? true %}
 {% set showIcon = showIcon ?? true %}
 {% set class = class ?? '' %}
 {% set attributes = attributes ?? {} %}
 {% set baseClass =
-  'group transition border-b-2 pb-1 text-md items-center inline-flex gap-3 uppercase hover:cursor-pointer'
+  'rounded-full px-5 py-4 text-lg group border items-center inline-flex leading-none gap-2 hover:cursor-pointer motion-safe:duration-300 motion-safe:transition'
 %}
+
+{% set attributes = {
+  'aria-label': button.ariaLabel,
+  target: button.target,
+  title: button.title,
+  download: button.download ?? false
+} %}
 
 {% switch color %}
   {% case 'white' %}
-    {% set class = class ~ ' border-white' %}
+    {% set class = class ~ ' text-white border-white hover:bg-white hover:text-black' %}
   {% default %}
-    {% set class = class ~ ' border-red' %}
+    {% set class = class ~ ' text-black border-black' %}
 {% endswitch %}
 
 {# Output #}
 <!-- Template: {{ _self }}.twig -->
-{% if url != null %}
-  <a href="{{ url }}" class="{{ twMerge(baseClass, class) }}" {{ attr(attributes) }}>
-    <span class="p font-medium !leading-tight">{{ text }}</span>
+{% if button.url != null %}
+  <a href="{{ button.url }}" class="{{ twMerge(baseClass, class) }}" {{ attr(attributes) }}>
+    {% if showText %}
+      <span class="motion-safe:duration-300 motion-safe:transition">{{ button.label }}</span>
+    {% endif %}
 
-    {# {% if showIcon %}
-      <span class="transition duration-300 -translate-x-1 group-hover:translate-x-0">
-        {{ svg('@webroot/svg/button-arrow.svg')|attr({ class: 'w-5' }) }}
-      </span>
-    {% endif %} #}
+    {% if showIcon %}
+      <span class="-rotate-90">{{ svg('@webroot/svg/icon-chevron.svg')|attr({ class: 'w-5' }) }}</span>
+    {% endif %}
   </a>
 {% else %}
   <button type="{{ type ?? 'button' }}" class="{{ twMerge(baseClass, class) }}" {{ attr(attributes) }}>
-    <span class="p font-medium !leading-tight">{{ text }}</span>
+    {% if showText %}
+      <span class="">{{ text }}</span>
+    {% endif %}
+
+    {% if showIcon %}
+      <span class="-rotate-90">{{ svg('@webroot/svg/icon-chevron.svg')|attr({ class: 'w-5' }) }}</span>
+    {% endif %}
   </button>
 {% endif %}

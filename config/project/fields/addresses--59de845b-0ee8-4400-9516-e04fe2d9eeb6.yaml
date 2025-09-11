@@ -1,0 +1,88 @@
+columnSuffix: null
+handle: addresses
+instructions: null
+name: Addresses
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - 178be7a6-9c7d-4015-8f2b-04003c175cda
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    1:
+                      - uid
+                      - 6708e269-a4d4-4457-876a-802a84480afc
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            1:
+                              - handle
+                              - address1
+                            2:
+                              - label
+                              - 'Address 1'
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 50
+                            10:
+                              - dateAdded
+                              - '2025-09-10T23:47:44+00:00'
+                            11:
+                              - uid
+                              - 39566175-5019-4fd0-a061-e044ec2c2841
+                            14:
+                              - fieldUid
+                              - fce16c92-28e0-4a3b-ba09-77b3f80fd5c8 # Address 1
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 50
+                            10:
+                              - dateAdded
+                              - '2025-09-10T23:47:44+00:00'
+                            11:
+                              - uid
+                              - 33b8dae3-5c13-463a-9f7d-7c53e64e4d34
+                            14:
+                              - fieldUid
+                              - 121aed29-6f22-4a09-b9ad-80684dd9239c # Address 2
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

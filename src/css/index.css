@@ -41,19 +41,48 @@
   --color-pastel-grey: #efefef;
   --color-pastel-grey-300: #f7f7f7;
 
+  --flex-base: 1 0 auto;
+
   --text-sm: clamp(0.75rem, 0.6989rem + 0.2273vw, 0.875rem); /* 12-14px */
   --text-base: 1rem; /* 16px */
   --text-lg: clamp(0.9375rem, 0.832rem + 0.4688vw, 1.3125rem); /* 15px-21px */
   --text-xl: clamp(1.125rem, 1.0547rem + 0.3125vw, 1.375rem); /* 18px-22px */
-  --text-2xl: clamp(1.25rem, 0.9336rem + 1.4063vw, 2.375rem); /* 20px-38px */
-  --text-3xl: clamp(1.375rem, 1.041rem + 1.4844vw, 2.5625rem); /* 22px-41px */
+  --text-2xl: clamp(1.25rem, 1.1094rem + 0.625vw, 1.75rem); /* 20px-28px */
+  --text-3xl: clamp(1.25rem, 0.9336rem + 1.4063vw, 2.375rem); /* 20px-38px */
+  --text-4xl: clamp(1.375rem, 1.041rem + 1.4844vw, 2.5625rem); /* 22px-41px */
 
   --leading-14: 3.625rem;
   --leading-15: 3.75rem;
 
-  --font-sans-primary:
+  --font-sans:
     "pp-mori", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     "Noto Color Emoji";
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+/* Offset amount for anchor. This usually accounts for the header if it's sticky. */
+:target:before {
+  content: "";
+  display: block;
+  height: 100px;
+  margin: -100px 0 0;
 }
 
 .rte {

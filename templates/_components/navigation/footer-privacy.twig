@@ -2,12 +2,12 @@
 
 <!-- Template: {{ _self }}.twig -->
 <nav role="navigation">
-	<ul class="flex flex-col sm:flex-row sm:flex-wrap justify-end gap-3 sm:gap-5 leading-loose">
+	<ul class="flex flex-col sm:flex-row sm:flex-wrap justify-end gap-3 sm:gap-8">
 		{% for node in nav %}
-			<li class="m-0 leading-loose">
+			<li class="m-0 leading-loose text-sm">
 				<a
 					href="{{ node.url }}"
-					class="text-xxs font-light"
+					class=""
 					{% if node.newWindow %}target="_blank" rel="noopener noreferrer"{% endif %}
 				>
 					{{- node.title -}}
@@ -15,14 +15,15 @@
 			</li>
 		{% endfor %}
 
-		<li class="m-0 leading-loose">
+		<li class="m-0 leading-loose text-sm">
 			 <a
 			  href="https://jackwhiting.co.uk"
 			  class=""
-			  target="_blank" rel=""
+			  target="_blank" 
+			  rel=""
 			  title="Link to Jack Whiting's Website"
 			>
-				   Website by <b>Jack Whiting</b>
+				   Website by <b class="font-normal text-black">Jack Whiting</b>
 			</a>
 		</li>
 	</ul>

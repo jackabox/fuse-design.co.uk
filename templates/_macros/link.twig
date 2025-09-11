@@ -1,0 +1,14 @@
+{% macro link(link, options = {}) %}
+	{% set defaultOptions = { class: '' } %}
+	{% set options = defaultOptions|merge(options) %}
+	{% set attributes = {
+		'aria-label': link.ariaLabel,
+		target: link.target,
+		title: link.title,
+		download: link.download ?? false
+	} %}
+	
+    <a href="{{ link.url }}" class="{{ twMerge('', class) }}" {{ attr(attributes) }}>
+		{{ link.label }}
+	</a>
+{% endmacro %}
