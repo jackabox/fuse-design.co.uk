@@ -8,12 +8,12 @@
 <a
   href="{{ project.url }}"
   title="Read more about our project: {{ project.title }}"
-  class="col-span-1 relative rounded-2xl overflow-hidden group"
+  class="col-span-2 relative rounded-2xl overflow-hidden group"
 >
   {{
     image(
       project.image.one(),
-      { wrapperClass: 'aspect-[8/7] block overflow-hidden', class: 'w-full h-full object-cover', lazy: true }
+      { wrapperClass: 'aspect-[16/8] block overflow-hidden', class: 'w-full h-full object-cover', lazy: true }
     )
   }}
 
@@ -23,7 +23,7 @@
     {{ component('typography/h3', { heading: project.title, tag: 'h3', class: 'mt-auto px-10 pb-6 ' ~ textColour }) }}
 
     <div
-      class="absolute p-10 bottom-5 left-5 right-5 rounded-xl pointer-events-none translate-y-[120%] group-hover:pointer-events-auto group-hover:translate-y-0 transition duration-500 {{
+      class="absolute p-10 bottom-5 left-5 right-5 rounded-xl pointer-events-none translate-y-[120%] group-hover:pointer-events-auto group-hover:translate-y-0 transition duration-500 max-w-[860px] {{
       textColour
       }}"
       style="background-color: {{ project.projectColour }}"

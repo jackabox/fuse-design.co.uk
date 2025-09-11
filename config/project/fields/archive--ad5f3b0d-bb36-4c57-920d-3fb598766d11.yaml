@@ -1,0 +1,108 @@
+columnSuffix: null
+handle: archive
+instructions: null
+name: Archive
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - a62370d9-6e9b-473b-a412-48bfca0bdd83
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    1:
+                      - uid
+                      - 5315927d-525c-40fd-9b7a-9b327c64ce74
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-11T04:58:34+00:00'
+                            11:
+                              - uid
+                              - ca7c4371-b379-41a6-945c-bb7bfae050bb
+                            14:
+                              - fieldUid
+                              - d1152384-d38a-4a7d-9196-940e2b001cba # Heading
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-11T04:58:34+00:00'
+                            11:
+                              - uid
+                              - ea088c45-9661-4592-9ab9-4df4ccd288df
+                            14:
+                              - fieldUid
+                              - 54e89074-690f-4470-acd5-39367985c214 # Keyline
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-11T04:58:34+00:00'
+                            11:
+                              - uid
+                              - c0b4b5bd-c823-4e3a-bcd4-d0fe36e361d6
+                            14:
+                              - fieldUid
+                              - fa6d2ccc-d2b4-43a3-b23c-989309e499f1 # Projects
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

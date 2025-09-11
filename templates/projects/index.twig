@@ -1,0 +1,53 @@
+{% from '_macros/component' import component, spacer %}
+
+{% extends '_layouts/global' %}
+
+{% block site %}
+  {{ include('_components/simple-hero') }}
+
+  <section class="bg-white {{ spacer('none', 'large')|spaceless }}">
+    <div class="container">
+      <div class="grid grid-cols-2 gap-11">
+        {% for project in entry.projects.all() %}
+          {% set card = project.featured ? 'project-card-long' : 'project-card' %}
+          {{ component(card, { project: project }) }}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="{{ spacer('large', 'small')|spaceless }}" x-data="{ visible: false }">
+    <div class="container">
+      {{ component('typography/h2', { heading: entry.archive.heading, tag: 'h1', class: 'max-w-[600px] text-black' }) }}
+
+      <p class="text-4xl leading-13 mt-4 max-w-[600px]">
+        {{ entry.archive.keyline }}
+      </p>
+
+      {{
+        component(
+          'button',
+          {
+            type: 'button',
+            text: 'Load Projects',
+            class: 'mt-20',
+            attributes: { 'x-on:click': 'visible = true', 'x-show': '!visible' }
+          }
+        )
+      }}
+
+      <div
+        class="grid grid-cols-2 gap-11 mt-20"
+        x-show="visible"
+        x-transition:enter="transition ease-in-sharp duration-700"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        style="display: none;"
+      >
+        {% for project in entry.archive.projects.all() %}
+          {{ component('project-card', { project: project }) }}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endblock %}

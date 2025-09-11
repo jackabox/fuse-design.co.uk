@@ -3,7 +3,7 @@
 {% set color = color ?? 'black' %}
 {% set url = url ?? null %}
 {% set text = text ?? '[CHANGE ME]' %}
-{% set icon = icon ?? null %}
+{% set icon = icon ?? 'icon-chevron' %}
 {% set showText = showText ?? true %}
 {% set showIcon = showIcon ?? true %}
 {% set class = class ?? '' %}
@@ -39,7 +39,7 @@
     {% endif %}
 
     {% if showIcon %}
-      <span class="-rotate-90">{{ svg('@webroot/svg/icon-chevron.svg')|attr({ class: 'w-5' }) }}</span>
+      <span class="-rotate-90">{{ svg("@webroot/svg/#{icon}.svg")|attr({ class: 'w-5' }) }}</span>
     {% endif %}
   </a>
 {% else %}
@@ -49,7 +49,7 @@
     {% endif %}
 
     {% if showIcon %}
-      <span class="-rotate-90">{{ svg('@webroot/svg/icon-chevron.svg')|attr({ class: 'w-5' }) }}</span>
+      <span class="-rotate-90">{{ svg("@webroot/svg/#{icon}.svg")|attr({ class: 'w-5' }) }}</span>
     {% endif %}
   </button>
 {% endif %}

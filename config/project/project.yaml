@@ -1,4 +1,4 @@
-dateModified: 1757561204
+dateModified: 1757566749
 email:
   fromEmail: hi@jackwhiting.co.uk
   fromName: Haddletons
@@ -71,6 +71,7 @@ meta:
     24867275-fbff-4a7d-a0a5-3581f43ce221: 'XL Avif' # XL Avif
     a6a370d2-95d3-4af2-87ca-69c7dc90de54: 'About Page' # About Page
     a607ab73-8761-41ed-8c48-cda27c9bc0b9: Button # Button
+    ad5f3b0d-bb36-4c57-920d-3fb598766d11: Archive # Archive
     af05e971-bfab-4d1b-b311-f3caa64316e3: 'Image Per Row' # Image Per Row
     afc106b6-54a4-4ba9-9799-dddb8fd55ce6: Simple # Simple
     b0ce5312-1dcd-4a88-b855-1ad275e7c3cf: 'XS Avif' # XS Avif
@@ -90,6 +91,7 @@ meta:
     dace3e33-0b77-4c29-af31-f65549d05de1: 'Contact Page' # Contact Page
     db14e80c-4d4b-4c42-b4b9-55a78f5c0d87: 'Home Page' # Home Page
     dcb43a87-d0bc-4c50-8996-67ba104859bb: 'LG Avif' # LG Avif
+    e9adaa33-2624-4d39-943a-4c6302c8c653: Featured # Featured
     e412d456-1260-4f5c-b3ec-edba4337b3eb: 'MD WebP' # MD WebP
     ef04ab26-7fb3-430b-ab5e-65f49fb31f15: 'About Page' # About Page
     effaa9c5-baa2-4141-9b62-4aa6b3576484: Email # Email

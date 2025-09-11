@@ -1,0 +1,11 @@
+{% from '_macros/component' import component %}
+
+<section class="pt-100 pb-28 bg-white">
+  <div class="container">
+    {{ component('typography/h2', { heading: entry.title, tag: 'h1', class: 'max-w-[60%] text-black' }) }}
+
+    <p class="text-4xl leading-13 mt-4 max-w-[60%]">
+      {{ entry.keyline }}
+    </p>
+  </div>
+</section>

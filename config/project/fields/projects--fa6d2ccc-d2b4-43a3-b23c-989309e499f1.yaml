@@ -11,9 +11,9 @@ settings:
   maxRelations: null
   minRelations: null
   selectionLabel: null
-  showCardsInGrid: false
+  showCardsInGrid: true
   showSearchInput: true
-  showSiteMenu: false
+  showSiteMenu: true
   showUnpermittedEntries: false
   showUnpermittedSections: false
   sources:
