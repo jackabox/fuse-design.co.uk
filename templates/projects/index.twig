@@ -36,14 +36,7 @@
         )
       }}
 
-      <div
-        class="grid grid-cols-2 gap-11 mt-20"
-        x-show="visible"
-        x-transition:enter="transition ease-in-sharp duration-700"
-        x-transition:enter-start="opacity-0"
-        x-transition:enter-end="opacity-100"
-        style="display: none;"
-      >
+      <div class="grid grid-cols-2 gap-11 mt-20" x-show="visible" x-collapse.duration.700ms>
         {% for project in entry.archive.projects.all() %}
           {{ component('project-card', { project: project }) }}
         {% endfor %}

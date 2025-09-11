@@ -1,5 +1,5 @@
 import Alpine from "alpinejs"
-// import collapse from "@alpinejs/collapse"
+import collapse from "@alpinejs/collapse"
 // import focus from "@alpinejs/focus"
 import resize from "@alpinejs/resize"
 
@@ -7,7 +7,7 @@ import header from "./header"
 
 // Libs
 // Alpine.plugin(focus)
-// Alpine.plugin(collapse)
+Alpine.plugin(collapse)
 Alpine.plugin(resize)
 
 // Components

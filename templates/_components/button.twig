@@ -27,7 +27,7 @@
   {% case 'white' %}
     {% set class = class ~ ' text-white border-white hover:bg-white hover:text-black' %}
   {% default %}
-    {% set class = class ~ ' text-black border-black' %}
+    {% set class = class ~ ' text-black border-black hover:bg-black hover:text-white' %}
 {% endswitch %}
 
 {# Output #}
@@ -35,7 +35,7 @@
 {% if url != null %}
   <a href="{{ url }}" class="{{ twMerge(baseClass, class) }}" {{ attr(attributes) }}>
     {% if showText %}
-      <span class="motion-safe:duration-300 motion-safe:transition">{{ text }}</span>
+      <span class="">{{ text }}</span>
     {% endif %}
 
     {% if showIcon %}
