@@ -1,6 +1,8 @@
 {# Variables #}
 {% set button = button ?? null %}
 {% set color = color ?? 'black' %}
+{% set url = url ?? null %}
+{% set text = text ?? '[CHANGE ME]' %}
 {% set icon = icon ?? null %}
 {% set showText = showText ?? true %}
 {% set showIcon = showIcon ?? true %}
@@ -10,12 +12,16 @@
   'rounded-full px-5 py-4 text-lg group border items-center inline-flex leading-none gap-2 hover:cursor-pointer motion-safe:duration-300 motion-safe:transition'
 %}
 
-{% set attributes = {
-  'aria-label': button.ariaLabel,
-  target: button.target,
-  title: button.title,
-  download: button.download ?? false
-} %}
+{% if button %}
+  {% set url = button.url %}
+  {% set text = button.label %}
+  {% set attributes = {
+    'aria-label': button.ariaLabel ?? '',
+    target: button.target ?? '',
+    title: button.title ?? '',
+    download: button.download ?? false
+  } %}
+{% endif %}
 
 {% switch color %}
   {% case 'white' %}
@@ -26,10 +32,10 @@
 
 {# Output #}
 <!-- Template: {{ _self }}.twig -->
-{% if button.url != null %}
-  <a href="{{ button.url }}" class="{{ twMerge(baseClass, class) }}" {{ attr(attributes) }}>
+{% if url != null %}
+  <a href="{{ url }}" class="{{ twMerge(baseClass, class) }}" {{ attr(attributes) }}>
     {% if showText %}
-      <span class="motion-safe:duration-300 motion-safe:transition">{{ button.label }}</span>
+      <span class="motion-safe:duration-300 motion-safe:transition">{{ text }}</span>
     {% endif %}
 
     {% if showIcon %}

@@ -1,0 +1,18 @@
+{% from '_macros/image' import image %}
+{% from '_macros/link' import link %}
+{% from '_macros/component' import component, spacer %}
+{% set projectsPage = craft.entries.section('projectPage').one() %}
+
+<!-- Template: {{ _self }} -->
+<section class="container {{ spacer(block.spacingTop, block.spacingBottom)|spaceless }}">
+  <div class="flex flex-wrap gap-6 justify-between items-center">
+    {{ component('typography/h2', { heading: block.title, tag: 'h2', class: 'text-black' }) }}
+    {{ component('button', { url: projectsPage.url, text: 'Back to projects' }) }}
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-11 mt-26">
+    {% for project in block.projects.all() %}
+      {{ component('project-card', { project: project }) }}
+    {% endfor %}
+  </div>
+</section>

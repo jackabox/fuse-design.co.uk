@@ -1,6 +1,9 @@
+{% from '_macros/component' import component %}
+
 {% extends '_layouts/global' %}
 
 {% block site %}
   {{ include('_components/project-hero') }}
   {{ include('_components/page-builder', { blocks: entry.projectBlocks.all() }) }}
+  {{ component('blocks/related-projects', { block: entry.relatedProjects.one() }) }}
 {% endblock %}

@@ -1,0 +1,42 @@
+{% from '_macros/image' import image %}
+{% from '_macros/component' import component %}
+
+{% set textColour = project.projectCardStyle == 'dark' ? 'text-white' : 'text-black' %}
+{% set buttonColour = project.projectCardStyle == 'dark' ? 'white' : '' %}
+
+<!-- Template: {{ _self }} -->
+<a
+  href="{{ project.url }}"
+  title="Read more about our project: {{ project.title }}"
+  class="relative rounded-2xl overflow-hidden group"
+>
+  {{
+    image(
+      project.image.one(),
+      { wrapperClass: 'aspect-[8/7] block overflow-hidden', class: 'w-full h-full object-cover' }
+    )
+  }}
+
+  <div class="inset-0 p-5 absolute flex flex-col">
+    {{ component('tags', { tags: project.projectCategories.limit(3).all(), class: 'px-10 pt-6' }) }}
+
+    {{ component('typography/h3', { heading: project.title, tag: 'h3', class: 'mt-auto px-10 pb-6 ' ~ textColour }) }}
+
+    <div
+      class="absolute p-10 bottom-5 left-5 right-5 rounded-xl pointer-events-none translate-y-[120%] group-hover:pointer-events-auto group-hover:translate-y-0 transition duration-500 {{
+      textColour
+      }}"
+      style="background-color: {{ project.projectColour }}"
+    >
+      {{ component('typography/h3', { heading: project.title, tag: 'h3' }) }}
+
+      <p class="text-2xl leading-10 mt-12">
+        {{ project.keyline }}
+      </p>
+
+      <div class="mt-12">
+        {{ component('button-alt', { text: 'Read more', showText: false, color: buttonColour }) }}
+      </div>
+    </div>
+  </div>
+</a>

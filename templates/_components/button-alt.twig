@@ -1,0 +1,30 @@
+{# Variables #}
+{% set color = color ?? 'black' %}
+{% set url = url ?? null %}
+{% set text = text ?? '[CHANGE ME]' %}
+{% set icon = icon ?? null %}
+{% set showText = showText ?? true %}
+{% set showIcon = showIcon ?? true %}
+{% set class = class ?? '' %}
+{% set attributes = attributes ?? {} %}
+{% set baseClass =
+  'rounded-full w-[50px] h-[50px] text-black bg-white/50 hover:bg-white/100 items-center flex justify-center leading-none gap-2 hover:cursor-pointer motion-safe:duration-300 motion-safe:transition'
+%}
+
+{# Output #}
+<!-- Template: {{ _self }}.twig -->
+{% if url != null %}
+  <a href="{{ url }}" class="{{ twMerge(baseClass, class) }}" {{ attr(attributes) }}>
+    {% if showText %}
+      <span class="motion-safe:duration-300 motion-safe:transition">{{ text }}</span>
+    {% endif %}
+
+    {% if showIcon %}
+      <span class="-rotate-90">{{ svg('@webroot/svg/icon-chevron.svg')|attr({ class: 'w-5' }) }}</span>
+    {% endif %}
+  </a>
+{% else %}
+  <span class="{{ twMerge(baseClass, class) }}" {{ attr(attributes) }}>
+    <span class="-rotate-90">{{ svg('@webroot/svg/icon-chevron.svg')|attr({ class: 'w-5' }) }}</span>
+  </span>
+{% endif %}
