@@ -203,6 +203,23 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 50
+          -
+            dateAdded: '2025-09-11T05:34:10+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: d5862558-c1e2-47ea-b894-fb3682a6f6f8 # Logo Colour
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cf4fe6d6-59d1-43b1-8c56-f731ad0cb233
+            userCondition: null
+            warning: null
+            width: 50
         name: Style
         uid: 11b11fd0-538c-497b-bd55-5da49693516a
         userCondition: null
