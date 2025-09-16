@@ -1,0 +1,111 @@
+columnSuffix: null
+handle: homeHero
+instructions: null
+name: 'Home Hero'
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - 671bb0d0-7763-44c2-98fc-c93e0c06041e
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    0:
+                      - name
+                      - Content
+                    1:
+                      - uid
+                      - b12ecb65-d155-4b83-b61d-ae41549a1648
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-16T15:51:40+00:00'
+                            11:
+                              - uid
+                              - 3039ac0f-26bb-44d0-acf8-573c2662d872
+                            14:
+                              - fieldUid
+                              - 54e89074-690f-4470-acd5-39367985c214 # Keyline
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-16T15:49:16+00:00'
+                            11:
+                              - uid
+                              - f192bc00-4a9c-4066-b9d3-3a6582980296
+                            14:
+                              - fieldUid
+                              - 836b384f-2c07-4a35-bc13-596e178be7ce # Video
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-16T15:49:16+00:00'
+                            11:
+                              - uid
+                              - 07dbc37f-e607-44f4-b6b9-f23b6f80da4c
+                            14:
+                              - fieldUid
+                              - 9daba4be-465f-45a9-8f39-003ab04ac199 # Image
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

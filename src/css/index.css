@@ -95,6 +95,11 @@ footer {
   margin: -100px 0 0;
 }
 
+b,
+strong {
+  @apply text-black font-normal;
+}
+
 .rte {
   > * > * {
     @apply mt-5;
@@ -102,10 +107,5 @@ footer {
 
   p {
     @apply text-lg leading-normal font-normal text-grey-600;
-  }
-
-  b,
-  strong {
-    @apply text-black font-normal;
   }
 }

@@ -3,5 +3,5 @@
 {% set tag = tag ?? 'h1' %}
 
 <{{ tag }} class="{{ twMerge('text-4xl leading-13 font-normal', class) }}">
-    {{ heading }}
+    {{ heading|raw }}
 </{{ tag }}>

@@ -1,0 +1,18 @@
+{% from '_macros/image' import image %}
+{% from '_macros/link' import link %}
+{% from '_macros/component' import component, spacer %}
+
+<!-- Template: {{ _self }} -->
+<section class="container pt-100">
+  {{ component('typography/h1', { heading: block.keyline|raw|nl2br }) }}
+
+  {% if block.image.one() %}
+    {{ image(media.image.one(), { wrapperClass: 'aspect-video rounded-2xl mt-30 block', class: 'w-full h-full' }) }}
+  {% endif %}
+
+  {% if block.video.one() %}
+    <video muted autoplay loop class="w-full aspect-video mt-30 rounded-2xl overflow-hidden">
+      <source src="{{ block.video.one().url() }}" type="video/mp4" />
+    </video>
+  {% endif %}
+</section>

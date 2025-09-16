@@ -8,32 +8,36 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            autocapitalize: true
-            autocomplete: false
-            autocorrect: true
-            class: null
-            dateAdded: '2025-09-10T15:11:11+00:00'
-            disabled: false
+            dateAdded: '2025-09-16T15:49:25+00:00'
+            editCondition: null
             elementCondition: null
-            id: null
+            fieldUid: 4266eca9-64f2-411b-bb90-38fa915fdb2f # Home Hero
+            handle: null
             includeInCards: false
-            inputType: null
             instructions: null
             label: null
-            max: null
-            min: null
-            name: null
-            orientation: null
-            placeholder: null
             providesThumbs: false
-            readonly: false
-            required: true
-            size: null
-            step: null
+            required: false
             tip: null
-            title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 79713c08-5625-45b4-bbd6-b11b16406c5a
+            type: craft\fieldlayoutelements\CustomField
+            uid: d7aa49ba-8801-4b42-a863-d4f4d5e089e7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-16T15:50:46+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: bea879fe-8aa8-489a-a916-d3e87e9501d3 # Featured Projects
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7d3c8fb9-7db3-43b7-96bc-4cbc85f7382b
             userCondition: null
             warning: null
             width: 100
@@ -64,10 +68,10 @@ fieldLayouts:
         uid: 3e0b4769-e640-4521-8b20-df43b2c736bb
         userCondition: null
 handle: homePage
-hasTitleField: true
+hasTitleField: false
 icon: null
 name: 'Home Page'
-showSlugField: true
+showSlugField: false
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

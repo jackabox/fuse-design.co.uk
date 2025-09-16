@@ -1,6 +1,8 @@
+{% from '_macros/component' import component, spacer %}
+
 {% extends '_layouts/global' %}
 
 {% block site %}
   {# {{ include('_components/page-builder', { blocks: entry.blocks.all() }) }} #}
-  <div class="h-[200vh]"></div>
+  {{ component('home-hero', { block: entry.homeHero }) }}
 {% endblock %}
