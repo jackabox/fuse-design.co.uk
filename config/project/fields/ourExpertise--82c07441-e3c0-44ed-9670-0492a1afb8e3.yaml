@@ -1,0 +1,137 @@
+columnSuffix: null
+handle: ourExpertise
+instructions: null
+name: 'Our Expertise'
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - ee93f198-1093-4846-824e-966db9ddfbe8
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    0:
+                      - name
+                      - Content
+                    1:
+                      - uid
+                      - 1af552a0-3738-4454-9028-fca4745b2259
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-17T15:10:48+00:00'
+                            11:
+                              - uid
+                              - 1dcebf2b-d8ca-4ba4-b904-addbbbe15ba1
+                            14:
+                              - fieldUid
+                              - d1152384-d38a-4a7d-9196-940e2b001cba # Heading
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-17T15:13:40+00:00'
+                            11:
+                              - uid
+                              - 733efdf5-c547-43d0-8013-4d045d294c04
+                            14:
+                              - fieldUid
+                              - 1a97dfdf-223c-4aea-aafc-fe17a7c9164d # Description
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-17T15:10:48+00:00'
+                            11:
+                              - uid
+                              - d25c0c1b-fad6-440a-9ca7-03fcfa99f280
+                            14:
+                              - fieldUid
+                              - ea268ddc-f5a7-48db-b4ca-8ef6a8ad2f62 # Expertise
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-17T15:53:34+00:00'
+                            11:
+                              - uid
+                              - ad2f876d-526e-488f-b6eb-534a3be3f699
+                            14:
+                              - fieldUid
+                              - a607ab73-8761-41ed-8c48-cda27c9bc0b9 # Button
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

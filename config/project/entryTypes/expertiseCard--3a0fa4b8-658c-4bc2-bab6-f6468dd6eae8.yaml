@@ -1,0 +1,89 @@
+color: null
+description: null
+fieldLayouts:
+  26e7b533-00b6-409f-a4a2-1bd1c4f1ef35:
+    cardThumbAlignment: end
+    cardView:
+      - 'layoutElement:78c4052d-2402-43dc-b462-e4b7cea5deee'
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-17T15:08:45+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 274e5999-e032-47cc-8f5b-75e00746045a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-17T15:10:24+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 1a97dfdf-223c-4aea-aafc-fe17a7c9164d # Description
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 78c4052d-2402-43dc-b462-e4b7cea5deee
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-17T15:10:24+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 9daba4be-465f-45a9-8f39-003ab04ac199 # Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: true
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 80eb33b0-47d5-45b4-9fff-afc18da6cd99
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6780fb13-67f0-4682-ab5d-659b2ab2cfb5
+        userCondition: null
+handle: expertiseCard
+hasTitleField: true
+icon: null
+name: 'Expertise Card'
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

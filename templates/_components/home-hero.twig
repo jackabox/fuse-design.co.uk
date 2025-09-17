@@ -3,7 +3,7 @@
 {% from '_macros/component' import component, spacer %}
 
 <!-- Template: {{ _self }} -->
-<section class="container pt-100">
+<section class="container pt-100 {{ spacer('none', 'default')|spaceless }}">
   {{ component('typography/h1', { heading: block.keyline|raw|nl2br, class: 'anim-fade-up' }) }}
 
   {% if block.image.one() %}
@@ -20,6 +20,4 @@
       <source src="{{ block.video.one().url() }}" type="video/mp4" />
     </video>
   {% endif %}
-
-  <div class="h-px bg-grey-300 mt-25"></div>
 </section>

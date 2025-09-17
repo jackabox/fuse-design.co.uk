@@ -3,7 +3,7 @@
 {% from '_macros/component' import component, spacer %}
 
 <!-- Template: {{ _self }} -->
-<section class="container py-25">
+<section class="container {{ spacer('default', 'default')|spaceless }}">
   {{ component('typography/h2', { heading: block.heading, class: 'mb-10 lg:mb-20 text-black anim-fade-up' }) }}
 
   <div class="grid grid-cols-1 gap-10 lg:gap-20">

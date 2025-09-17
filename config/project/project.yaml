@@ -1,4 +1,4 @@
-dateModified: 1758037900
+dateModified: 1758124414
 email:
   fromEmail: hi@jackwhiting.co.uk
   fromName: Haddletons
@@ -15,11 +15,14 @@ meta:
   __names__:
     0a1dc461-ccdc-4bd5-8298-afb756fce502: Services # Services
     0fd03204-28bb-4cbe-9f41-32bc118f97ea: '3XL WebP' # 3XL WebP
+    1a97dfdf-223c-4aea-aafc-fe17a7c9164d: Description # Description
     1a321a2e-34d4-401d-86be-209355b10406: 'Text Position' # Text Position
     1d7af5a4-c775-423b-bb8a-e79c9bce75b8: Header # Header
     2a35871a-a659-49f2-a65f-210feadb7163: Images # Images
+    3a0fa4b8-658c-4bc2-bab6-f6468dd6eae8: 'Expertise Card' # Expertise Card
     3f5c8f0a-945f-4282-b103-4656d640ec1a: 'Spacing Top' # Spacing Top
     4a538b83-8308-41a4-93e2-38005b80affd: Instagram # Instagram
+    4c7b3f13-cdd7-42a8-adca-fed91d9d075b: Logos # Logos
     5aa2454b-593c-4148-b89b-e964a43e7f2c: Services # Services
     5e22f31d-b702-42d9-b6ca-1bbf294efd8e: 'MD Avif' # MD Avif
     5e185216-9afd-4df9-beb2-e2289bd2492e: Blocks # Blocks
@@ -45,6 +48,7 @@ meta:
     69b1ece3-71c8-480f-8770-29557c0e6f51: 'Twitter / X' # Twitter / X
     70e839a3-6bb8-4589-88da-b7594ceaed24: 'SM WebP' # SM WebP
     76fbdb53-0281-4ef9-bb2e-7e0f36a47faa: 'Related Projects' # Related Projects
+    82c07441-e3c0-44ed-9670-0492a1afb8e3: 'Our Expertise' # Our Expertise
     94c494ee-1756-40b0-9548-39a8b6d05a99: 'Contact Page' # Contact Page
     121aed29-6f22-4a09-b9ad-80684dd9239c: 'Address 2' # Address 2
     166cfb30-28b6-494f-bd52-e27b2fdb91a1: Project # Project
@@ -84,6 +88,7 @@ meta:
     c33de3b4-c074-42fa-8936-4a5945dfd421: 'XL WebP' # XL WebP
     c38ceb70-451e-40c5-af3d-a667417bef2b: 'Project Type' # Project Type
     c4840206-fedb-4bac-927b-55c73db6de49: LinkedIn # LinkedIn
+    d2da76c4-4d0a-4933-af56-3d19badd4319: Logo # Logo
     d4bd7261-9243-40ea-bb4b-6f536fb20a8e: 'Project Page' # Project Page
     d12bbeb8-7db6-4f9f-80c4-3c25ed163cc7: Projects # Projects
     d12360f6-5921-4658-ad70-35d612aa0c84: 'MD JPG' # MD JPG
@@ -96,6 +101,7 @@ meta:
     dcb43a87-d0bc-4c50-8996-67ba104859bb: 'LG Avif' # LG Avif
     e9adaa33-2624-4d39-943a-4c6302c8c653: Featured # Featured
     e412d456-1260-4f5c-b3ec-edba4337b3eb: 'MD WebP' # MD WebP
+    ea268ddc-f5a7-48db-b4ca-8ef6a8ad2f62: Expertise # Expertise
     ef04ab26-7fb3-430b-ab5e-65f49fb31f15: 'About Page' # About Page
     effaa9c5-baa2-4141-9b62-4aa6b3576484: Email # Email
     f23db25a-6d4f-4278-ae70-7289b29432de: 'SM JPG' # SM JPG

@@ -5,5 +5,9 @@
 {% block site %}
   {# {{ include('_components/page-builder', { blocks: entry.blocks.all() }) }} #}
   {{ component('home-hero', { block: entry.homeHero }) }}
+  {{ component('divider') }}
   {{ component('featured-projects', { block: entry.featuredProjects }) }}
+  {{ component('divider') }}
+  {{ component('our-expertise', { block: entry.ourExpertise }) }}
+  {{ component('divider') }}
 {% endblock %}
