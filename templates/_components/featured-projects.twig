@@ -1,0 +1,14 @@
+{% from '_macros/image' import image %}
+{% from '_macros/link' import link %}
+{% from '_macros/component' import component, spacer %}
+
+<!-- Template: {{ _self }} -->
+<section class="container py-25">
+  {{ component('typography/h2', { heading: block.heading, class: 'mb-10 lg:mb-20 text-black anim-fade-up' }) }}
+
+  <div class="grid grid-cols-1 gap-10 lg:gap-20">
+    {% for project in block.projects.with('image').all() %}
+      {{ component('project-card-featured', { project: project, even: loop.index is even }) }}
+    {% endfor %}
+  </div>
+</section>

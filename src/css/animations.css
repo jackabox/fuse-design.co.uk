@@ -1,0 +1,8 @@
+.anim-fade-up {
+  transform: translateY(-70px);
+  opacity: 0;
+}
+
+.anim-fade-in {
+  opacity: 0;
+}

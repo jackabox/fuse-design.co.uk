@@ -1,0 +1,59 @@
+{% from '_macros/image' import image %}
+{% from '_macros/component' import component %}
+
+{% set textColour = project.projectCardStyle == 'dark' ? 'text-white' : 'text-black' %}
+{% set buttonColour = project.projectCardStyle == 'dark'
+  ? 'group-hover:!bg-white group-hover:!text-black'
+  : 'group-hover:!bg-black group-hover:!text-white'
+%}
+
+<!-- Template: {{ _self }} -->
+<a
+  href="{{ project.url }}"
+  title="Read more about our project: {{ project.title }}"
+  class="grid grid-cols-1 lg:grid-cols-2 relative group"
+>
+  <div class="px-6 lg:px-0 lg:py-10 flex flex-col col-span-1 order-2 {{ even ? 'lg:order-2' : 'lg:order-1' }}">
+    <div
+      class="flex p-10 lg:p-15 flex-col h-full rounded-b-2xl {{ textColour }} {{
+      even
+        ? 'lg:rounded-r-2xl lg:!rounded-bl-none'
+        : 'lg:rounded-l-2xl lg:!rounded-br-none'
+      }}"
+      style="background-color: {{ project.projectColour }}"
+    >
+      {{
+        component(
+          'tags',
+          {
+            tags: project.projectCategories.limit(3).all(),
+            class: 'absolute top-6 left-6 z-10 lg:relative lg:top-auto lg:left-auto mb-auto'
+          }
+        )
+      }}
+
+      {{ component('typography/h3', { heading: project.title, tag: 'h3', class: '' }) }}
+
+      <p class="text-2xl leading-10 mt-6 lg:mt-10">
+        {{ project.keyline }}
+      </p>
+
+      <div class="mt-6 lg:mt-10">
+        {{ component('button-alt', { text: 'Read more', showText: false, class: buttonColour }) }}
+      </div>
+    </div>
+  </div>
+
+  <div class="col-span-1 order-1 {{ even ? 'lg:order-1' : 'lg:order-2' }}">
+    {{
+      image(
+        project.image.one(),
+        {
+          wrapperClass: 'aspect-[4/3] lg:aspect-square rounded-2xl block overflow-hidden transition-all duration-500 drop-shadow-img-trans group-hover:drop-shadow-img',
+          class: 'w-full h-full object-cover ',
+          lazy: true
+        }
+      )
+    }}
+  </div>
+</a>

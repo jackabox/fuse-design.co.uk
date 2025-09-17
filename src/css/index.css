@@ -1,3 +1,5 @@
+@import "./animations";
+
 @import "tailwindcss";
 
 @source '../../templates/**/*.twig';
@@ -44,6 +46,8 @@
   --flex-base: 1 0 auto;
 
   --drop-shadow-nav: 0 0 8px rgba(0, 0, 0, 0.15);
+  --drop-shadow-img-trans: 0 0 12px rgba(0, 0, 0, 0);
+  --drop-shadow-img: 0 0 12px rgba(0, 0, 0, 0.25);
 
   --text-sm: clamp(0.75rem, 0.6989rem + 0.2273vw, 0.875rem); /* 12-14px */
   --text-base: 1rem; /* 16px */
