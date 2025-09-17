@@ -20,11 +20,11 @@
     {% endif %}
 
     {% if showIcon %}
-      <span class="-rotate-90">{{ svg('@webroot/svg/icon-chevron.svg')|attr({ class: 'w-5' }) }}</span>
+      <span class="">{{ svg('@webroot/svg/icon-chevron.svg')|attr({ class: 'w-5' }) }}</span>
     {% endif %}
   </a>
 {% else %}
   <span class="{{ twMerge(baseClass, class) }}" {{ attr(attributes) }}>
-    <span class="-rotate-90">{{ svg('@webroot/svg/icon-chevron.svg')|attr({ class: 'w-5' }) }}</span>
+    <span class="">{{ svg('@webroot/svg/icon-chevron.svg')|attr({ class: 'w-5' }) }}</span>
   </span>
 {% endif %}
