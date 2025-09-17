@@ -8,6 +8,7 @@
   {{ component('divider') }}
   {{ component('featured-projects', { block: entry.featuredProjects }) }}
   {{ component('divider') }}
-  {{ component('our-expertise', { block: entry.ourExpertise }) }}
+  {{ component('blocks/our-expertise', { block: entry.ourExpertise }) }}
   {{ component('divider') }}
+  {{ component('blocks/logos', { block: entry.logoBlock.one() }) }}
 {% endblock %}

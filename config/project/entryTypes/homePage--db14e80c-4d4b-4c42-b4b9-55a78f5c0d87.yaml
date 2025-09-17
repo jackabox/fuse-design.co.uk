@@ -59,10 +59,10 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2025-09-17T15:13:07+00:00'
+            dateAdded: '2025-09-17T16:03:29+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 4c7b3f13-cdd7-42a8-adca-fed91d9d075b # Logos
+            fieldUid: e97e691f-d62b-4d4c-a7e8-c12bcad7ebdc # Logos
             handle: null
             includeInCards: false
             instructions: null
@@ -71,7 +71,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 6aaa75b3-141e-497a-ae8c-3306b3c6ffd6
+            uid: 6980f80a-4e35-4fb1-be6b-5e39377d8479
             userCondition: null
             warning: null
             width: 100

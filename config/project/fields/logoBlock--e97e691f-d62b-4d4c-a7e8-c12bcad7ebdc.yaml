@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: logoBlock
+instructions: null
+name: Logos
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 1fbaf49a-64d9-49d1-945e-685b85c40ebf # Logos
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: 1
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

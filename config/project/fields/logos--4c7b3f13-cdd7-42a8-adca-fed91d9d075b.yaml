@@ -4,26 +4,34 @@ instructions: null
 name: Logos
 searchable: false
 settings:
-  createButtonLabel: null
-  defaultIndexViewMode: cards
-  enableVersioning: false
-  entryTypes:
-    -
-      __assoc__:
-        -
-          - uid
-          - d2da76c4-4d0a-4933-af56-3d19badd4319 # Logo
-        -
-          - group
-          - General
-  includeTableView: false
-  maxEntries: null
-  minEntries: null
-  pageSize: 50
-  propagationKeyFormat: null
-  propagationMethod: all
-  showCardsInGrid: true
-  viewMode: cards
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  branchLimit: null
+  defaultPlacement: end
+  defaultUploadLocationSource: 'volume:8d63a2be-cef9-44f2-b01f-679464482fe9' # Default
+  defaultUploadLocationSubpath: null
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  previewMode: thumbs
+  restrictFiles: true
+  restrictLocation: true
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:8d63a2be-cef9-44f2-b01f-679464482fe9' # Default
+  restrictedLocationSubpath: logos
+  selectionLabel: null
+  showCardsInGrid: false
+  showSearchInput: true
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: large
 translationKeyFormat: null
-translationMethod: site
-type: craft\fields\Matrix
+translationMethod: none
+type: craft\fields\Assets

@@ -1,4 +1,4 @@
-dateModified: 1758124414
+dateModified: 1758125062
 email:
   fromEmail: hi@jackwhiting.co.uk
   fromName: Haddletons
@@ -18,6 +18,7 @@ meta:
     1a97dfdf-223c-4aea-aafc-fe17a7c9164d: Description # Description
     1a321a2e-34d4-401d-86be-209355b10406: 'Text Position' # Text Position
     1d7af5a4-c775-423b-bb8a-e79c9bce75b8: Header # Header
+    1fbaf49a-64d9-49d1-945e-685b85c40ebf: Logos # Logos
     2a35871a-a659-49f2-a65f-210feadb7163: Images # Images
     3a0fa4b8-658c-4bc2-bab6-f6468dd6eae8: 'Expertise Card' # Expertise Card
     3f5c8f0a-945f-4282-b103-4656d640ec1a: 'Spacing Top' # Spacing Top
@@ -100,6 +101,7 @@ meta:
     db14e80c-4d4b-4c42-b4b9-55a78f5c0d87: 'Home Page' # Home Page
     dcb43a87-d0bc-4c50-8996-67ba104859bb: 'LG Avif' # LG Avif
     e9adaa33-2624-4d39-943a-4c6302c8c653: Featured # Featured
+    e97e691f-d62b-4d4c-a7e8-c12bcad7ebdc: Logos # Logos
     e412d456-1260-4f5c-b3ec-edba4337b3eb: 'MD WebP' # MD WebP
     ea268ddc-f5a7-48db-b4ca-8ef6a8ad2f62: Expertise # Expertise
     ef04ab26-7fb3-430b-ab5e-65f49fb31f15: 'About Page' # About Page
