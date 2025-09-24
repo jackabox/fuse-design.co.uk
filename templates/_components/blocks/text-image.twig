@@ -7,7 +7,12 @@
   <section class="{{ spacer(block.spacingTop, block.spacingBottom)|spaceless }}">
     <div class="container grid grid-cols-1 lg:grid-cols-2 gap-20 lg:order-1">
       <div class="lg:order-2">
-        {{ image(block.image.one(), { class: 'rounded-2xl' }) }}
+        {{
+          image(
+            block.image.one(),
+            { wrapperClass: 'block aspect-square overflow-hidden rounded-2xl', class: 'object-cover w-full h-full' }
+          )
+        }}
       </div>
 
       <div class="h-full flex flex-col justify-center gap-12">

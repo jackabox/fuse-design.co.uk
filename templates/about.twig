@@ -3,14 +3,17 @@
 {% extends '_layouts/global' %}
 
 {% block site %}
-  {{ component('blocks/hero-simple', { block: entry.heroSimple }) }}
-  {{ component('about-intro', { block: entry.aboutIntro }) }}
+  {{ component('blocks/hero-simple', { block: entry.heroSimple, class: '-mb-10' }) }}
+
+  {{ include('_components/page-builder', { blocks: entry.blocks.all() }) }}
+
+  {# {{ component('about-intro', { block: entry.aboutIntro }) }}
   {{ component('blocks/text-columns', { block: entry.textColumnBlock.one() }) }}
-  {{ component('divider') }}
+  {{ component('blocks/divider') }}
   {{ component('blocks/accordions', { block: entry.accordions }) }}
-  {{ component('divider') }}
+  {{ component('blocks/divider') }}
   {{ component('blocks/logos', { block: entry.logoBlock.one() }) }}
   {{ component('blocks/testimonials', { block: entry.testimonials.one() }) }}
-  {{ component('divider') }}
-  {{ component('blocks/team-cards', { block: entry.teamCards.one() }) }}
+  {{ component('blocks/divider') }}
+  {{ component('blocks/team-cards', { block: entry.teamCards.one() }) }} #}
 {% endblock %}

@@ -47,6 +47,14 @@ settings:
       __assoc__:
         -
           - uid
+          - 991e2e77-a15d-41db-842e-6cff2baff65f # Team Cards
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
           - 1fbaf49a-64d9-49d1-945e-685b85c40ebf # Logos
         -
           - group
