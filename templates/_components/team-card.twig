@@ -1,0 +1,24 @@
+{% from '_macros/image' import image %}
+{% from '_macros/component' import component %}
+
+<div
+  class="rounded-2xl overflow-hidden relative anim-fade-up"
+  x-data="{ show:false }"
+  x-on:mouseover="show = true"
+  x-on:mouseleave="show = false"
+>
+  {{ image(member.image.one(), { wrapperClass: 'rounded-2xl h-full' }) }}
+
+  <div
+    class="absolute left-5 bottom-5 right-5 bg-white/80 backdrop-blur-sm rounded-xl p-6 lg:p-10 block transition-all duration-700 overflow-hidden"
+    :class="show ? 'lg:h-[210px]' : 'h-auto lg:h-[140px]'"
+  >
+    {{ component('typography/h3', { tag: 'h3', heading: member.title, class: 'text-black' }) }}
+
+    <p class="text-lg mt-2">
+      {{ member.jobRole }}
+    </p>
+
+    <a class="text-lg mt-6 lg:mt-10 block" href="{{ member.linkedin }}" x-cloak>LinkedIn</a>
+  </div>
+</div>

@@ -1,0 +1,110 @@
+color: null
+description: null
+fieldLayouts:
+  138eda70-821c-4fd6-b772-443bb9cae1ee:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-24T15:19:59+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 07cbb1a6-2652-4ade-9880-432496bfe597
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-24T15:18:55+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 1692966a-7f43-495b-8f74-873490ffee05 # Team Members
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 071fb0e5-da57-49bc-856c-f99ae3d84757
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f01c43be-327a-4b8e-9a8d-9e2531d9002c
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-24T15:18:55+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3f5c8f0a-945f-4282-b103-4656d640ec1a # Spacing Top
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2095dd6e-76b2-4f7d-9d85-c3104d136461
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-09-24T15:18:55+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 315e419f-401e-4161-a287-7cfd8f011a58 # Spacing Bottom
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 96eb9cb9-5c13-4c48-8aef-c6f9c6b6640d
+            userCondition: null
+            warning: null
+            width: 50
+        name: Style
+        uid: cf234e63-5ed8-4239-a68f-700592e255d6
+        userCondition: null
+handle: teamCards
+hasTitleField: true
+icon: null
+name: 'Team Cards'
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

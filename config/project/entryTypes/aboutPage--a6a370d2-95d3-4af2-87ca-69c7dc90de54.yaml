@@ -126,6 +126,23 @@ fieldLayouts:
             dateAdded: '2025-09-22T11:23:28+00:00'
             editCondition: null
             elementCondition: null
+            fieldUid: f7855764-1078-4b7b-8115-68862ff5bb61 # Testimonials
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e169888e-0f50-4f13-85d5-cc3b586fce29
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-22T11:23:28+00:00'
+            editCondition: null
+            elementCondition: null
             fieldUid: e97e691f-d62b-4d4c-a7e8-c12bcad7ebdc # Logos
             handle: null
             includeInCards: false
@@ -140,10 +157,10 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2025-09-22T11:23:28+00:00'
+            dateAdded: '2025-09-24T15:20:05+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: f7855764-1078-4b7b-8115-68862ff5bb61 # Testimonials
+            fieldUid: eda7e414-d01e-49d6-a945-529fc5360a0b # Team Cards
             handle: null
             includeInCards: false
             instructions: null
@@ -152,7 +169,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e169888e-0f50-4f13-85d5-cc3b586fce29
+            uid: f3d80d5d-f2be-46e9-a193-265bd24ee6fa
             userCondition: null
             warning: null
             width: 100

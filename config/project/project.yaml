@@ -1,4 +1,4 @@
-dateModified: 1758680139
+dateModified: 1758727222
 email:
   fromEmail: hi@jackwhiting.co.uk
   fromName: Haddletons
@@ -34,6 +34,8 @@ meta:
     5e185216-9afd-4df9-beb2-e2289bd2492e: Blocks # Blocks
     5faea1db-e316-4d7d-b49e-ecc67bcf701d: Testimonials # Testimonials
     6beb3f07-e677-4659-b409-2176f97b9fa6: 'Client Name' # Client Name
+    6e351bb8-a856-44c1-bb5d-94a25b720dc2: 'Team Member' # Team Member
+    6f5d9b13-5f8a-4bbe-ae3e-cf64c4fb0a09: 'Team Memberrs' # Team Memberrs
     7bd6406c-5788-4573-b459-646d839aca78: 'XS JPG' # XS JPG
     7c1b229f-c54a-435e-be12-8fea7ceed3a0: Page # Page
     8b4d03c8-7715-46d6-b73f-c0c2b0d1827f: Text # Text
@@ -71,6 +73,7 @@ meta:
     0794bc06-fc65-40fd-be61-0130d4bea6e9: Phone # Phone
     836b384f-2c07-4a35-bc13-596e178be7ce: Video # Video
     982e09db-7613-4a49-80ca-8e68f2f97249: 'Background Colour' # Background Colour
+    991e2e77-a15d-41db-842e-6cff2baff65f: 'Team Cards' # Team Cards
     3280c8c8-928b-4025-a511-f5c01dad8f3b: 'About Intro' # About Intro
     3902b46c-b199-4b7e-aff6-4d4c875e7b8f: 'XL JPG' # XL JPG
     4266eca9-64f2-411b-bb90-38fa915fdb2f: 'Home Hero' # Home Hero
@@ -79,6 +82,8 @@ meta:
     44973d52-9b7d-43d4-8fb7-ec670cf1666f: 'Related Projects' # Related Projects
     46320a41-63c4-4fdb-b9bc-1f75e8871325: 'XS WebP' # XS WebP
     74285a16-52f4-45ca-b9cf-d1ae70dae4e4: Video # Video
+    617641f8-b484-43e1-b424-cbd1d07938ce: 'Job Role' # Job Role
+    1692966a-7f43-495b-8f74-873490ffee05: 'Team Members' # Team Members
     2069987d-b37d-4eca-a1ef-a395366db57d: '3XL JPG' # 3XL JPG
     6057642f-2b5c-4fde-abc1-8db2e12f722e: '2XL Avif' # 2XL Avif
     9977292a-e6b7-4791-90d9-8a01a62c72fa: 'Services Page' # Services Page
@@ -116,6 +121,7 @@ meta:
     e97e691f-d62b-4d4c-a7e8-c12bcad7ebdc: Logos # Logos
     e412d456-1260-4f5c-b3ec-edba4337b3eb: 'MD WebP' # MD WebP
     ea268ddc-f5a7-48db-b4ca-8ef6a8ad2f62: 'Accordion Items' # Accordion Items
+    eda7e414-d01e-49d6-a945-529fc5360a0b: 'Team Cards' # Team Cards
     ef04ab26-7fb3-430b-ab5e-65f49fb31f15: 'About Page' # About Page
     effaa9c5-baa2-4141-9b62-4aa6b3576484: Email # Email
     f23db25a-6d4f-4278-ae70-7289b29432de: 'SM JPG' # SM JPG
