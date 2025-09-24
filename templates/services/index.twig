@@ -6,7 +6,11 @@
   {{ component('blocks/hero-simple', { block: entry.heroSimple }) }}
   {{ component('blocks/divider') }}
 
-  <section class="py-20"></section>
+  <section class="container flex flex-col gap-20 {{ spacer('default', 'default')|spaceless }}">
+    {% for service in entry.serviceCards.with('image').all() %}
+      {{ component('service-card', { service: service }) }}
+    {% endfor %}
+  </section>
 
   {{ include('_components/page-builder', { blocks: entry.blocks.all() }) }}
 {% endblock %}

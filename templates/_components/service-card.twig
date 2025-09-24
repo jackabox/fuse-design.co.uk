@@ -1,0 +1,44 @@
+{% from '_macros/image' import image %}
+{% from '_macros/component' import component %}
+
+<!-- Template: {{ _self }} -->
+<div class="grid grid-cols-1 lg:grid-cols-2 relative group">
+  <div class="px-6 lg:px-0 lg:py-10 flex flex-col col-span-1">
+    <div
+      class="flex p-10 lg:p-15 flex-col h-full lg:rounded-l-2xl bg-opacity-80 grid grid-cols-5 gap-20"
+      style="background-color: {{ service.backgroundColour }}80"
+    >
+      <div class="col-span-2">
+        {{ component('typography/h2', { heading: service.title, class: 'text-black' }) }}
+      </div>
+
+      <div class="col-span-3">
+        <div class="rte text-black">
+          {{ service.text }}
+        </div>
+
+        <div class="mt-6 lg:mt-10">
+          {{ component('button', { text: 'Read more', class: '' }) }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="col-span-1 p-10 lg:px-15 lg:py-25 rounded-2xl grid grid-cols-2 gap-0"
+    style="background-color: {{ service.backgroundColour }}"
+  >
+    <div>
+      {{ component('typography/h3', { heading: 'Services', class: 'text-black' }) }}
+
+      <ul class="mt-4 flex flex-col gap-1">
+        {% for item in service.services %}
+          <li class="text-lg">{{ item.service }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="self-center pl-10">
+      {{ image(service.image.one(), { wrapperClass: '', class: '', lazy: true }) }}
+    </div>
+  </div>
+</div>
