@@ -19,10 +19,10 @@ export default () => ({
       [Fade(), Autoplay({ playOnInit: true, delay: 10000 })],
     )
 
-    // const removePrevNextBtnsClickHandlers = addPrevNextBtnsClickHandlers(emblaApi, prevBtnNode, nextBtnNode)
+    const removePrevNextBtnsClickHandlers = addPrevNextBtnsClickHandlers(emblaApi, prevBtnNode, nextBtnNode)
     const removeDotBtnsAndClickHandlers = addDotBtnsAndClickHandlers(emblaApi, dotsNode)
 
-    // emblaApi.on("destroy", removePrevNextBtnsClickHandlers)
+    emblaApi.on("destroy", removePrevNextBtnsClickHandlers)
     emblaApi.on("destroy", removeDotBtnsAndClickHandlers)
   },
 })
