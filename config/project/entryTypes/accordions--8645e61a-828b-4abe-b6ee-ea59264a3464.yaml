@@ -1,47 +1,34 @@
-color: rose
+color: null
 description: null
 fieldLayouts:
-  22689be4-709b-4429-8beb-271f70335d3d:
+  35b36095-e32a-4f2a-adcd-2080f573b7f9:
     cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
         elements:
           -
-            autocapitalize: true
-            autocomplete: false
-            autocorrect: true
-            class: null
-            dateAdded: '2025-09-10T15:14:18+00:00'
-            disabled: false
+            dateAdded: '2025-09-24T16:10:25+00:00'
+            editCondition: null
             elementCondition: null
-            id: null
+            fieldUid: d1152384-d38a-4a7d-9196-940e2b001cba # Heading
+            handle: null
             includeInCards: false
-            inputType: null
             instructions: null
             label: null
-            max: null
-            min: null
-            name: null
-            orientation: null
-            placeholder: null
             providesThumbs: false
-            readonly: false
             required: true
-            size: null
-            step: null
             tip: null
-            title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 330ef4b8-8663-48d9-acb7-660adb93013f
+            type: craft\fieldlayoutelements\CustomField
+            uid: 19c13803-bd31-44b5-adfa-6ce0576adfa2
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-09-24T16:08:02+00:00'
+            dateAdded: '2025-09-24T16:10:25+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 1bd9010f-566e-4893-b804-b00dbb0e19f8 # Hero (Simple)
+            fieldUid: 1a97dfdf-223c-4aea-aafc-fe17a7c9164d # Description
             handle: null
             includeInCards: false
             instructions: null
@@ -50,15 +37,32 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: b8c6b50c-de1e-4fd3-92ac-1591d44c9fbd
+            uid: 70071278-58a8-4b06-aea4-19ab31fcff19
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-09-24T16:08:02+00:00'
+            dateAdded: '2025-09-24T16:10:25+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 9b4e2627-9d21-49eb-a03b-e0506d9a7685 # Service Cards
+            fieldUid: ea268ddc-f5a7-48db-b4ca-8ef6a8ad2f62 # Accordion Items
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 35986301-6562-4dc3-8e11-781eec222117
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-24T16:10:25+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: a607ab73-8761-41ed-8c48-cda27c9bc0b9 # Button
             handle: null
             includeInCards: false
             instructions: null
@@ -67,38 +71,21 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0c4f56b1-8952-4070-a23b-484f60cd4512
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2025-09-24T16:08:02+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: 5e185216-9afd-4df9-beb2-e2289bd2492e # Blocks
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: a1393717-7e15-46f5-8a0a-5b3f8384cd07
+            uid: 40e33b5f-e22a-46c5-8c7a-2b69b027763f
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: e93d04d8-e103-44cd-b144-5dec45b89a39
+        uid: 5ecad0c3-38a3-4b97-ab8c-17c19fc3953e
         userCondition: null
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2025-09-10T15:20:01+00:00'
+            dateAdded: '2025-09-24T16:12:17+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 32c1a0e7-223d-4621-a973-a36daf057365 # SEO
+            fieldUid: 3f5c8f0a-945f-4282-b103-4656d640ec1a # Spacing Top
             handle: null
             includeInCards: false
             instructions: null
@@ -107,21 +94,38 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f38d61cc-2d78-45b5-9dc6-ff47d9d07776
+            uid: 8c87e452-f0b7-4a4b-a962-5ef7f684df7c
             userCondition: null
             warning: null
-            width: 100
-        name: SEO
-        uid: a5bea87f-febd-4364-ad96-b473a90ae2b0
+            width: 50
+          -
+            dateAdded: '2025-09-24T16:12:17+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 315e419f-401e-4161-a287-7cfd8f011a58 # Spacing Bottom
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c140347b-e32b-456b-8547-36098408c63d
+            userCondition: null
+            warning: null
+            width: 50
+        name: Spacing
+        uid: f5126525-6196-4bd9-9654-2a256ea87b56
         userCondition: null
-handle: servicesPage
-hasTitleField: true
+handle: accordions
+hasTitleField: false
 icon: null
-name: 'Services Page'
-showSlugField: true
+name: Accordions
+showSlugField: false
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: null
+titleFormat: '{heading}'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

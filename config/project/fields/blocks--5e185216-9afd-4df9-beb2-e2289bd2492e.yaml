@@ -12,10 +12,61 @@ settings:
       __assoc__:
         -
           - uid
-          - 6b6e6e7f-1444-40ea-a678-8fd231ecb29f
+          - 13be35d1-6238-47c2-867b-5f0fb2d08bb7 # Text Columns
         -
           - group
           - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 22300521-2308-4a9d-81ac-19f04c8302ae # Testimonial Block
+        -
+          - name
+          - Testimonials
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 8645e61a-828b-4abe-b6ee-ea59264a3464 # Accordions
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - fc0934b7-61de-4a8d-9443-c9a0e28a0602 # Text & Image
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 1fbaf49a-64d9-49d1-945e-685b85c40ebf # Logos
+        -
+          - group
+          - Media
+    -
+      __assoc__:
+        -
+          - uid
+          - 336a734d-4eb6-4f8c-b8ba-1ee9f2de0a2a # Full Width Image
+        -
+          - group
+          - Media
+    -
+      __assoc__:
+        -
+          - uid
+          - daf7f3f2-5feb-4279-8bb8-cf7e8d254e75 # Divider
+        -
+          - group
+          - 'UI Element'
   includeTableView: false
   maxEntries: null
   minEntries: null

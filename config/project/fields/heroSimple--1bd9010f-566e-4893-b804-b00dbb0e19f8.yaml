@@ -92,7 +92,7 @@ settings:
                               - false
                             9:
                               - width
-                              - 100
+                              - 50
                             10:
                               - dateAdded
                               - '2025-09-22T11:30:23+00:00'
@@ -102,6 +102,32 @@ settings:
                             14:
                               - fieldUid
                               - 982e09db-7613-4a49-80ca-8e68f2f97249 # Background Colour
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 50
+                            10:
+                              - dateAdded
+                              - '2025-09-24T16:24:59+00:00'
+                            11:
+                              - uid
+                              - 1477d00a-9be1-4240-9c5e-22fddbcba422
+                            14:
+                              - fieldUid
+                              - e7172cdd-3855-4eb8-b1f5-5ad3ea8f3a61 # Text Style
             3:
               - cardThumbAlignment
               - end

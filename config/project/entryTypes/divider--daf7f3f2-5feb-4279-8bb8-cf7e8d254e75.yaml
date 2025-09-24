@@ -1,0 +1,32 @@
+color: null
+description: null
+fieldLayouts:
+  87f47d67-1ee0-490e-a280-9665eb5a58c0:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-24T16:08:40+00:00'
+            dismissible: false
+            elementCondition: null
+            style: tip
+            tip: 'Nothing to edit here, just place where you want a divider'
+            type: craft\fieldlayoutelements\Tip
+            uid: d7251fe3-3fad-4e44-9dac-0e3a049d582b
+            userCondition: null
+        name: Content
+        uid: a096fdb9-86bd-4595-b2a4-1983f0e3bbe1
+        userCondition: null
+handle: divider
+hasTitleField: false
+icon: null
+name: Divider
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

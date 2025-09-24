@@ -1,4 +1,4 @@
-dateModified: 1758727222
+dateModified: 1758731099
 email:
   fromEmail: hi@jackwhiting.co.uk
   fromName: Haddletons
@@ -29,7 +29,10 @@ meta:
     3f5c8f0a-945f-4282-b103-4656d640ec1a: 'Spacing Top' # Spacing Top
     4a538b83-8308-41a4-93e2-38005b80affd: Instagram # Instagram
     4c7b3f13-cdd7-42a8-adca-fed91d9d075b: Logos # Logos
+    4da2befe-fc4e-4c5d-892f-4ff1b0f5d5f8: 'Service Cards' # Service Cards
+    5a16d987-61bb-4549-8c18-de1b4648d33d: Media # Media
     5aa2454b-593c-4148-b89b-e964a43e7f2c: Services # Services
+    5d289450-50a9-49a7-9070-3dd8b2c3003d: Services # Services
     5e22f31d-b702-42d9-b6ca-1bbf294efd8e: 'MD Avif' # MD Avif
     5e185216-9afd-4df9-beb2-e2289bd2492e: Blocks # Blocks
     5faea1db-e316-4d7d-b49e-ecc67bcf701d: Testimonials # Testimonials
@@ -41,6 +44,7 @@ meta:
     8b4d03c8-7715-46d6-b73f-c0c2b0d1827f: Text # Text
     8d63a2be-cef9-44f2-b01f-679464482fe9: Default # Default
     8e3c728a-18f9-47d8-ad44-57a54597708d: 'Project Card Style' # Project Card Style
+    9b4e2627-9d21-49eb-a03b-e0506d9a7685: 'Service Cards' # Service Cards
     9daba4be-465f-45a9-8f39-003ab04ac199: Image # Image
     13be35d1-6238-47c2-867b-5f0fb2d08bb7: 'Text Columns' # Text Columns
     19b69c94-b685-46db-95f0-ff89583d61c4: 'LG WebP' # LG WebP
@@ -78,6 +82,7 @@ meta:
     3902b46c-b199-4b7e-aff6-4d4c875e7b8f: 'XL JPG' # XL JPG
     4266eca9-64f2-411b-bb90-38fa915fdb2f: 'Home Hero' # Home Hero
     8081b7e6-b2e2-4170-95be-6ba1d5a52233: 'Footer Privacy' # Footer Privacy
+    8645e61a-828b-4abe-b6ee-ea59264a3464: Accordions # Accordions
     9623dcea-2086-4b21-8134-f35087c8bf21: New # New
     44973d52-9b7d-43d4-8fb7-ec670cf1666f: 'Related Projects' # Related Projects
     46320a41-63c4-4fdb-b9bc-1f75e8871325: 'XS WebP' # XS WebP
@@ -115,11 +120,13 @@ meta:
     d1152384-d38a-4a7d-9196-940e2b001cba: Heading # Heading
     d5862558-c1e2-47ea-b894-fb3682a6f6f8: 'Logo Colour' # Logo Colour
     dace3e33-0b77-4c29-af31-f65549d05de1: 'Contact Page' # Contact Page
+    daf7f3f2-5feb-4279-8bb8-cf7e8d254e75: Divider # Divider
     db14e80c-4d4b-4c42-b4b9-55a78f5c0d87: 'Home Page' # Home Page
     dcb43a87-d0bc-4c50-8996-67ba104859bb: 'LG Avif' # LG Avif
     e9adaa33-2624-4d39-943a-4c6302c8c653: Featured # Featured
     e97e691f-d62b-4d4c-a7e8-c12bcad7ebdc: Logos # Logos
     e412d456-1260-4f5c-b3ec-edba4337b3eb: 'MD WebP' # MD WebP
+    e7172cdd-3855-4eb8-b1f5-5ad3ea8f3a61: 'Text Style' # Text Style
     ea268ddc-f5a7-48db-b4ca-8ef6a8ad2f62: 'Accordion Items' # Accordion Items
     eda7e414-d01e-49d6-a945-529fc5360a0b: 'Team Cards' # Team Cards
     ef04ab26-7fb3-430b-ab5e-65f49fb31f15: 'About Page' # About Page
@@ -130,6 +137,7 @@ meta:
     fa0628a0-33d7-4398-bc71-75f05036e72d: 'Main Nav' # Main Nav
     fa6d2ccc-d2b4-43a3-b23c-989309e499f1: Projects # Projects
     fbbd67cd-d950-4703-8997-71104696f7f1: 'Project Colour' # Project Colour
+    fc0934b7-61de-4a8d-9443-c9a0e28a0602: 'Text & Image' # Text & Image
     fce16c92-28e0-4a3b-ba09-77b3f80fd5c8: 'Address 1' # Address 1
     fe38ad5f-99d7-4208-9d80-897398c634f9: 'Project Page' # Project Page
 plugins:

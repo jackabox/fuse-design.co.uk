@@ -5,29 +5,6 @@ name: 'Background Colour'
 searchable: false
 settings:
   allowCustomColors: true
-  palette:
-    -
-      __assoc__:
-        -
-          - color
-          - '#7195ff'
-        -
-          - label
-          - ''
-        -
-          - default
-          - '1'
-    -
-      __assoc__:
-        -
-          - color
-          - '#f3f4f5'
-        -
-          - label
-          - ''
-        -
-          - default
-          - ''
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Color

@@ -1,8 +1,10 @@
-color: rose
+color: null
 description: null
 fieldLayouts:
-  22689be4-709b-4429-8beb-271f70335d3d:
+  5750a890-3d82-4768-a4ad-3530efd752a2:
     cardThumbAlignment: end
+    cardView:
+      - 'layoutElement:f7524321-4b20-4244-8d1c-6cc8b3be94e3'
     tabs:
       -
         elementCondition: null
@@ -12,7 +14,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2025-09-10T15:14:18+00:00'
+            dateAdded: '2025-09-24T16:04:14+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -33,72 +35,89 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 330ef4b8-8663-48d9-acb7-660adb93013f
+            uid: f6c073bd-e8af-4129-a951-b421f334ac52
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-09-24T16:08:02+00:00'
+            dateAdded: '2025-09-24T16:06:13+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 1bd9010f-566e-4893-b804-b00dbb0e19f8 # Hero (Simple)
+            fieldUid: 8b4d03c8-7715-46d6-b73f-c0c2b0d1827f # Text
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f7524321-4b20-4244-8d1c-6cc8b3be94e3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-24T16:06:13+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: a607ab73-8761-41ed-8c48-cda27c9bc0b9 # Button
             handle: null
             includeInCards: false
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: b8c6b50c-de1e-4fd3-92ac-1591d44c9fbd
+            uid: 60b29cf2-5c94-44fb-b0fc-f09e4bd8d736
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-09-24T16:08:02+00:00'
+            dateAdded: '2025-09-24T16:06:13+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 9b4e2627-9d21-49eb-a03b-e0506d9a7685 # Service Cards
+            fieldUid: 5d289450-50a9-49a7-9070-3dd8b2c3003d # Services
             handle: null
             includeInCards: false
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0c4f56b1-8952-4070-a23b-484f60cd4512
+            uid: 093ceb77-12eb-4cce-ab92-df5081895d49
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-09-24T16:08:02+00:00'
+            dateAdded: '2025-09-24T16:06:13+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 5e185216-9afd-4df9-beb2-e2289bd2492e # Blocks
+            fieldUid: 9daba4be-465f-45a9-8f39-003ab04ac199 # Image
             handle: null
             includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
-            required: false
+            providesThumbs: true
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a1393717-7e15-46f5-8a0a-5b3f8384cd07
+            uid: 051b0873-88b2-45f5-9bab-170239bfd278
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: e93d04d8-e103-44cd-b144-5dec45b89a39
+        uid: f0be4458-902c-4516-b975-085cf7c574c7
         userCondition: null
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2025-09-10T15:20:01+00:00'
+            dateAdded: '2025-09-24T16:07:10+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 32c1a0e7-223d-4621-a973-a36daf057365 # SEO
+            fieldUid: 982e09db-7613-4a49-80ca-8e68f2f97249 # Background Colour
             handle: null
             includeInCards: false
             instructions: null
@@ -107,17 +126,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f38d61cc-2d78-45b5-9dc6-ff47d9d07776
+            uid: 0853bdde-c32d-4b35-9a61-6596815f5433
             userCondition: null
             warning: null
             width: 100
-        name: SEO
-        uid: a5bea87f-febd-4364-ad96-b473a90ae2b0
+        name: Style
+        uid: d42aba72-2e02-4dae-b61c-7680e3e5cac7
         userCondition: null
-handle: servicesPage
+handle: serviceCards
 hasTitleField: true
 icon: null
-name: 'Services Page'
+name: 'Service Cards'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
