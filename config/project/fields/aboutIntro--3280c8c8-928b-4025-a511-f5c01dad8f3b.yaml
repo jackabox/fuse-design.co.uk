@@ -1,0 +1,134 @@
+columnSuffix: null
+handle: aboutIntro
+instructions: null
+name: 'About Intro'
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - 5332e493-f067-44a4-b211-28f1e56eac1f
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    1:
+                      - uid
+                      - 9e02a6c6-86d0-435d-bc84-b585db8e9d08
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-24T01:08:20+00:00'
+                            11:
+                              - uid
+                              - a12bf5fe-a8c4-4751-9077-0d43cefee987
+                            14:
+                              - fieldUid
+                              - d1152384-d38a-4a7d-9196-940e2b001cba # Heading
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-24T01:08:20+00:00'
+                            11:
+                              - uid
+                              - dbfa033b-c3d1-470c-b5b2-bba43790d683
+                            14:
+                              - fieldUid
+                              - 54e89074-690f-4470-acd5-39367985c214 # Keyline
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-24T01:08:20+00:00'
+                            11:
+                              - uid
+                              - e6a45821-449e-450c-ab05-16a8ae1b4518
+                            14:
+                              - fieldUid
+                              - a607ab73-8761-41ed-8c48-cda27c9bc0b9 # Button
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-24T01:08:20+00:00'
+                            11:
+                              - uid
+                              - a52168f2-3963-4ead-8ba2-26ad9f9bddd6
+                            14:
+                              - fieldUid
+                              - 9daba4be-465f-45a9-8f39-003ab04ac199 # Image
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: pane
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

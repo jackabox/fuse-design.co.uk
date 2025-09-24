@@ -3,12 +3,12 @@
 {% extends '_layouts/global' %}
 
 {% block site %}
-  {# {{ include('_components/page-builder', { blocks: entry.blocks.all() }) }} #}
-  {{ component('home-hero', { block: entry.homeHero }) }}
-  {{ component('divider') }}
-  {{ component('featured-projects', { block: entry.featuredProjects }) }}
+  {{ component('blocks/hero-simple', { block: entry.heroSimple }) }}
+  {{ component('about-intro', { block: entry.aboutIntro }) }}
+  {{ component('blocks/text-columns', { block: entry.textColumnBlock.one() }) }}
   {{ component('divider') }}
   {{ component('blocks/accordions', { block: entry.accordions }) }}
   {{ component('divider') }}
   {{ component('blocks/logos', { block: entry.logoBlock.one() }) }}
+  {{ component('blocks/testimonials', { block: entry.testimonials.one() }) }}
 {% endblock %}

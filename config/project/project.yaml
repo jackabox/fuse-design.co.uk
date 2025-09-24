@@ -1,4 +1,4 @@
-dateModified: 1758125062
+dateModified: 1758680139
 email:
   fromEmail: hi@jackwhiting.co.uk
   fromName: Haddletons
@@ -14,13 +14,18 @@ fs:
 meta:
   __names__:
     0a1dc461-ccdc-4bd5-8298-afb756fce502: Services # Services
+    0c9d4150-0621-45dd-b4f2-08f851faf415: 'Footer Background Colour' # Footer Background Colour
+    0d4b538a-2f2e-4e9c-8bfb-438490595743: 'Testimonial Entries' # Testimonial Entries
     0fd03204-28bb-4cbe-9f41-32bc118f97ea: '3XL WebP' # 3XL WebP
     1a97dfdf-223c-4aea-aafc-fe17a7c9164d: Description # Description
     1a321a2e-34d4-401d-86be-209355b10406: 'Text Position' # Text Position
+    1bd9010f-566e-4893-b804-b00dbb0e19f8: 'Hero (Simple)' # Hero (Simple)
     1d7af5a4-c775-423b-bb8a-e79c9bce75b8: Header # Header
     1fbaf49a-64d9-49d1-945e-685b85c40ebf: Logos # Logos
     2a35871a-a659-49f2-a65f-210feadb7163: Images # Images
-    3a0fa4b8-658c-4bc2-bab6-f6468dd6eae8: 'Expertise Card' # Expertise Card
+    2ae8e70b-2d14-446d-a26e-b1eb0c279817: 'Text Columns' # Text Columns
+    3a0fa4b8-658c-4bc2-bab6-f6468dd6eae8: 'Accordion Item' # Accordion Item
+    3cd1d68d-2e5f-410b-9f0a-facf45458ac2: 'Text Column' # Text Column
     3f5c8f0a-945f-4282-b103-4656d640ec1a: 'Spacing Top' # Spacing Top
     4a538b83-8308-41a4-93e2-38005b80affd: Instagram # Instagram
     4c7b3f13-cdd7-42a8-adca-fed91d9d075b: Logos # Logos
@@ -35,12 +40,14 @@ meta:
     8d63a2be-cef9-44f2-b01f-679464482fe9: Default # Default
     8e3c728a-18f9-47d8-ad44-57a54597708d: 'Project Card Style' # Project Card Style
     9daba4be-465f-45a9-8f39-003ab04ac199: Image # Image
+    13be35d1-6238-47c2-867b-5f0fb2d08bb7: 'Text Columns' # Text Columns
     19b69c94-b685-46db-95f0-ff89583d61c4: 'LG WebP' # LG WebP
     20a1dc66-66af-44b9-afa8-a8dc0534a9c3: Haddletons # Haddletons
     20b9bffc-b31a-4e7e-bbe2-cb0a4f723267: 'SM AVif' # SM AVif
     32c1a0e7-223d-4621-a973-a36daf057365: SEO # SEO
     33bec567-d48d-45d0-b6e3-e1741ed81866: '2XL WebP' # 2XL WebP
     36d6e123-eff0-44c3-a4da-7549cd5e4b49: 'Intro Text' # Intro Text
+    42d44926-74fe-44fb-8caf-1f1fb090a9c8: 'Text Columns' # Text Columns
     54e89074-690f-4470-acd5-39367985c214: Keyline # Keyline
     59de845b-0ee8-4400-9516-e04fe2d9eeb6: Addresses # Addresses
     66acbf03-0bdc-4f33-87a3-6365e66d1432: 'Contact Form' # Contact Form
@@ -49,7 +56,7 @@ meta:
     69b1ece3-71c8-480f-8770-29557c0e6f51: 'Twitter / X' # Twitter / X
     70e839a3-6bb8-4589-88da-b7594ceaed24: 'SM WebP' # SM WebP
     76fbdb53-0281-4ef9-bb2e-7e0f36a47faa: 'Related Projects' # Related Projects
-    82c07441-e3c0-44ed-9670-0492a1afb8e3: 'Our Expertise' # Our Expertise
+    82c07441-e3c0-44ed-9670-0492a1afb8e3: Accordions # Accordions
     94c494ee-1756-40b0-9548-39a8b6d05a99: 'Contact Page' # Contact Page
     121aed29-6f22-4a09-b9ad-80684dd9239c: 'Address 2' # Address 2
     166cfb30-28b6-494f-bd52-e27b2fdb91a1: Project # Project
@@ -63,6 +70,8 @@ meta:
     644c8623-cbb2-4c1e-91ce-995c4c2ce066: '2XL JPG' # 2XL JPG
     0794bc06-fc65-40fd-be61-0130d4bea6e9: Phone # Phone
     836b384f-2c07-4a35-bc13-596e178be7ce: Video # Video
+    982e09db-7613-4a49-80ca-8e68f2f97249: 'Background Colour' # Background Colour
+    3280c8c8-928b-4025-a511-f5c01dad8f3b: 'About Intro' # About Intro
     3902b46c-b199-4b7e-aff6-4d4c875e7b8f: 'XL JPG' # XL JPG
     4266eca9-64f2-411b-bb90-38fa915fdb2f: 'Home Hero' # Home Hero
     8081b7e6-b2e2-4170-95be-6ba1d5a52233: 'Footer Privacy' # Footer Privacy
@@ -73,8 +82,10 @@ meta:
     2069987d-b37d-4eca-a1ef-a395366db57d: '3XL JPG' # 3XL JPG
     6057642f-2b5c-4fde-abc1-8db2e12f722e: '2XL Avif' # 2XL Avif
     9977292a-e6b7-4791-90d9-8a01a62c72fa: 'Services Page' # Services Page
+    22300521-2308-4a9d-81ac-19f04c8302ae: 'Testimonial Block' # Testimonial Block
     23015700-02c7-4378-a22a-2b644516a091: 'Home Page' # Home Page
     24867275-fbff-4a7d-a0a5-3581f43ce221: 'XL Avif' # XL Avif
+    51851859-0892-4d96-8dde-c1bcba94d0bc: 'Text Column Block' # Text Column Block
     a6a370d2-95d3-4af2-87ca-69c7dc90de54: 'About Page' # About Page
     a607ab73-8761-41ed-8c48-cda27c9bc0b9: Button # Button
     ad5f3b0d-bb36-4c57-920d-3fb598766d11: Archive # Archive
@@ -89,6 +100,7 @@ meta:
     c33de3b4-c074-42fa-8936-4a5945dfd421: 'XL WebP' # XL WebP
     c38ceb70-451e-40c5-af3d-a667417bef2b: 'Project Type' # Project Type
     c4840206-fedb-4bac-927b-55c73db6de49: LinkedIn # LinkedIn
+    cc71dc4d-aa10-4621-81db-6882f8d45fc7: Tagline # Tagline
     d2da76c4-4d0a-4933-af56-3d19badd4319: Logo # Logo
     d4bd7261-9243-40ea-bb4b-6f536fb20a8e: 'Project Page' # Project Page
     d12bbeb8-7db6-4f9f-80c4-3c25ed163cc7: Projects # Projects
@@ -103,7 +115,7 @@ meta:
     e9adaa33-2624-4d39-943a-4c6302c8c653: Featured # Featured
     e97e691f-d62b-4d4c-a7e8-c12bcad7ebdc: Logos # Logos
     e412d456-1260-4f5c-b3ec-edba4337b3eb: 'MD WebP' # MD WebP
-    ea268ddc-f5a7-48db-b4ca-8ef6a8ad2f62: Expertise # Expertise
+    ea268ddc-f5a7-48db-b4ca-8ef6a8ad2f62: 'Accordion Items' # Accordion Items
     ef04ab26-7fb3-430b-ab5e-65f49fb31f15: 'About Page' # About Page
     effaa9c5-baa2-4141-9b62-4aa6b3576484: Email # Email
     f23db25a-6d4f-4278-ae70-7289b29432de: 'SM JPG' # SM JPG

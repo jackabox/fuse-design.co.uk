@@ -45,7 +45,7 @@ fieldLayouts:
             dateAdded: '2025-09-17T15:13:07+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 82c07441-e3c0-44ed-9670-0492a1afb8e3 # Our Expertise
+            fieldUid: 82c07441-e3c0-44ed-9670-0492a1afb8e3 # Accordions
             handle: null
             includeInCards: false
             instructions: null

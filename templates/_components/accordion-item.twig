@@ -1,7 +1,7 @@
 {% from '_macros/component' import component, spacer %}
 {% from '_macros/image' import image %}
 
-{% set image = expertise.image.one() ?? null %}
+{% set image = item.image.one() ?? null %}
 
 <div
   x-data="{
@@ -16,15 +16,15 @@
 	},
 }"
   role="region"
-  class="block bg-grey-100 rounded-2xl px-10 py-6 mb-8 last:mb-0 anim-fade-up"
+  class="block bg-grey-100 rounded-2xl mb-8 last:mb-0 anim-fade-up"
 >
   <button
     type="button"
     x-on:click="expanded = !expanded"
     :aria-expanded="expanded"
-    class="group flex w-full items-center justify-between text-left hover:cursor-pointer"
+    class="group flex w-full items-center justify-between text-left hover:cursor-pointer px-10 py-6"
   >
-    {{ component('typography/h3', { heading: expertise.title, class: 'text-black' }) }}
+    {{ component('typography/h3', { heading: item.title, class: 'text-black' }) }}
 
     <div
       class="h-8 w-8 rounded-full flex items-center justify-center bg-purple"
@@ -41,11 +41,15 @@
   </button>
 
   <div x-show="expanded" x-collapse>
-    <div class="pt-6 grid grid-cols-2 gap-10">
+    <div class="px-10 pb-6 grid grid-cols-2 gap-10">
       <div class="{{ image ? 'lg:col-span-1' : 'lg:col-span-2' }}">
         <p class="text-lg">
-          {{ expertise.description }}
+          {{ item.description }}
         </p>
+
+        {% if item.button %}
+          {{ component('button', { button: item.button, class: 'mt-10' }) }}
+        {% endif %}
       </div>
 
       {% if image %}

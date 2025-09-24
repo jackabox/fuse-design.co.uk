@@ -1,13 +1,13 @@
 columnSuffix: null
-handle: ourExpertise
+handle: heroSimple
 instructions: null
-name: 'Our Expertise'
+name: 'Hero (Simple)'
 searchable: false
 settings:
   fieldLayouts:
     __assoc__:
       -
-        - ee93f198-1093-4846-824e-966db9ddfbe8
+        - e14f70b8-cd0a-4254-a0d0-1431a0d4d2a8
         -
           __assoc__:
             0:
@@ -20,7 +20,7 @@ settings:
                       - Content
                     1:
                       - uid
-                      - 1af552a0-3738-4454-9028-fca4745b2259
+                      - 83dfd580-e741-43b8-96eb-fd1d6cdf1a8b
                     4:
                       - elements
                       -
@@ -43,10 +43,10 @@ settings:
                               - 100
                             10:
                               - dateAdded
-                              - '2025-09-17T15:10:48+00:00'
+                              - '2025-09-22T11:20:54+00:00'
                             11:
                               - uid
-                              - 1dcebf2b-d8ca-4ba4-b904-addbbbe15ba1
+                              - f0ea4082-ca29-43df-a8e5-b7fef90e9bd3
                             14:
                               - fieldUid
                               - d1152384-d38a-4a7d-9196-940e2b001cba # Heading
@@ -69,39 +69,13 @@ settings:
                               - 100
                             10:
                               - dateAdded
-                              - '2025-09-17T15:13:40+00:00'
+                              - '2025-09-22T11:20:54+00:00'
                             11:
                               - uid
-                              - 733efdf5-c547-43d0-8013-4d045d294c04
+                              - 7a164f1e-19ea-4c25-adcb-88711151a0c8
                             14:
                               - fieldUid
-                              - 1a97dfdf-223c-4aea-aafc-fe17a7c9164d # Description
-                        -
-                          __assoc__:
-                            0:
-                              - type
-                              - craft\fieldlayoutelements\CustomField
-                            6:
-                              - required
-                              - true
-                            7:
-                              - providesThumbs
-                              - false
-                            8:
-                              - includeInCards
-                              - false
-                            9:
-                              - width
-                              - 100
-                            10:
-                              - dateAdded
-                              - '2025-09-17T15:10:48+00:00'
-                            11:
-                              - uid
-                              - d25c0c1b-fad6-440a-9ca7-03fcfa99f280
-                            14:
-                              - fieldUid
-                              - ea268ddc-f5a7-48db-b4ca-8ef6a8ad2f62 # Expertise
+                              - 54e89074-690f-4470-acd5-39367985c214 # Keyline
                         -
                           __assoc__:
                             0:
@@ -121,17 +95,17 @@ settings:
                               - 100
                             10:
                               - dateAdded
-                              - '2025-09-17T15:53:34+00:00'
+                              - '2025-09-22T11:30:23+00:00'
                             11:
                               - uid
-                              - ad2f876d-526e-488f-b6eb-534a3be3f699
+                              - 94fb3f29-9381-4491-a7ef-5cf4433d64f3
                             14:
                               - fieldUid
-                              - a607ab73-8761-41ed-8c48-cda27c9bc0b9 # Button
+                              - 982e09db-7613-4a49-80ca-8e68f2f97249 # Background Colour
             3:
               - cardThumbAlignment
               - end
-  viewMode: grouped
+  viewMode: pane
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\ContentBlock

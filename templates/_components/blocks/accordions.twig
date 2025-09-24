@@ -12,13 +12,15 @@
     </div>
 
     <div class="col-span-1" x-data="{active: 2}">
-      {% for expertise in block.expertise.with('image').all() %}
-        {{ component('expertise-accordion', { expertise: expertise, id: loop.index }) }}
+      {% for item in block.accordionItems.with('image').all() %}
+        {{ component('accordion-item', { item: item, id: loop.index }) }}
       {% endfor %}
     </div>
   </div>
 
-  <div class="flex justify-end mt-25 anim-fade-up">
-    {{ component('button', { button: block.button }) }}
-  </div>
+  {% if block.button %}
+    <div class="flex justify-end mt-25 anim-fade-up">
+      {{ component('button', { button: block.button }) }}
+    </div>
+  {% endif %}
 </section>

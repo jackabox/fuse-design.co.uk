@@ -5,6 +5,7 @@ import resize from "@alpinejs/resize"
 
 import "./animations"
 import header from "./header"
+import testimonials from "./testimonials"
 
 // Libs
 // Alpine.plugin(focus)
@@ -13,6 +14,7 @@ Alpine.plugin(resize)
 
 // Components
 Alpine.data("header", header)
+Alpine.data("testimonials", testimonials)
 
 // Global
 window.Alpine = Alpine

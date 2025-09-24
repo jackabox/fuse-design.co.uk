@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: testimonials
+handle: textColumnBlock
 instructions: null
-name: Testimonials
+name: 'Text Column Block'
 searchable: false
 settings:
   createButtonLabel: null
@@ -12,7 +12,7 @@ settings:
       __assoc__:
         -
           - uid
-          - 22300521-2308-4a9d-81ac-19f04c8302ae # Testimonial Block
+          - 13be35d1-6238-47c2-867b-5f0fb2d08bb7 # Text Columns
         -
           - group
           - General
@@ -22,7 +22,7 @@ settings:
   pageSize: null
   propagationKeyFormat: null
   propagationMethod: all
-  showCardsInGrid: false
+  showCardsInGrid: true
   viewMode: blocks
 translationKeyFormat: null
 translationMethod: site

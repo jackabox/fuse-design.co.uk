@@ -1,9 +1,13 @@
 {% from '_macros/component' import component %}
 
+{% set footerBgColor = 'bg-grey-100' %}
 {% extends '_layouts/global' %}
 
 {% block site %}
   {{ include('_components/project-hero') }}
   {{ include('_components/page-builder', { blocks: entry.projectBlocks.all() }) }}
-  {{ component('blocks/related-projects', { block: entry.relatedProjects.one() }) }}
+
+  <div class="bg-grey-100">
+    {{ component('blocks/related-projects', { block: entry.relatedProjects.one() }) }}
+  </div>
 {% endblock %}

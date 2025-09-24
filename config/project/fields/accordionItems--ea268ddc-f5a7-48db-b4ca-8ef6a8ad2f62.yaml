@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: testimonials
+handle: accordionItems
 instructions: null
-name: Testimonials
+name: 'Accordion Items'
 searchable: false
 settings:
   createButtonLabel: null
@@ -12,18 +12,18 @@ settings:
       __assoc__:
         -
           - uid
-          - 22300521-2308-4a9d-81ac-19f04c8302ae # Testimonial Block
+          - 3a0fa4b8-658c-4bc2-bab6-f6468dd6eae8 # Accordion Item
         -
           - group
           - General
   includeTableView: false
-  maxEntries: 1
+  maxEntries: null
   minEntries: null
-  pageSize: null
+  pageSize: 50
   propagationKeyFormat: null
   propagationMethod: all
-  showCardsInGrid: false
-  viewMode: blocks
+  showCardsInGrid: true
+  viewMode: cards
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

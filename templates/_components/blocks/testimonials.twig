@@ -1,0 +1,37 @@
+{% from '_macros/image' import image %}
+{% from '_macros/link' import link %}
+{% from '_macros/component' import component, spacer %}
+
+<!-- Template: {{ _self }} -->
+<section x-data="testimonials()" class="container embla {{ spacer(block.spacingTop, block.spacingBottom)|spaceless }}">
+  <div class="embla__viewport" x-ref="slider">
+    <div class="embla__container">
+      {% for testimonial in block.testimonialEntries.all() %}
+        <div class="embla__slide">
+          <div
+            class="rounded-xl w-full px-50 py-35 text-black flex flex-col"
+            style="background-color: {{ testimonial.projectColour ?? '#efefef' }}"
+          >
+            <span class="text-2xl leading-none">//</span>
+
+            <p class="text-2xl mt-12">
+              {{ testimonial.testimonial }}
+            </p>
+
+            <p class="text-lg mt-16">
+              {{ testimonial.title }}
+            </p>
+
+            <p class="text-lg">
+              {{ testimonial.clientName }}
+            </p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="embla__controls gap-20 mt-10">
+    <div class="embla__dots"></div>
+  </div>
+</section>

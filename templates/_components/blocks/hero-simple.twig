@@ -1,0 +1,15 @@
+{% from '_macros/component' import component %}
+
+<section class="pt-60 lg:pt-100 pb-28" style="background-color: {{ block.backgroundColour }}">
+  <div class="container">
+    {{
+      component('typography/h1', { heading: block.heading, tag: 'h1', class: 'lg:max-w-[60%] text-black anim-fade-up' })
+    }}
+
+    {% if block.keyline %}
+      <p class="text-4xl leading-normal text-white mt-2 lg:max-w-[60%] anim-fade-up">
+        {{ block.keyline }}
+      </p>
+    {% endif %}
+  </div>
+</section>

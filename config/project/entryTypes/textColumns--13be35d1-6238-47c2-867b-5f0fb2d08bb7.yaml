@@ -1,0 +1,80 @@
+color: null
+description: null
+fieldLayouts:
+  2f2949e5-f16a-478c-805d-955be5296730:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-24T01:31:50+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 42d44926-74fe-44fb-8caf-1f1fb090a9c8 # Text Columns
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 41420fe2-af08-4d16-bd5e-74a5cdbf06e2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 38cd1363-498f-45f7-93e4-adeaff759312
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-24T01:28:00+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3f5c8f0a-945f-4282-b103-4656d640ec1a # Spacing Top
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5dc03385-001d-4529-89e7-74245f09b596
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-09-24T01:28:00+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 315e419f-401e-4161-a287-7cfd8f011a58 # Spacing Bottom
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 66cc85c1-ac45-41e9-afd0-c3e11809a5ff
+            userCondition: null
+            warning: null
+            width: 50
+        name: Style
+        uid: 696f10c7-4a22-4045-9fe3-a3bc38266d11
+        userCondition: null
+handle: textColumns
+hasTitleField: false
+icon: null
+name: 'Text Columns'
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

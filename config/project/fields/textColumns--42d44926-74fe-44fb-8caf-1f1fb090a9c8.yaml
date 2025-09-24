@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: expertise
+handle: textColumns
 instructions: null
-name: Expertise
+name: 'Text Columns'
 searchable: false
 settings:
   createButtonLabel: null
@@ -12,7 +12,7 @@ settings:
       __assoc__:
         -
           - uid
-          - 3a0fa4b8-658c-4bc2-bab6-f6468dd6eae8 # Expertise Card
+          - 3cd1d68d-2e5f-410b-9f0a-facf45458ac2 # Text Column
         -
           - group
           - General

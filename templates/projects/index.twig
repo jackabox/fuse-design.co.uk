@@ -1,5 +1,6 @@
 {% from '_macros/component' import component, spacer %}
 
+{% set footerBgColor = 'bg-grey-100' %}
 {% extends '_layouts/global' %}
 
 {% block site %}
@@ -16,11 +17,11 @@
     </div>
   </section>
 
-  <section class="{{ spacer('large', 'small')|spaceless }}" x-data="{ visible: false }">
+  <section class="bg-grey-100 {{ spacer('large', 'small')|spaceless }}" x-data="{ visible: false }">
     <div class="container">
-      {{ component('typography/h2', { heading: entry.archive.heading, tag: 'h1', class: 'max-w-[600px] text-black' }) }}
+      {{ component('typography/h1', { heading: entry.archive.heading, class: 'max-w-[600px] text-black' }) }}
 
-      <p class="text-4xl leading-13 mt-4 max-w-[600px]">
+      <p class="text-4xl leading-13 mt-0 max-w-[600px]">
         {{ entry.archive.keyline }}
       </p>
 

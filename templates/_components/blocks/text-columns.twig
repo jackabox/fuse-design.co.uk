@@ -1,0 +1,22 @@
+{% from '_macros/image' import image %}
+{% from '_macros/link' import link %}
+{% from '_macros/component' import component, spacer %}
+
+<!-- Template: {{ _self }} -->
+<section class="container {{ spacer(block.spacingTop, block.spacingBottom)|spaceless }}">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-20">
+    {% for item in block.textColumns.all() %}
+      <div class="space-y-4 lg:space-y-6">
+        <p class="text-[18px] text-black anim-fade-up">
+          {{ item.tagline }}
+        </p>
+
+        {{ component('typography/h2', { heading: item.title, class: 'text-black anim-fade-up' }) }}
+
+        <div class="rte anim-fade-up">
+          {{ item.text }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
