@@ -1,0 +1,69 @@
+{% from '_macros/component' import component, spacer %}
+
+{% set currentYear = now|date('Y') %}
+{% set socials = footer.socials %}
+
+<footer class="container text-white {{ spacer('default', 'none')|spaceless }}">
+	<div class="grid grid-cols-6 gap-x-20 gap-y-20">
+		<div class="col-span-3">
+			Image
+		</div>
+
+		<div class="col-span-1">
+			{{ component('typography/h3', { heading: 'Nottingham', class: 'text-black mb-6' }) }}
+			<address class="not-italic text-lg">
+				{{ footer.addresses.address1|nl2br }}
+			</address>
+		</div>
+
+		<div class="col-span-1">
+			{{ component('typography/h3', { heading: 'Lincoln', class: 'text-black mb-6' }) }}
+			<address class="not-italic text-lg">
+				{{ footer.addresses.address2|nl2br }}
+			</address>
+		</div>
+
+		<div class="col-span-1">
+			{{ component('typography/h3', { heading: 'Social', class: 'text-black mb-6' }) }}
+			<nav class="flex flex-col" aria-label="Links to {{ siteName }}'s socials">
+				{% if socials.instagram %}
+					<a
+						class="text-lg duration-300 hover:text-black"
+						href="{{ socials.instagram }}"
+						title="Visit our Instagram"
+					>
+						Instagram
+					</a>
+				{% endif %}
+
+				{% if socials.linkedin %}
+					<a
+						class="text-lg duration-300 hover:text-black"
+						href="{{ socials.linkedin }}"
+						title="Visit our Instagram"
+					>
+						LinkedIn
+					</a>
+				{% endif %}
+
+				{% if socials.x %}
+					<a class="text-lg duration-300 hover:text-black" href="{{ socials.x }}" title="Visit our Instagram">
+						X
+					</a>
+				{% endif %}
+			</nav>
+		</div>
+	</div>
+
+	<div class="my-10 grid grid-cols-2 gap-8 lg:gap-12 lg:items-end">
+		<div class="col-span-full lg:col-span-1">
+			<p class="text-sm">
+				&copy; {{ siteName }} {{ currentYear }}
+			</p>
+		</div>
+
+		<div class="col-span-full lg:col-span-1">
+			{{ component('navigation/footer-privacy') }}
+		</div>
+	</div>
+</footer>

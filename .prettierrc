@@ -5,8 +5,10 @@
 	"arrowParens": "always",
 	"printWidth": 120,
 	"html.format.wrapAttributes": "force-expand-multiline",
-	"twig.format.wrapAttributes": "force-expand",
+	"twig.format.wrapAttributes": "force-expand-multiline",
 	"twigAlwaysBreakObjects": false,
+	"tabWidth": 4,
+	"tabStyle": "tabs",
 	"twigMultiTags": [
 		"nav,endnav",
 		"switch,case,default,endswitch",

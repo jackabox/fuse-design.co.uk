@@ -1,0 +1,160 @@
+columnSuffix: null
+handle: contactFields
+instructions: null
+name: 'Contact Fields'
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - bcd9a907-563f-4656-9fa5-dad4c209d1b4
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    1:
+                      - uid
+                      - 4d6c760b-d9cd-49ee-8b2c-2d004e16903b
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-25T15:51:12+00:00'
+                            11:
+                              - uid
+                              - bbb4c065-3719-4649-95da-58e6981a4e8d
+                            14:
+                              - fieldUid
+                              - d1152384-d38a-4a7d-9196-940e2b001cba # Heading
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-25T15:51:12+00:00'
+                            11:
+                              - uid
+                              - 848825e6-4ac9-431c-8467-c1760a18d102
+                            14:
+                              - fieldUid
+                              - 54e89074-690f-4470-acd5-39367985c214 # Keyline
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-25T15:51:12+00:00'
+                            11:
+                              - uid
+                              - 7711c1ab-183e-4943-a87c-96fbb080144e
+                            14:
+                              - fieldUid
+                              - a52c241b-1d29-43c3-9d8f-ce5163b98024 # Contact Details Heading
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 50
+                            10:
+                              - dateAdded
+                              - '2025-09-25T15:51:12+00:00'
+                            11:
+                              - uid
+                              - d0e10eda-18aa-4e31-8d2a-e97f02c57754
+                            14:
+                              - fieldUid
+                              - effaa9c5-baa2-4141-9b62-4aa6b3576484 # Email
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 50
+                            10:
+                              - dateAdded
+                              - '2025-09-25T15:51:12+00:00'
+                            11:
+                              - uid
+                              - e1da5a12-f7ca-4304-b05a-dd5a28a577f3
+                            14:
+                              - fieldUid
+                              - 0794bc06-fc65-40fd-be61-0130d4bea6e9 # Phone
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: pane
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

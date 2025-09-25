@@ -1,4 +1,4 @@
-dateModified: 1758733313
+dateModified: 1758815475
 email:
   fromEmail: hi@jackwhiting.co.uk
   fromName: Haddletons
@@ -63,6 +63,7 @@ meta:
     70e839a3-6bb8-4589-88da-b7594ceaed24: 'SM WebP' # SM WebP
     76fbdb53-0281-4ef9-bb2e-7e0f36a47faa: 'Related Projects' # Related Projects
     82c07441-e3c0-44ed-9670-0492a1afb8e3: Accordions # Accordions
+    92fa6921-074a-4a03-953f-dffc194e9b2f: 'Contact Fields' # Contact Fields
     94c494ee-1756-40b0-9548-39a8b6d05a99: 'Contact Page' # Contact Page
     121aed29-6f22-4a09-b9ad-80684dd9239c: 'Address 2' # Address 2
     166cfb30-28b6-494f-bd52-e27b2fdb91a1: Project # Project
@@ -96,6 +97,7 @@ meta:
     24867275-fbff-4a7d-a0a5-3581f43ce221: 'XL Avif' # XL Avif
     51851859-0892-4d96-8dde-c1bcba94d0bc: 'Text Column Block' # Text Column Block
     a6a370d2-95d3-4af2-87ca-69c7dc90de54: 'About Page' # About Page
+    a52c241b-1d29-43c3-9d8f-ce5163b98024: 'Contact Details Heading' # Contact Details Heading
     a607ab73-8761-41ed-8c48-cda27c9bc0b9: Button # Button
     ad5f3b0d-bb36-4c57-920d-3fb598766d11: Archive # Archive
     af05e971-bfab-4d1b-b311-f3caa64316e3: 'Image Per Row' # Image Per Row
@@ -144,6 +146,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0.0
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   formie:
     edition: standard
     enabled: false

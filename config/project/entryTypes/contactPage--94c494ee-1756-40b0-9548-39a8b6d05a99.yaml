@@ -37,6 +37,23 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2025-09-25T15:51:15+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 92fa6921-074a-4a03-953f-dffc194e9b2f # Contact Fields
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b0f0d8e0-fc81-4909-9942-fe6ba92d5137
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: df924cd6-86a8-49ca-99a3-70edcdb54eb1
         userCondition: null

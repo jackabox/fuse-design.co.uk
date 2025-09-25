@@ -1,0 +1,14 @@
+{% from '_macros/component' import component, spacer %}
+
+{% extends '_layouts/contact' %}
+
+{% block site %}
+	<div class="container grid grid-cols-2 gap-20 pt-100 pb-30">
+		<div></div>
+		<div>
+			{{ component('contact-form') }}
+		</div>
+	</div>
+
+	{{ component('global/footer-contact') }}
+{% endblock %}

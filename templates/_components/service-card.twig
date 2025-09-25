@@ -18,7 +18,7 @@
         </div>
 
         <div class="mt-6 lg:mt-10">
-          {{ component('button', { text: 'Read more', class: '' }) }}
+          {{ component('button', { button: service.button }) }}
         </div>
       </div>
     </div>
@@ -37,6 +37,7 @@
         {% endfor %}
       </ul>
     </div>
+
     <div class="self-center pl-10">
       {{ image(service.image.one(), { wrapperClass: '', class: '', lazy: true }) }}
     </div>
