@@ -9,16 +9,16 @@
       style="background-color: {{ service.backgroundColour }}80"
     >
       <div class="col-span-2">
-        {{ component('typography/h2', { heading: service.title, class: 'text-black' }) }}
+        {{ component('typography/h2', { heading: service.title, class: 'text-black anim-fade-up' }) }}
       </div>
 
       <div class="col-span-3">
-        <div class="rte text-black">
+        <div class="rte text-black anim-fade-up">
           {{ service.text }}
         </div>
 
         <div class="mt-6 lg:mt-10">
-          {{ component('button', { button: service.button }) }}
+          {{ component('button', { button: service.button, class: 'anim-fade-up' }) }}
         </div>
       </div>
     </div>
@@ -29,17 +29,17 @@
     style="background-color: {{ service.backgroundColour }}"
   >
     <div>
-      {{ component('typography/h3', { heading: 'Services', class: 'text-black' }) }}
+      {{ component('typography/h3', { heading: 'Services', class: 'text-black anim-fade-up' }) }}
 
       <ul class="mt-4 flex flex-col gap-1">
         {% for item in service.services %}
-          <li class="text-lg">{{ item.service }}</li>
+          <li class="text-lg anim-fade-up">{{ item.service }}</li>
         {% endfor %}
       </ul>
     </div>
 
     <div class="self-center pl-10">
-      {{ image(service.image.one(), { wrapperClass: '', class: '', lazy: true }) }}
+      {{ image(service.image.one(), { wrapperClass: '', class: 'anim-fade-in', lazy: true }) }}
     </div>
   </div>
 </div>

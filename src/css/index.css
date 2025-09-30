@@ -110,7 +110,7 @@ footer {
 
 b,
 strong {
-	@apply text-black font-normal;
+	@apply !text-black font-normal;
 }
 
 .rte {

@@ -1,6 +1,7 @@
 import EmblaCarousel from "embla-carousel"
 import Fade from "embla-carousel-fade"
 import Autoplay from "embla-carousel-autoplay"
+import AutoHeight from 'embla-carousel-auto-height'
 import { addPrevNextBtnsClickHandlers, addDotBtnsAndClickHandlers } from "./embala"
 
 export default () => ({
@@ -16,7 +17,7 @@ export default () => ({
       {
         loop: true,
       },
-      [Fade(), Autoplay({ playOnInit: true, delay: 10000 })],
+      [Fade(), Autoplay({ playOnInit: true, delay: 10000 }), AutoHeight()],
     )
 
     const removePrevNextBtnsClickHandlers = addPrevNextBtnsClickHandlers(emblaApi, prevBtnNode, nextBtnNode)

@@ -5,10 +5,10 @@
 {% block site %}
   {# {{ include('_components/page-builder', { blocks: entry.blocks.all() }) }} #}
   {{ component('home-hero', { block: entry.homeHero }) }}
-  {{ component('divider') }}
+  {{ component('blocks/divider') }}
   {{ component('featured-projects', { block: entry.featuredProjects }) }}
-  {{ component('divider') }}
+  {{ component('blocks/divider') }}
   {{ component('blocks/accordions', { block: entry.accordions }) }}
-  {{ component('divider') }}
+  {{ component('blocks/divider') }}
   {{ component('blocks/logos', { block: entry.logoBlock.one() }) }}
 {% endblock %}
