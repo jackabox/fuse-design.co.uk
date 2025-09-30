@@ -1,4 +1,4 @@
-dateModified: 1759201129
+dateModified: 1759202422
 email:
   fromEmail: hi@jackwhiting.co.uk
   fromName: Haddletons
@@ -24,6 +24,7 @@ meta:
     1fbaf49a-64d9-49d1-945e-685b85c40ebf: Logos # Logos
     2a35871a-a659-49f2-a65f-210feadb7163: Images # Images
     2ae8e70b-2d14-446d-a26e-b1eb0c279817: 'Text Columns' # Text Columns
+    2d2016ba-3d42-49a5-af8a-8715d46c3131: Spacer # Spacer
     3a0fa4b8-658c-4bc2-bab6-f6468dd6eae8: 'Accordion Item' # Accordion Item
     3cd1d68d-2e5f-410b-9f0a-facf45458ac2: 'Text Column' # Text Column
     3f5c8f0a-945f-4282-b103-4656d640ec1a: 'Spacing Top' # Spacing Top

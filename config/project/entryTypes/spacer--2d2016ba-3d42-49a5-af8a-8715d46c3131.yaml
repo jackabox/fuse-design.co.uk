@@ -1,0 +1,57 @@
+color: null
+description: null
+fieldLayouts:
+  c4d6ad29-b9f3-4d68-86fa-faae451bd215:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-30T03:18:36+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3f5c8f0a-945f-4282-b103-4656d640ec1a # Spacing Top
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bf40e706-30e3-4e2c-84c1-6f4af4718db7
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-09-30T03:18:36+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 315e419f-401e-4161-a287-7cfd8f011a58 # Spacing Bottom
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 44423271-57ad-4bdd-978b-a0fc3205fad0
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: 31d14fd3-fe4f-4703-909f-16ecbba57ddd
+        userCondition: null
+handle: spacer
+hasTitleField: false
+icon: null
+name: Spacer
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

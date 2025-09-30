@@ -91,6 +91,14 @@ settings:
         -
           - group
           - 'UI Element'
+    -
+      __assoc__:
+        -
+          - uid
+          - 2d2016ba-3d42-49a5-af8a-8715d46c3131 # Spacer
+        -
+          - group
+          - 'UI Element'
   includeTableView: false
   maxEntries: null
   minEntries: null
