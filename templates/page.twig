@@ -3,9 +3,6 @@
 {% extends '_layouts/global' %}
 
 {% block site %}
-	{% if entry.heroSimple.heading %}
-  		{{ component('blocks/hero-simple', { block: entry.heroSimple }) }}
-    {% endif %}
-
+	<div class="pt-32"></div>
     {{ include('_components/page-builder', { blocks: entry.blocks.all() }) }}
 {% endblock %}

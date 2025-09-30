@@ -1,6 +1,6 @@
 {% from '_macros/component' import component %}
 
-<section class="pt-60 lg:pt-100 pb-28 {{ class ?? '' }}" style="background-color: {{ block.backgroundColour }}">
+<section class="pt-60 lg:pt-100 pb-28 {{ class ?? '' }} {{ block.bringBelowContentUp ? '-mb-10' : '' }}" style="background-color: {{ block.backgroundColour ?? '#ffffff' }}">
   <div class="container">
     {{
       component('typography/h1', { heading: block.heading, tag: 'h1', class: 'lg:max-w-[60%] anim-fade-up text-black' })

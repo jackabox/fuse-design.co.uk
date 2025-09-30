@@ -92,7 +92,7 @@ settings:
                               - false
                             9:
                               - width
-                              - 50
+                              - 25
                             10:
                               - dateAdded
                               - '2025-09-22T11:30:23+00:00'
@@ -118,7 +118,7 @@ settings:
                               - false
                             9:
                               - width
-                              - 50
+                              - 25
                             10:
                               - dateAdded
                               - '2025-09-24T16:24:59+00:00'
@@ -128,6 +128,32 @@ settings:
                             14:
                               - fieldUid
                               - e7172cdd-3855-4eb8-b1f5-5ad3ea8f3a61 # Text Style
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 25
+                            10:
+                              - dateAdded
+                              - '2025-09-30T02:27:07+00:00'
+                            11:
+                              - uid
+                              - f8b01e2c-6b98-4fe2-9a17-d3bf80b5141e
+                            14:
+                              - fieldUid
+                              - 32fff9ca-c866-4e83-8575-053e9443bc7c # Bring Below Content Up?
             3:
               - cardThumbAlignment
               - end

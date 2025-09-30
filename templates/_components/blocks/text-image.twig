@@ -2,6 +2,7 @@
 {% from '_macros/image' import image %}
 
 {% set block = block ?? null %}
+{% set textsize = block.textSize == 'small' ? 'text-lg' : '' %}
 
 {% if block %}
   <section class="{{ spacer(block.spacingTop, block.spacingBottom)|spaceless }}">
@@ -17,7 +18,7 @@
 
       <div class="h-full flex flex-col justify-center gap-12">
         {{ component('typography/h2', { heading: block.title, class: 'text-black anim-fade-up' }) }}
-        {{ component('typography/intro-copy', { copy: block.keyline, class: 'text-black anim-fade-up' }) }}
+        {{ component('typography/intro-copy', { copy: block.keyline, class: 'text-black anim-fade-up ' ~ textsize  }) }}
 
         {% if block.button %}
           <div class="anim-fade-up">

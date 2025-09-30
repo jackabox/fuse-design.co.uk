@@ -1,4 +1,4 @@
-dateModified: 1759197441
+dateModified: 1759201129
 email:
   fromEmail: hi@jackwhiting.co.uk
   fromName: Haddletons
@@ -50,12 +50,15 @@ meta:
     19b69c94-b685-46db-95f0-ff89583d61c4: 'LG WebP' # LG WebP
     20a1dc66-66af-44b9-afa8-a8dc0534a9c3: Haddletons # Haddletons
     20b9bffc-b31a-4e7e-bbe2-cb0a4f723267: 'SM AVif' # SM AVif
+    23bc139c-2d1b-4661-9fcd-1d570ca16078: 'Text Size' # Text Size
     32c1a0e7-223d-4621-a973-a36daf057365: SEO # SEO
+    32fff9ca-c866-4e83-8575-053e9443bc7c: 'Bring Below Content Up?' # Bring Below Content Up?
     33bec567-d48d-45d0-b6e3-e1741ed81866: '2XL WebP' # 2XL WebP
     36d6e123-eff0-44c3-a4da-7549cd5e4b49: 'Intro Text' # Intro Text
     42d44926-74fe-44fb-8caf-1f1fb090a9c8: 'Text Columns' # Text Columns
     54e89074-690f-4470-acd5-39367985c214: Keyline # Keyline
     59de845b-0ee8-4400-9516-e04fe2d9eeb6: Addresses # Addresses
+    64a6fc69-fc13-498c-bab8-110f6481a272: 'Selected Projects' # Selected Projects
     66acbf03-0bdc-4f33-87a3-6365e66d1432: 'Contact Form' # Contact Form
     66cbddfe-d477-4f4f-acb1-64401a8b2bf5: Testimonials # Testimonials
     68f6e4e1-5908-417c-bf85-b3d4056756bd: Footer # Footer
@@ -104,6 +107,7 @@ meta:
     afc106b6-54a4-4ba9-9799-dddb8fd55ce6: Simple # Simple
     b0ce5312-1dcd-4a88-b855-1ad275e7c3cf: 'XS Avif' # XS Avif
     b1aa02c9-7534-4922-9c55-9e33e3df5370: '3XL Avif' # 3XL Avif
+    b9eaf7bb-5bf6-4eb3-b2f6-cb3384b99931: 'Large Text' # Large Text
     b53285ee-90b7-417c-9941-42df98ec813c: 'Services Page' # Services Page
     b94200d6-cc19-453f-a8ca-4f1dd462e005: Testimonial # Testimonial
     b989621d-5af6-448e-98c0-9fd351f12ac4: 'Project Categories' # Project Categories

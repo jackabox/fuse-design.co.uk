@@ -9,7 +9,7 @@
       {% for testimonial in block.testimonialEntries.all() %}
         <div class="embla__slide">
           <div
-            class="rounded-xl w-full px-50 py-35 text-black flex flex-col"
+            class="rounded-xl w-full px-50 py-35 text-black flex flex-col {{ testimonial.textStyle == 'light' ? 'text-white' : '' }}"
             style="background-color: {{ testimonial.projectColour ?? '#efefef' }}"
           >
             <span class="text-2xl leading-none">//</span>
@@ -31,23 +31,25 @@
     </div>
   </div>
 
-  <div class="flex flex-col lg:flex-row justify-between gap-10 gap-20 mt-10">
-    <div class="embla__dots"></div>
+  {% if block.testimonialEntries|length > 1 %}
+	  <div class="flex flex-col lg:flex-row justify-between gap-10 gap-20 mt-10">
+	    <div class="embla__dots"></div>
 
-    <div class="embla__buttons">
-      <button
-        class="embla__button--prev w-[40px] h-[40px] inline-flex items-center justify-center bg-grey-100 rounded-full p-2 hover:cursor-pointer hover:bg-black hover:text-white transition duration-300"
-        type="button"
-      >
-        {{ svg('@webroot/svg/icon-chevron.svg')|attr({ class: 'rotate-180 -ml-1' }) }}
-      </button>
+	    <div class="embla__buttons">
+	      <button
+	        class="embla__button--prev w-[40px] h-[40px] inline-flex items-center justify-center bg-grey-100 rounded-full p-2 hover:cursor-pointer hover:bg-black hover:text-white transition duration-300"
+	        type="button"
+	      >
+	        {{ svg('@webroot/svg/icon-chevron.svg')|attr({ class: 'rotate-180 -ml-1' }) }}
+	      </button>
 
-      <button
-        class="embla__button--next w-[40px] h-[40px] inline-flex items-center justify-center bg-grey-100 rounded-full p-2 hover:cursor-pointer hover:bg-black hover:text-white transition duration-300"
-        type="button"
-      >
-        {{ svg('@webroot/svg/icon-chevron.svg')|attr({ class: '-mr-1' }) }}
-      </button>
-    </div>
-  </div>
+	      <button
+	        class="embla__button--next w-[40px] h-[40px] inline-flex items-center justify-center bg-grey-100 rounded-full p-2 hover:cursor-pointer hover:bg-black hover:text-white transition duration-300"
+	        type="button"
+	      >
+	        {{ svg('@webroot/svg/icon-chevron.svg')|attr({ class: '-mr-1' }) }}
+	      </button>
+	    </div>
+	  </div>
+  {% endif %}
 </section>

@@ -20,10 +20,7 @@ settings:
       __assoc__:
         -
           - uid
-          - 22300521-2308-4a9d-81ac-19f04c8302ae # Testimonial Block
-        -
-          - name
-          - Testimonials
+          - fc0934b7-61de-4a8d-9443-c9a0e28a0602 # Text & Image
         -
           - group
           - General
@@ -39,15 +36,7 @@ settings:
       __assoc__:
         -
           - uid
-          - fc0934b7-61de-4a8d-9443-c9a0e28a0602 # Text & Image
-        -
-          - group
-          - General
-    -
-      __assoc__:
-        -
-          - uid
-          - 991e2e77-a15d-41db-842e-6cff2baff65f # Team Cards
+          - b9eaf7bb-5bf6-4eb3-b2f6-cb3384b99931 # Large Text
         -
           - group
           - General
@@ -67,6 +56,33 @@ settings:
         -
           - group
           - Media
+    -
+      __assoc__:
+        -
+          - uid
+          - 991e2e77-a15d-41db-842e-6cff2baff65f # Team Cards
+        -
+          - group
+          - Related
+    -
+      __assoc__:
+        -
+          - uid
+          - 22300521-2308-4a9d-81ac-19f04c8302ae # Testimonial Block
+        -
+          - name
+          - Testimonials
+        -
+          - group
+          - Related
+    -
+      __assoc__:
+        -
+          - uid
+          - 76fbdb53-0281-4ef9-bb2e-7e0f36a47faa # Related Projects
+        -
+          - group
+          - Related
     -
       __assoc__:
         -

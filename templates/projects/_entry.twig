@@ -5,6 +5,7 @@
 
 {% block site %}
   {{ include('_components/project-hero') }}
+
   {{ include('_components/page-builder', { blocks: entry.projectBlocks.all() }) }}
 
   <div class="bg-grey-100">

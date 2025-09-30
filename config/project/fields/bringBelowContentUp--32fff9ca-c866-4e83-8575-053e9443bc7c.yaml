@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: bringBelowContentUp
+instructions: null
+name: 'Bring Below Content Up?'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch
