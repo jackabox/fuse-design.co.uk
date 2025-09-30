@@ -1,12 +1,15 @@
 {% from '_macros/component' import component, spacer %}
+{% from '_macros/image' import image %}
 
 {% set currentYear = now|date('Y') %}
 {% set socials = footer.socials %}
+{% set image = image ?? '' %}
 
 <footer class="container text-white {{ spacer('default', 'none')|spaceless }}">
+
 	<div class="grid grid-cols-6 gap-x-20 gap-y-20">
 		<div class="col-span-3">
-			Image
+			{% if image %} {{ image(image) }} {% endif %}
 		</div>
 
 		<div class="col-span-1">

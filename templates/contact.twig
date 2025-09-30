@@ -4,11 +4,22 @@
 
 {% block site %}
 	<div class="container grid grid-cols-2 gap-20 pt-100 pb-30">
-		<div></div>
+		<div class="lg:pr-10 xl:pr-20 2xl:pr-30">
+   			{{ component('typography/h1', { heading: entry.contactFields.heading, class: 'text-black anim-fade-up' }) }}
+        	{{ component('typography/intro-copy', { copy: entry.contactFields.keyline, class: 'text-white anim-fade-up' }) }}
+
+      		{{ component('typography/h3', { heading: entry.contactFields.contactDetailsHeading, tag: 'h2', class: 'mt-20 mb-6 text-black anim-fade-up' }) }}
+       		<a href="mailto:{{ entry.contactFields.email }}" title="Email Fuse Design" class="block text-3xl leading-normal font-normal text-white mb-2 anim-fade-up">
+         		{{ entry.contactFields.email }}
+         	</a>
+        	<a href="tel:{{ entry.contactFields.phone }}" title="Call Fuse Design" class="block text-3xl leading-normal font-normal text-white anim-fade-up">
+         		{{ entry.contactFields.phone }}
+         	</a>
+		</div>
 		<div>
 			{{ component('contact-form') }}
 		</div>
 	</div>
 
-	{{ component('global/footer-contact') }}
+	{{ component('global/footer-contact', { image: entry.image.one() }) }}
 {% endblock %}

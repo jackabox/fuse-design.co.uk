@@ -54,6 +54,23 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2025-09-30T01:36:21+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 9daba4be-465f-45a9-8f39-003ab04ac199 # Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Footer Image'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6f5c70dd-6f26-4d25-9a60-9edfa6a1f5a8
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: df924cd6-86a8-49ca-99a3-70edcdb54eb1
         userCondition: null
