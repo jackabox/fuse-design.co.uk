@@ -10,14 +10,18 @@
 	{% set spacingTopValues = {
 		default: 'pt-30',
 		none: '',
+		null: '',
 		small: 'pt-15',
-		large: 'pt-38',
+		large: 'pt-38'
 	} %}
 	{% set spacingBottomValues = {
 		default: 'pb-30',
 		none: '',
 		small: 'pb-15',
 		large: 'pb-38',
+		null: ''
 	} %}
-	{{ spacingTopValues[spacingTop] ~ ' ' ~ spacingBottomValues[spacingBottom] }}
+	{% set top = spacingTopValues[spacingTop] ?? '' }
+	{% set bottom = spacingBottomValues[spacingBottom] ?? '' }
+	{{ top ~ ' ' ~ bottom }}
 {% endmacro %}
