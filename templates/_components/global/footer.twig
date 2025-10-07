@@ -6,10 +6,10 @@
 
 <footer class="{{ footerBgColor }} {{ spacer('default', 'none')|spaceless }}">
 	<div class="container">
-		<div class="p-8 lg:p-16 bg-black text-white rounded-2xl grid grid-cols-2 gap-16 lg:gap-x-24 lg:gap-y-20">
+		<div class="p-8 lg:p-16 bg-black text-white rounded-2xl grid grid-cols-2 gap-10 lg:gap-x-24 lg:gap-y-20">
 			{{ component('typography/h3', { heading: footer.heading, class: 'text-2xl col-span-full' }) }}
 
-			<div class="col-span-full lg:col-span-1 flex flex-col gap-20">
+			<div class="col-span-full lg:col-span-1 flex flex-col gap-10 lg:gap-20">
 				{{ component('typography/intro-copy', { copy: footer.introText, class: '' }) }}
 				<div>
 					{{ component('button', { button: footer.button, color: 'white' }) }}
