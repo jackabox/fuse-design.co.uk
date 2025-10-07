@@ -4,23 +4,23 @@
 
 <!-- Template: {{ _self }} -->
 <section class="container {{ spacer('default', 'default')|spaceless }}">
-  {{ component('typography/h2', { tag: 'h2', heading: block.heading, class: 'text-black anim-fade-up' }) }}
+	{{ component('typography/h2', { tag: 'h2', heading: block.heading, class: 'text-black anim-fade-up' }) }}
 
-  <div class="grid grid-cols-2 mt-32 gap-20">
-    <div class="col-span-1">
-      {{ component('typography/intro-copy', { copy: block.description, class: 'text-black anim-fade-up' }) }}
-    </div>
+	<div class="grid grid-cols-2 mt-32 gap-20">
+		<div class="col-span-full lg:col-span-1">
+			{{ component('typography/intro-copy', { copy: block.description, class: 'text-black anim-fade-up' }) }}
+		</div>
 
-    <div class="col-span-1" x-data="{active: 2}">
-      {% for item in block.accordionItems.with('image').all() %}
-        {{ component('accordion-item', { item: item, id: loop.index }) }}
-      {% endfor %}
-    </div>
-  </div>
+		<div class="col-span-full lg:col-span-1" x-data="{active: 2}">
+			{% for item in block.accordionItems.with('image').all() %}
+				{{ component('accordion-item', { item: item, id: loop.index }) }}
+			{% endfor %}
+		</div>
+	</div>
 
-  {% if block.button %}
-    <div class="flex justify-end mt-25 anim-fade-up">
-      {{ component('button', { button: block.button }) }}
-    </div>
-  {% endif %}
+	{% if block.button %}
+		<div class="flex justify-end mt-25 anim-fade-up">
+			{{ component('button', { button: block.button }) }}
+		</div>
+	{% endif %}
 </section>
