@@ -38,19 +38,19 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2025-09-11T04:58:46+00:00'
+            dateAdded: '2025-10-07T16:21:16+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 54e89074-690f-4470-acd5-39367985c214 # Keyline
+            fieldUid: 1bd9010f-566e-4893-b804-b00dbb0e19f8 # Hero (Simple)
             handle: null
             includeInCards: false
             instructions: null
             label: null
             providesThumbs: false
-            required: true
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2425dd30-2c49-43f2-984a-33a73625ab0c
+            uid: b7dfdf6f-7f5c-4a12-bc76-2fcabc68ecd6
             userCondition: null
             warning: null
             width: 100
