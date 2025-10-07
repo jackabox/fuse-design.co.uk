@@ -4,7 +4,12 @@
 
 <!-- Template: {{ _self }} -->
 <section class="container pt-60 lg:pt-100 {{ spacer('none', 'default')|spaceless }}">
-	{{ component('typography/h1', { heading: block.keyline|raw|nl2br, class: 'anim-fade-up make-black-b' }) }}
+	{{
+		component(
+			'typography/h1',
+			{ heading: block.keyline|raw|nl2br, class: 'anim-fade-up lg:max-w-[60%] make-black-b' }
+		)
+	}}
 
 	{% if block.image.one() %}
 		{{
