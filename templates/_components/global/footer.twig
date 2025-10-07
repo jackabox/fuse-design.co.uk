@@ -5,101 +5,105 @@
 {% set footerBgColor = footerBgColor ?? '' %}
 
 <footer class="{{ footerBgColor }} {{ spacer('default', 'none')|spaceless }}">
-  <div class="container">
-    ￼<div class="p-16 bg-black text-white rounded-2xl grid grid-cols-2 gap-x-24 gap-y-20">
-      {{ component('typography/h3', { heading: footer.heading, class: 'text-2xl col-span-full' }) }}
+	<div class="container">
+		￼<div class="p-16 bg-black text-white rounded-2xl grid grid-cols-2 gap-x-24 gap-y-20">
+			{{ component('typography/h3', { heading: footer.heading, class: 'text-2xl col-span-full' }) }}
 
-      <div class="col-span-1 flex flex-col gap-20">
-        {{ component('typography/intro-copy', { copy: footer.introText, class: '' }) }}
-        <div>
-          {{ component('button', { button: footer.button, color: 'white' }) }}
-        </div>
-      </div>
+			<div class="col-span-full lg:col-span-1 flex flex-col gap-20">
+				{{ component('typography/intro-copy', { copy: footer.introText, class: '' }) }}
+				<div>
+					{{ component('button', { button: footer.button, color: 'white' }) }}
+				</div>
+			</div>
 
-      <div class="col-span-1">
-        {{ component('typography/h3', { heading: 'Contact', class: 'text-grey mb-6' }) }}
+			<div class="col-span-full lg:col-span-1">
+				{{ component('typography/h3', { heading: 'Contact', class: 'text-grey mb-6' }) }}
 
-        <div class="flex flex-col gap-6">
-          <p>
-            <a
-              class="text-3xl font-normal duration-300 hover:text-purple"
-              href="mailto:{{ footer.email }}"
-              title="Email {{ siteName }} at {{ footer.email }}"
-            >
-              {{ footer.email }}
-            </a>
-          </p>
+				<div class="flex flex-col gap-6">
+					<p>
+						<a
+							class="text-3xl font-normal duration-300 hover:text-purple"
+							href="mailto:{{ footer.email }}"
+							title="Email {{ siteName }} at {{ footer.email }}"
+						>
+							{{ footer.email }}
+						</a>
+					</p>
 
-          <p>
-            <a
-              class="text-3xl duration-300 hover:text-purple"
-              href="tel:{{ footer.phone }}"
-              title="Phone {{ siteName }} at {{ footer.phone }}"
-            >
-              {{ footer.phone }}
-            </a>
-          </p>
-        </div>
+					<p>
+						<a
+							class="text-3xl duration-300 hover:text-purple"
+							href="tel:{{ footer.phone }}"
+							title="Phone {{ siteName }} at {{ footer.phone }}"
+						>
+							{{ footer.phone }}
+						</a>
+					</p>
+				</div>
 
-        <div class="mt-18 grid grid-cols-3 gap-10">
-          <div>
-            {{ component('typography/h3', { heading: 'Nottingham', class: 'text-grey mb-6' }) }}
-            <address class="not-italic text-lg">
-              {{ footer.addresses.address1|nl2br }}
-            </address>
-          </div>
+				<div class="mt-18 grid grid-cols-3 gap-10">
+					<div>
+						{{ component('typography/h3', { heading: 'Nottingham', class: 'text-grey mb-6' }) }}
+						<address class="not-italic text-lg">
+							{{ footer.addresses.address1|nl2br }}
+						</address>
+					</div>
 
-          <div>
-            {{ component('typography/h3', { heading: 'Lincoln', class: 'text-grey mb-6' }) }}
-            <address class="not-italic text-lg">
-              {{ footer.addresses.address2|nl2br }}
-            </address>
-          </div>
+					<div>
+						{{ component('typography/h3', { heading: 'Lincoln', class: 'text-grey mb-6' }) }}
+						<address class="not-italic text-lg">
+							{{ footer.addresses.address2|nl2br }}
+						</address>
+					</div>
 
-          <div>
-            {{ component('typography/h3', { heading: 'Social', class: 'text-grey mb-6' }) }}
-            <nav class="flex flex-col" aria-label="Links to {{ siteName }}'s socials">
-              {% if socials.instagram %}
-                <a
-                  class="text-lg duration-300 hover:text-purple"
-                  href="{{ socials.instagram }}"
-                  title="Visit our Instagram"
-                >
-                  Instagram
-                </a>
-              {% endif %}
+					<div>
+						{{ component('typography/h3', { heading: 'Social', class: 'text-grey mb-6' }) }}
+						<nav class="flex flex-col" aria-label="Links to {{ siteName }}'s socials">
+							{% if socials.instagram %}
+								<a
+									class="text-lg duration-300 hover:text-purple"
+									href="{{ socials.instagram }}"
+									title="Visit our Instagram"
+								>
+									Instagram
+								</a>
+							{% endif %}
 
-              {% if socials.linkedin %}
-                <a
-                  class="text-lg duration-300 hover:text-purple"
-                  href="{{ socials.linkedin }}"
-                  title="Visit our Instagram"
-                >
-                  LinkedIn
-                </a>
-              {% endif %}
+							{% if socials.linkedin %}
+								<a
+									class="text-lg duration-300 hover:text-purple"
+									href="{{ socials.linkedin }}"
+									title="Visit our Instagram"
+								>
+									LinkedIn
+								</a>
+							{% endif %}
 
-              {% if socials.x %}
-                <a class="text-lg duration-300 hover:text-purple" href="{{ socials.x }}" title="Visit our Instagram">
-                  X
-                </a>
-              {% endif %}
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
+							{% if socials.x %}
+								<a
+									class="text-lg duration-300 hover:text-purple"
+									href="{{ socials.x }}"
+									title="Visit our Instagram"
+								>
+									X
+								</a>
+							{% endif %}
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <div class="my-10 grid grid-cols-2 gap-8 lg:gap-12 lg:items-end">
-      <div class="col-span-full lg:col-span-1">
-        <p class="text-sm">
-          &copy; {{ siteName }} {{ currentYear }}
-        </p>
-      </div>
+		<div class="my-10 grid grid-cols-2 gap-8 lg:gap-12 lg:items-end">
+			<div class="col-span-full lg:col-span-1">
+				<p class="text-sm">
+					&copy; {{ siteName }} {{ currentYear }}
+				</p>
+			</div>
 
-      <div class="col-span-full lg:col-span-1">
-        {{ component('navigation/footer-privacy') }}
-      </div>
-    </div>
-  </div>
+			<div class="col-span-full lg:col-span-1">
+				{{ component('navigation/footer-privacy') }}
+			</div>
+		</div>
+	</div>
 </footer>
