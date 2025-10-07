@@ -8,17 +8,17 @@
 
 {% macro spacer(spacingTop = 'default', spacingBottom = 'default') %}
 	{% set spacingTopValues = {
-		default: 'pt-30',
+		default: 'pt-20 lg:pt-30',
 		none: '',
 		null: '',
-		small: 'pt-15',
-		large: 'pt-38'
+		small: 'pt-10 lg:pt-15',
+		large: 'pt-26 lg:pt-38'
 	} %}
 	{% set spacingBottomValues = {
-		default: 'pb-30',
+		default: 'pb-20 lg:pb-30',
 		none: '',
-		small: 'pb-15',
-		large: 'pb-38',
+		small: 'pb-10 lg:pb-15',
+		large: 'pb-26 lg:pb-38',
 		null: ''
 	} %}
 	{% set top = spacingTopValues[spacingTop] ?? '' %}
