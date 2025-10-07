@@ -3,43 +3,43 @@
 
 <!-- Template: {{ _self }} -->
 <div class="grid grid-cols-1 lg:grid-cols-2 relative group">
-  <div class="px-6 lg:px-0 lg:py-10 flex flex-col col-span-1">
-    <div
-      class="flex p-10 lg:p-15 flex-col h-full lg:rounded-l-2xl bg-opacity-80 grid grid-cols-5 gap-20"
-      style="background-color: {{ service.backgroundColour }}80"
-    >
-      <div class="col-span-2">
-        {{ component('typography/h2', { heading: service.title, class: 'text-black anim-fade-up' }) }}
-      </div>
+	<div class="px-6 lg:px-0 lg:py-10 flex flex-col col-span-1">
+		<div
+			class="flex p-10 lg:p-15 flex-col h-full lg:rounded-l-2xl bg-opacity-80 grid grid-cols-5 gap-20"
+			style="background-color: {{ service.backgroundColour }}80"
+		>
+			<div class="col-span-full lg:col-span-2">
+				{{ component('typography/h2', { heading: service.title, class: 'text-black anim-fade-up' }) }}
+			</div>
 
-      <div class="col-span-3">
-        <div class="rte text-black anim-fade-up">
-          {{ service.text }}
-        </div>
+			<div class="col-span-full lg:col-span-3">
+				<div class="rte text-black anim-fade-up">
+					{{ service.text }}
+				</div>
 
-        <div class="mt-6 lg:mt-10">
-          {{ component('button', { button: service.button, class: 'anim-fade-up' }) }}
-        </div>
-      </div>
-    </div>
-  </div>
+				<div class="mt-6 lg:mt-10">
+					{{ component('button', { button: service.button, class: 'anim-fade-up' }) }}
+				</div>
+			</div>
+		</div>
+	</div>
 
-  <div
-    class="col-span-1 p-10 lg:px-15 lg:py-25 rounded-2xl grid grid-cols-2 gap-0"
-    style="background-color: {{ service.backgroundColour }}"
-  >
-    <div>
-      {{ component('typography/h3', { heading: 'Services', class: 'text-black anim-fade-up' }) }}
+	<div
+		class="col-span-1 p-10 lg:px-15 lg:py-25 rounded-2xl grid grid-cols-1 lg:grid-cols-2 gap-0"
+		style="background-color: {{ service.backgroundColour }}"
+	>
+		<div>
+			{{ component('typography/h3', { heading: 'Services', class: 'text-black anim-fade-up' }) }}
 
-      <ul class="mt-4 flex flex-col gap-1">
-        {% for item in service.services %}
-          <li class="text-lg anim-fade-up">{{ item.service }}</li>
-        {% endfor %}
-      </ul>
-    </div>
+			<ul class="mt-4 flex flex-col gap-1">
+				{% for item in service.services %}
+					<li class="text-lg anim-fade-up">{{ item.service }}</li>
+				{% endfor %}
+			</ul>
+		</div>
 
-    <div class="self-center pl-10">
-      {{ image(service.image.one(), { wrapperClass: '', class: 'anim-fade-in', lazy: true }) }}
-    </div>
-  </div>
+		<div class="self-center pl-10">
+			{{ image(service.image.one(), { wrapperClass: '', class: 'anim-fade-in', lazy: true }) }}
+		</div>
+	</div>
 </div>
