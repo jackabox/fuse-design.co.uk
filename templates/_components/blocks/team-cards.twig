@@ -3,12 +3,12 @@
 {% from '_macros/component' import component, spacer %}
 
 <!-- Template: {{ _self }} -->
-<section class="container {{ spacer(block.spacingTop, block.spacingBottom)|spaceless }}">
-  {{ component('typography/h2', { heading: block.title, class: 'text-black anim-fade-up' }) }}
+<section class="container {{ spacer(block.spacingTop.value, block.spacingBottom.value)|spaceless }}">
+	{{ component('typography/h2', { heading: block.title, class: 'text-black anim-fade-up' }) }}
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-20 mt-10 lg:mt-20">
-    {% for member in block.teamMembers.with('image').all() %}
-      {{ component('team-card', { member: member }) }}
-    {% endfor %}
-  </div>
+	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-20 mt-10 lg:mt-20">
+		{% for member in block.teamMembers.with('image').all() %}
+			{{ component('team-card', { member: member }) }}
+		{% endfor %}
+	</div>
 </section>
