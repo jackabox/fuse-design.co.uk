@@ -13,7 +13,11 @@
 	{{
 		image(
 			project.image.one(),
-			{ wrapperClass: 'aspect-[16/8] block overflow-hidden', class: 'w-full h-full object-cover', lazy: true }
+			{
+				wrapperClass: 'aspect-square lg:aspect-[16/8] block overflow-hidden',
+				class: 'w-full h-full object-cover',
+				lazy: true
+			}
 		)
 	}}
 
