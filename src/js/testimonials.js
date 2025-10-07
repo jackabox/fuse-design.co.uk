@@ -17,7 +17,7 @@ export default () => ({
 			{
 				loop: true,
 			},
-			[Fade(), Autoplay({ playOnInit: true, delay: 10000 })],
+			[Autoplay({ playOnInit: true, delay: 10000 })],
 		)
 
 		const removePrevNextBtnsClickHandlers = addPrevNextBtnsClickHandlers(emblaApi, prevBtnNode, nextBtnNode)
