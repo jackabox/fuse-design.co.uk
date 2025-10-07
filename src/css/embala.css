@@ -16,7 +16,6 @@
 	transition:
 		height 0.2s,
 		opacity 0.2s,
-		width 0.2s,
 		color 0.2s;
 	touch-action: pan-y pinch-zoom;
 	margin-left: calc(var(--slide-spacing) * -1);
