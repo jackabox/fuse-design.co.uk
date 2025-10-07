@@ -28,7 +28,7 @@ export default () => ({
 	},
 
 	resizeEvent() {
-		this.showNav = window.innerWidth <= 1024 ? false : true
+		this.showNav = window.innerWidth < 1024 ? false : true
 		this.overflowClass()
 	},
 
@@ -36,7 +36,7 @@ export default () => ({
 		const html = document.querySelector("html")
 		const body = document.querySelector("body")
 
-		if (this.showNav && window.innerWidth <= 1024) {
+		if (this.showNav && window.innerWidth < 1024) {
 			html.classList.add("overflow-hidden")
 			body.classList.add("overflow-hidden")
 		} else {
