@@ -4,15 +4,15 @@
 
 <!-- Template: {{ _self }} -->
 <section class="container {{ spacer(block.spacingTop.value, block.spacingBottom.value)|spaceless }}">
-  <div class="flex">
-    <div class="w-1/2 {{ block.textPosition == 'right' ? 'ml-auto pl-4' : 'pr-4' }}">
-      {{ component('typography/h3', { heading: block.title, tag: 'h2', class: 'text-black' }) }}
+	<div class="flex">
+		<div class="lg:w-1/2 {{ block.textPosition == 'right' ? 'ml-auto lg:pl-4' : 'lg:pr-4' }}">
+			{{ component('typography/h3', { heading: block.title, tag: 'h2', class: 'text-black' }) }}
 
-      <div class="rte mt-2 mb-16">
-        {{ block.text }}
-      </div>
+			<div class="rte mt-2 mb-8 lg:mb-16">
+				{{ block.text }}
+			</div>
 
-      {{ link(block.button, { class: 'underline underline-offset-4 text-black text-lg' }) }}
-    </div>
-  </div>
+			{{ link(block.button, { class: 'underline underline-offset-4 text-black text-lg' }) }}
+		</div>
+	</div>
 </section>
