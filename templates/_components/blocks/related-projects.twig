@@ -5,14 +5,14 @@
 
 <!-- Template: {{ _self }} -->
 <section class="container {{ spacer(block.spacingTop.value, block.spacingBottom.value)|spaceless }}">
-  <div class="flex flex-wrap gap-6 justify-between items-center">
-    {{ component('typography/h2', { heading: block.title, tag: 'h2', class: 'text-black' }) }}
-    {{ component('button', { url: projectsPage.url, text: 'View all projects' }) }}
-  </div>
+	<div class="flex flex-wrap gap-6 justify-between items-center">
+		{{ component('typography/h2', { heading: block.title, tag: 'h2', class: 'text-black' }) }}
+		{{ component('button', { url: projectsPage.url, text: 'View all projects' }) }}
+	</div>
 
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-11 mt-26">
-    {% for project in block.projects.all() %}
-      {{ component('project-card', { project: project }) }}
-    {% endfor %}
-  </div>
+	<div class="grid grid-cols-1 lg:grid-cols-2 gap-11 mt-13 lg:mt-26">
+		{% for project in block.projects.all() %}
+			{{ component('project-card', { project: project }) }}
+		{% endfor %}
+	</div>
 </section>
