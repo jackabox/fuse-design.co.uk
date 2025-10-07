@@ -5,27 +5,35 @@
 {% set textsize = block.textSize == 'small' ? 'text-lg' : '' %}
 
 {% if block %}
-  <section class="{{ spacer(block.spacingTop, block.spacingBottom)|spaceless }}">
-    <div class="container grid grid-cols-1 lg:grid-cols-2 gap-20 lg:order-1">
-      <div class="lg:order-2">
-        {{
-          image(
-            block.image.one(),
-            { wrapperClass: 'block aspect-square overflow-hidden rounded-2xl', class: 'object-cover w-full h-full' }
-          )
-        }}
-      </div>
+	<section class="{{ spacer(block.spacingTop.value, block.spacingBottom.value)|spaceless }}">
+		<div class="container grid grid-cols-1 lg:grid-cols-2 gap-20 lg:order-1">
+			<div class="lg:order-2">
+				{{
+					image(
+						block.image.one(),
+						{
+							wrapperClass: 'block aspect-square overflow-hidden rounded-2xl',
+							class: 'object-cover w-full h-full'
+						}
+					)
+				}}
+			</div>
 
-      <div class="h-full flex flex-col justify-center gap-12">
-        {{ component('typography/h2', { heading: block.title, class: 'text-black anim-fade-up' }) }}
-        {{ component('typography/intro-copy', { copy: block.keyline, class: 'text-black anim-fade-up ' ~ textsize  }) }}
+			<div class="h-full flex flex-col justify-center gap-12">
+				{{ component('typography/h2', { heading: block.title, class: 'text-black anim-fade-up' }) }}
+				{{
+					component(
+						'typography/intro-copy',
+						{ copy: block.keyline, class: 'text-black anim-fade-up ' ~ textsize }
+					)
+				}}
 
-        {% if block.button %}
-          <div class="anim-fade-up">
-            {{ component('button', { button: block.button }) }}
-          </div>
-        {% endif %}
-      </div>
-    </div>
-  </section>
+				{% if block.button %}
+					<div class="anim-fade-up">
+						{{ component('button', { button: block.button }) }}
+					</div>
+				{% endif %}
+			</div>
+		</div>
+	</section>
 {% endif %}

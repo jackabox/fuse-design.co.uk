@@ -3,6 +3,6 @@
 {% from '_macros/component' import component, spacer %}
 
 <!-- Template: {{ _self }} -->
-<section class="{{ spacer(block.spacingTop, block.spacingBottom)|spaceless }}">
+<section class="{{ spacer(block.spacingTop.value, block.spacingBottom.value)|spaceless }}">
   {{ image(block.image.one(), { class: 'w-full h-auto' }) }}
 </section>

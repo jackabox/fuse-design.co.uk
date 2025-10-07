@@ -4,7 +4,7 @@
 {% set projectsPage = craft.entries.section('projectPage').one() %}
 
 <!-- Template: {{ _self }} -->
-<section class="container {{ spacer(block.spacingTop, block.spacingBottom)|spaceless }}">
+<section class="container {{ spacer(block.spacingTop.value, block.spacingBottom.value)|spaceless }}">
   <div class="flex flex-wrap gap-6 justify-between items-center">
     {{ component('typography/h2', { heading: block.title, tag: 'h2', class: 'text-black' }) }}
     {{ component('button', { url: projectsPage.url, text: 'View all projects' }) }}

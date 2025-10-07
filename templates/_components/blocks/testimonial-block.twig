@@ -3,7 +3,7 @@
 {% from '_macros/component' import component, spacer %}
 
 <!-- Template: {{ _self }} -->
-<section x-data="testimonials()" class="container embla {{ spacer(block.spacingTop, block.spacingBottom)|spaceless }}">
+<section x-data="testimonials()" class="container embla {{ spacer(block.spacingTop.value, block.spacingBottom.value)|spaceless }}">
   <div class="embla__viewport" x-ref="slider">
     <div class="embla__container">
       {% for testimonial in block.testimonialEntries.all() %}

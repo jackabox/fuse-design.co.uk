@@ -3,4 +3,4 @@
 {% from '_macros/component' import component, spacer %}
 
 <!-- Template: {{ _self }} -->
-<section class="container {{ spacer(block.spacingTop, block.spacingBottom)|spaceless }}"></section>
+<section class="container {{ spacer(block.spacingTop.value, block.spacingBottom.value)|spaceless }}"></section>

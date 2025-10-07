@@ -3,7 +3,7 @@
 {% from '_macros/component' import component, spacer %}
 
 <!-- Template: {{ _self }} -->
-<section class="container {{ spacer(block.spacingTop, block.spacingBottom)|spaceless }}">
+<section class="container {{ spacer(block.spacingTop.value, block.spacingBottom.value)|spaceless }}">
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-20">
     {% for item in block.textColumns.all() %}
       <div class="space-y-4 lg:space-y-6">
