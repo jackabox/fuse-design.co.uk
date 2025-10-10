@@ -2,6 +2,7 @@ export default () => ({
 	showNav: false,
 	atTop: true,
 	scrollingUp: true,
+	isMobile: window.innerWidth < 1024,
 
 	init() {
 		this.resizeEvent()
@@ -28,7 +29,8 @@ export default () => ({
 	},
 
 	resizeEvent() {
-		this.showNav = window.innerWidth < 1024 ? false : true
+		this.isMobile = window.innerWidth < 1024
+		this.showNav = !this.isMobile
 		this.overflowClass()
 	},
 
@@ -36,7 +38,7 @@ export default () => ({
 		const html = document.querySelector("html")
 		const body = document.querySelector("body")
 
-		if (this.showNav && window.innerWidth < 1024) {
+		if (this.showNav && this.isMobile) {
 			html.classList.add("overflow-hidden")
 			body.classList.add("overflow-hidden")
 		} else {
