@@ -1,0 +1,146 @@
+description: null
+handle: team
+name: Team
+permissions:
+  - accesscpwhensystemisoff
+  - accessplugin-navigation
+  - accessplugin-seomatic
+  - accesssitewhensystemisoff
+  - administrateusers
+  - 'createentries:0a1dc461-ccdc-4bd5-8298-afb756fce502' # Services
+  - 'createentries:5faea1db-e316-4d7d-b49e-ecc67bcf701d' # Testimonials
+  - 'createentries:640b0639-40ae-45f3-91e4-7df7c304389e' # Pages
+  - 'createentries:6f5d9b13-5f8a-4bbe-ae3e-cf64c4fb0a09' # Team Memberrs
+  - 'createentries:d12bbeb8-7db6-4f9f-80c4-3c25ed163cc7' # Projects
+  - 'createfolders:8d63a2be-cef9-44f2-b01f-679464482fe9' # Default
+  - 'deleteassets:8d63a2be-cef9-44f2-b01f-679464482fe9' # Default
+  - 'deleteentries:0a1dc461-ccdc-4bd5-8298-afb756fce502' # Services
+  - 'deleteentries:5faea1db-e316-4d7d-b49e-ecc67bcf701d' # Testimonials
+  - 'deleteentries:640b0639-40ae-45f3-91e4-7df7c304389e' # Pages
+  - 'deleteentries:6f5d9b13-5f8a-4bbe-ae3e-cf64c4fb0a09' # Team Memberrs
+  - 'deleteentries:d12bbeb8-7db6-4f9f-80c4-3c25ed163cc7' # Projects
+  - 'deletepeerassets:8d63a2be-cef9-44f2-b01f-679464482fe9' # Default
+  - 'deletepeerentries:0a1dc461-ccdc-4bd5-8298-afb756fce502' # Services
+  - 'deletepeerentries:5faea1db-e316-4d7d-b49e-ecc67bcf701d' # Testimonials
+  - 'deletepeerentries:640b0639-40ae-45f3-91e4-7df7c304389e' # Pages
+  - 'deletepeerentries:6f5d9b13-5f8a-4bbe-ae3e-cf64c4fb0a09' # Team Memberrs
+  - 'deletepeerentries:d12bbeb8-7db6-4f9f-80c4-3c25ed163cc7' # Projects
+  - 'deletepeerentrydrafts:0a1dc461-ccdc-4bd5-8298-afb756fce502' # Services
+  - 'deletepeerentrydrafts:23015700-02c7-4378-a22a-2b644516a091' # Home Page
+  - 'deletepeerentrydrafts:5faea1db-e316-4d7d-b49e-ecc67bcf701d' # Testimonials
+  - 'deletepeerentrydrafts:640b0639-40ae-45f3-91e4-7df7c304389e' # Pages
+  - 'deletepeerentrydrafts:6f5d9b13-5f8a-4bbe-ae3e-cf64c4fb0a09' # Team Memberrs
+  - 'deletepeerentrydrafts:b53285ee-90b7-417c-9941-42df98ec813c' # Services Page
+  - 'deletepeerentrydrafts:d12bbeb8-7db6-4f9f-80c4-3c25ed163cc7' # Projects
+  - 'deletepeerentrydrafts:d4bd7261-9243-40ea-bb4b-6f536fb20a8e' # Project Page
+  - 'deletepeerentrydrafts:dace3e33-0b77-4c29-af31-f65549d05de1' # Contact Page
+  - 'deletepeerentrydrafts:ef04ab26-7fb3-430b-ab5e-65f49fb31f15' # About Page
+  - deleteusers
+  - 'editglobalset:1d7af5a4-c775-423b-bb8a-e79c9bce75b8' # Header
+  - 'editglobalset:68f6e4e1-5908-417c-bf85-b3d4056756bd' # Footer
+  - 'editimages:8d63a2be-cef9-44f2-b01f-679464482fe9' # Default
+  - 'editpeerimages:8d63a2be-cef9-44f2-b01f-679464482fe9' # Default
+  - editusers
+  - impersonateusers
+  - moderateusers
+  - navigation-createnavs
+  - 'navigation-deletenav:8081b7e6-b2e2-4170-95be-6ba1d5a52233' # Footer Privacy
+  - 'navigation-deletenav:fa0628a0-33d7-4398-bc71-75f05036e72d' # Main Nav
+  - 'navigation-editnav:8081b7e6-b2e2-4170-95be-6ba1d5a52233' # Footer Privacy
+  - 'navigation-editnav:fa0628a0-33d7-4398-bc71-75f05036e72d' # Main Nav
+  - 'navigation-managenav:8081b7e6-b2e2-4170-95be-6ba1d5a52233' # Footer Privacy
+  - 'navigation-managenav:fa0628a0-33d7-4398-bc71-75f05036e72d' # Main Nav
+  - registerusers
+  - 'replacefiles:8d63a2be-cef9-44f2-b01f-679464482fe9' # Default
+  - 'replacepeerfiles:8d63a2be-cef9-44f2-b01f-679464482fe9' # Default
+  - 'saveassets:8d63a2be-cef9-44f2-b01f-679464482fe9' # Default
+  - 'saveentries:0a1dc461-ccdc-4bd5-8298-afb756fce502' # Services
+  - 'saveentries:23015700-02c7-4378-a22a-2b644516a091' # Home Page
+  - 'saveentries:5faea1db-e316-4d7d-b49e-ecc67bcf701d' # Testimonials
+  - 'saveentries:640b0639-40ae-45f3-91e4-7df7c304389e' # Pages
+  - 'saveentries:6f5d9b13-5f8a-4bbe-ae3e-cf64c4fb0a09' # Team Memberrs
+  - 'saveentries:b53285ee-90b7-417c-9941-42df98ec813c' # Services Page
+  - 'saveentries:d12bbeb8-7db6-4f9f-80c4-3c25ed163cc7' # Projects
+  - 'saveentries:d4bd7261-9243-40ea-bb4b-6f536fb20a8e' # Project Page
+  - 'saveentries:dace3e33-0b77-4c29-af31-f65549d05de1' # Contact Page
+  - 'saveentries:ef04ab26-7fb3-430b-ab5e-65f49fb31f15' # About Page
+  - 'savepeerassets:8d63a2be-cef9-44f2-b01f-679464482fe9' # Default
+  - 'savepeerentries:0a1dc461-ccdc-4bd5-8298-afb756fce502' # Services
+  - 'savepeerentries:5faea1db-e316-4d7d-b49e-ecc67bcf701d' # Testimonials
+  - 'savepeerentries:640b0639-40ae-45f3-91e4-7df7c304389e' # Pages
+  - 'savepeerentries:6f5d9b13-5f8a-4bbe-ae3e-cf64c4fb0a09' # Team Memberrs
+  - 'savepeerentries:d12bbeb8-7db6-4f9f-80c4-3c25ed163cc7' # Projects
+  - 'savepeerentrydrafts:0a1dc461-ccdc-4bd5-8298-afb756fce502' # Services
+  - 'savepeerentrydrafts:23015700-02c7-4378-a22a-2b644516a091' # Home Page
+  - 'savepeerentrydrafts:5faea1db-e316-4d7d-b49e-ecc67bcf701d' # Testimonials
+  - 'savepeerentrydrafts:640b0639-40ae-45f3-91e4-7df7c304389e' # Pages
+  - 'savepeerentrydrafts:6f5d9b13-5f8a-4bbe-ae3e-cf64c4fb0a09' # Team Memberrs
+  - 'savepeerentrydrafts:b53285ee-90b7-417c-9941-42df98ec813c' # Services Page
+  - 'savepeerentrydrafts:d12bbeb8-7db6-4f9f-80c4-3c25ed163cc7' # Projects
+  - 'savepeerentrydrafts:d4bd7261-9243-40ea-bb4b-6f536fb20a8e' # Project Page
+  - 'savepeerentrydrafts:dace3e33-0b77-4c29-af31-f65549d05de1' # Contact Page
+  - 'savepeerentrydrafts:ef04ab26-7fb3-430b-ab5e-65f49fb31f15' # About Page
+  - 'seomatic:content-meta'
+  - 'seomatic:content-meta:facebook'
+  - 'seomatic:content-meta:general'
+  - 'seomatic:content-meta:sitemap'
+  - 'seomatic:content-meta:twitter'
+  - 'seomatic:dashboard'
+  - 'seomatic:global-meta'
+  - 'seomatic:global-meta:ads'
+  - 'seomatic:global-meta:facebook'
+  - 'seomatic:global-meta:general'
+  - 'seomatic:global-meta:humans'
+  - 'seomatic:global-meta:robots'
+  - 'seomatic:global-meta:security'
+  - 'seomatic:global-meta:twitter'
+  - 'seomatic:plugin-settings'
+  - 'seomatic:site-settings'
+  - 'seomatic:site-settings:creator'
+  - 'seomatic:site-settings:identity'
+  - 'seomatic:site-settings:miscellaneous'
+  - 'seomatic:site-settings:sitemap'
+  - 'seomatic:site-settings:social'
+  - 'seomatic:tracking-scripts'
+  - 'seomatic:tracking-scripts:facebookpixel'
+  - 'seomatic:tracking-scripts:fathom'
+  - 'seomatic:tracking-scripts:googleanalytics'
+  - 'seomatic:tracking-scripts:googletagmanager'
+  - 'seomatic:tracking-scripts:gtag'
+  - 'seomatic:tracking-scripts:hubspot'
+  - 'seomatic:tracking-scripts:linkedininsight'
+  - 'seomatic:tracking-scripts:matomo'
+  - 'seomatic:tracking-scripts:pinteresttag'
+  - 'seomatic:tracking-scripts:plausible'
+  - 'utility:clear-caches'
+  - 'utility:db-backup'
+  - 'utility:queue-manager'
+  - 'utility:system-report'
+  - 'viewassets:8d63a2be-cef9-44f2-b01f-679464482fe9' # Default
+  - 'viewentries:0a1dc461-ccdc-4bd5-8298-afb756fce502' # Services
+  - 'viewentries:23015700-02c7-4378-a22a-2b644516a091' # Home Page
+  - 'viewentries:5faea1db-e316-4d7d-b49e-ecc67bcf701d' # Testimonials
+  - 'viewentries:640b0639-40ae-45f3-91e4-7df7c304389e' # Pages
+  - 'viewentries:6f5d9b13-5f8a-4bbe-ae3e-cf64c4fb0a09' # Team Memberrs
+  - 'viewentries:b53285ee-90b7-417c-9941-42df98ec813c' # Services Page
+  - 'viewentries:d12bbeb8-7db6-4f9f-80c4-3c25ed163cc7' # Projects
+  - 'viewentries:d4bd7261-9243-40ea-bb4b-6f536fb20a8e' # Project Page
+  - 'viewentries:dace3e33-0b77-4c29-af31-f65549d05de1' # Contact Page
+  - 'viewentries:ef04ab26-7fb3-430b-ab5e-65f49fb31f15' # About Page
+  - 'viewpeerassets:8d63a2be-cef9-44f2-b01f-679464482fe9' # Default
+  - 'viewpeerentries:0a1dc461-ccdc-4bd5-8298-afb756fce502' # Services
+  - 'viewpeerentries:5faea1db-e316-4d7d-b49e-ecc67bcf701d' # Testimonials
+  - 'viewpeerentries:640b0639-40ae-45f3-91e4-7df7c304389e' # Pages
+  - 'viewpeerentries:6f5d9b13-5f8a-4bbe-ae3e-cf64c4fb0a09' # Team Memberrs
+  - 'viewpeerentries:d12bbeb8-7db6-4f9f-80c4-3c25ed163cc7' # Projects
+  - 'viewpeerentrydrafts:0a1dc461-ccdc-4bd5-8298-afb756fce502' # Services
+  - 'viewpeerentrydrafts:23015700-02c7-4378-a22a-2b644516a091' # Home Page
+  - 'viewpeerentrydrafts:5faea1db-e316-4d7d-b49e-ecc67bcf701d' # Testimonials
+  - 'viewpeerentrydrafts:640b0639-40ae-45f3-91e4-7df7c304389e' # Pages
+  - 'viewpeerentrydrafts:6f5d9b13-5f8a-4bbe-ae3e-cf64c4fb0a09' # Team Memberrs
+  - 'viewpeerentrydrafts:b53285ee-90b7-417c-9941-42df98ec813c' # Services Page
+  - 'viewpeerentrydrafts:d12bbeb8-7db6-4f9f-80c4-3c25ed163cc7' # Projects
+  - 'viewpeerentrydrafts:d4bd7261-9243-40ea-bb4b-6f536fb20a8e' # Project Page
+  - 'viewpeerentrydrafts:dace3e33-0b77-4c29-af31-f65549d05de1' # Contact Page
+  - 'viewpeerentrydrafts:ef04ab26-7fb3-430b-ab5e-65f49fb31f15' # About Page
+  - viewusers

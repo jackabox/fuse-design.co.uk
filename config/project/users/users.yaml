@@ -1,0 +1,6 @@
+allowPublicRegistration: false
+defaultGroup: null
+photoSubpath: user-icons
+photoVolumeUid: 8d63a2be-cef9-44f2-b01f-679464482fe9 # Default
+require2fa: false
+requireEmailVerification: true
