@@ -6,7 +6,7 @@
 <section class="container {{ spacer(block.spacingTop.value, block.spacingBottom.value)|spaceless }}">
 	<div class="grid gap-11 {{ block.imagePerRow == 'two' ? 'grid-cols-1 lg:grid-cols-2' : 'grid-cols-1' }}">
 		{% for image in block.images.all() %}
-			<div class="col-span-1">
+			<div class="col-span-1 anim-fade-in">
 				{{ image(image, { class: 'w-full h-auto rounded-2xl' }) }}
 			</div>
 		{% endfor %}

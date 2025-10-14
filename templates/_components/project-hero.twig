@@ -8,13 +8,13 @@
 	<div class="container">
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
 			<div class="lg:mb-28 col-span-1 flex flex-col">
-				{{ component('typography/h3', { heading: entry.title, tag: 'h1', class: 'mt-auto ' ~ textColour }) }}
+				{{ component('typography/h3', { heading: entry.title, tag: 'h1', class: 'mt-auto anim-fade-up ' ~ textColour }) }}
 
-				<p class="text-4xl leading-13 mt-8 lg:mt-16">
+				<p class="text-4xl leading-13 mt-8 lg:mt-16 anim-fade-up">
 					{{ entry.keyline }}
 				</p>
 
-				{{ component('tags', { tags: entry.projectCategories.all(), class: 'mt-16' }) }}
+				{{ component('tags', { tags: entry.projectCategories.all(), class: 'mt-16 anim-fade-up' }) }}
 			</div>
 
 			<div class="col-span-1 -mb-16">
@@ -22,7 +22,7 @@
 					image(
 						entry.image.one(),
 						{
-							wrapperClass: 'aspect-[8/7] block overflow-hidden',
+							wrapperClass: 'aspect-[8/7] block overflow-hidden anim-fade-in',
 							class: 'w-full h-full rounded-2xl object-cover'
 						}
 					)
