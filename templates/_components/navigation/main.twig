@@ -12,13 +12,17 @@
 	x-transition:leave-end="transform -translate-y-full"
 	style="display: none;"
 >
-	<a href="/" title="{{ siteName }}"
-		class="w-[56px] h-[56px] transition-all duration-200"
+	<a 
+		href="/" 
+		title="{{ siteName }}"
+		class="block transition-all overflow-hidden duration-300"
 		:class="{
-			'opacity-0 hidden' : atTop,
-			'opacity-100 block' : !atTop,
+			'w-0' : atTop,
+			'w-[56px]' : !atTop,
 		}"
-	>{{ svg('@webroot/svg/logo-sm.svg')|attr({ class: 'w-full h-full' }) }}</a>
+	>
+		{{ svg('@webroot/svg/logo-sm.svg')|attr({ class: 'w-[56px] h-[56px]' }) }}
+	</a>
 
 	<ul class="flex flex-col lg:flex-row">
 		

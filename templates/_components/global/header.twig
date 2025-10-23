@@ -14,9 +14,9 @@
 		title="{{ siteName }}"
 		class="transtion duration-300 z-50"
 		:class="{
-    'opacity-100 translate-y-0 ' : atTop,
-    'opacity-0 -translate-y-full pointer-events-none' : !atTop,
-  }"
+    		'opacity-100 translate-y-0 ' : atTop,
+    		'opacity-0 -translate-y-full pointer-events-none' : !atTop,
+  		}"
 	>
 		<div x-show="!isMobile">
 			{{ svg("@webroot/svg/logo-#{logoColour}.svg")|attr({ class: 'w-[140px] h-auto' }) }}
