@@ -29,16 +29,16 @@
 		style="background-color: {{ service.backgroundColour }}"
 	>
 		<div>
-			{{ component('typography/h3', { heading: 'Services', class: 'text-black anim-fade-up' }) }}
+			{{ component('typography/h3', { heading: 'Services', class: ' anim-fade-up text-lgs !text-black' }) }}
 
 			<ul class="mt-4 flex flex-col gap-1">
 				{% for item in service.services %}
-					<li class="text-lg anim-fade-up">{{ item.service }}</li>
+					<li class="text-lgs anim-fade-up">{{ item.service }}</li>
 				{% endfor %}
 			</ul>
 		</div>
 
-		<div class="self-center pt-6 lg:pl-10">
+		<div class="self-center pt-6 lg:pt-0 lg:pl-10">
 			{{ image(service.image.one(), { wrapperClass: '', class: 'anim-fade-in', lazy: true }) }}
 		</div>
 	</div>
