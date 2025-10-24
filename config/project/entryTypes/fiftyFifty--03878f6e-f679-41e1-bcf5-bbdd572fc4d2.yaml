@@ -1,0 +1,151 @@
+color: null
+description: null
+fieldLayouts:
+  7b531f3a-8184-4f68-97cc-423176cd0ca0:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-10-24T14:20:59+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: cdcb847a-bc11-4327-b6c1-8abe66b221c6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-10-24T14:23:31+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 36d6e123-eff0-44c3-a4da-7549cd5e4b49 # Intro Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bace4f0a-0e46-4964-a101-42d0c3d9caef
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-10-24T14:23:31+00:00'
+            elementCondition: null
+            heading: 'Right (Services List)'
+            type: craft\fieldlayoutelements\Heading
+            uid: c36d5505-1592-44b7-9cd1-d24e5aa29c92
+            userCondition: null
+          -
+            dateAdded: '2025-10-24T14:23:31+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: d1152384-d38a-4a7d-9196-940e2b001cba # Heading
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Services Heading'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 649745c8-0c44-4a6e-aaf7-2a3183c36960
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-10-24T14:23:31+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 5d289450-50a9-49a7-9070-3dd8b2c3003d # Services
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9186bf87-541b-477b-8974-a62ccb3540fb
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1bba5200-379e-4d2d-b476-66134e8181c0
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-10-24T14:27:36+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3f5c8f0a-945f-4282-b103-4656d640ec1a # Spacing Top
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 66d7b83b-0897-4889-abf5-e2f4baaecf6b
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-10-24T14:27:36+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 315e419f-401e-4161-a287-7cfd8f011a58 # Spacing Bottom
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8d121b84-90e4-46e9-9afc-49948d0ae885
+            userCondition: null
+            warning: null
+            width: 50
+        name: Style
+        uid: a9ec4a50-df6c-4c2b-8e12-8f43232657a3
+        userCondition: null
+handle: fiftyFifty
+hasTitleField: true
+icon: null
+name: 'Fifty / Fifty'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

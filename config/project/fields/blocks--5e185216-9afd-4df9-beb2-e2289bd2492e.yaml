@@ -44,6 +44,14 @@ settings:
       __assoc__:
         -
           - uid
+          - 03878f6e-f679-41e1-bcf5-bbdd572fc4d2 # Fifty / Fifty
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
           - 1fbaf49a-64d9-49d1-945e-685b85c40ebf # Logos
         -
           - group

@@ -1,0 +1,29 @@
+{% from '_macros/component' import component, spacer %}
+
+<!-- Template: {{ _self }} -->
+<section class="{{ spacer(block.spacingTop.value, block.spacingBottom.value)|spaceless }} container grid grid-cols-1 lg:grid-cols-2 relative group gap-10 lg:gap-20">
+	<div class="col-span-full">
+		{{ component('typography/h2', { heading: block.title, class: 'text-black anim-fade-up' }) }}
+	</div>
+
+	<div class="col-span-1">
+		{{ component('typography/intro-copy', { copy: block.introText, class: 'text-black anim-fade-up' }) }}
+	</div>
+
+	<div class="col-span-1 p-10 lg:px-15 lg:py-15 rounded-2xl gap-0 bg-grey-100">
+		<div>
+			{{ component('typography/h3', { 
+				heading: 'Services', 
+				class: ' anim-fade-up text-lgs !text-black' 
+			}) }}
+
+			<ul class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-2">
+				{% for item in block.services %}
+					<li class="text-lgs anim-fade-up">
+						{{ item.service }}
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
