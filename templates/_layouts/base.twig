@@ -9,6 +9,7 @@
 
     {# Fonts #}
     {{ include('_components/global/fonts', ignore_missing: true) }}
+    {{ include('_components/global/favicons', ignore_missing: true) }}
 
     {# CSS / JS #}
     {{ craft.vite.script('/src/index.js', false) }}
