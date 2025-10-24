@@ -7,26 +7,26 @@
 
 <footer class="container text-white {{ spacer('default', 'none')|spaceless }}">
 
-	<div class="grid grid-cols-6 gap-x-20 gap-y-20">
-		<div class="col-span-3">
+	<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-y-10 md:gap-x-20 lg:gap-y-20">
+		<div class="col-span-full md:col-span-3 order-last md:order-none">
 			{% if image %} {{ image(image) }} {% endif %}
 		</div>
 
-		<div class="col-span-1">
+		<div class="col-span-1 order-1 lg:order-none">
 			{{ component('typography/h3', { heading: 'Nottingham', class: 'text-black mb-6' }) }}
 			<address class="not-italic text-lg">
 				{{ footer.addresses.address1|nl2br }}
 			</address>
 		</div>
 
-		<div class="col-span-1">
+		<div class="col-span-1 order-2 lg:order-none">
 			{{ component('typography/h3', { heading: 'Lincoln', class: 'text-black mb-6' }) }}
 			<address class="not-italic text-lg">
 				{{ footer.addresses.address2|nl2br }}
 			</address>
 		</div>
 
-		<div class="col-span-1">
+		<div class="col-span-1 order-3 lg:order-none">
 			{{ component('typography/h3', { heading: 'Social', class: 'text-black mb-6' }) }}
 			<nav class="flex flex-col" aria-label="Links to {{ siteName }}'s socials">
 				{% if socials.instagram %}
@@ -58,14 +58,14 @@
 		</div>
 	</div>
 
-	<div class="my-10 grid grid-cols-2 gap-8 lg:gap-12 lg:items-end">
-		<div class="col-span-full lg:col-span-1">
+	<div class="my-10 grid grid-cols-2 gap-5 lg:gap-12 lg:items-end">
+		<div class="col-span-full md:col-span-1">
 			<p class="text-sm">
 				&copy; {{ siteName }} {{ currentYear }}
 			</p>
 		</div>
 
-		<div class="col-span-full lg:col-span-1">
+		<div class="col-span-full md:col-span-1">
 			{{ component('navigation/footer-privacy') }}
 		</div>
 	</div>
