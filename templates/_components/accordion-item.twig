@@ -3,20 +3,18 @@
 
 {% set image = item.image.one() ?? null %}
 
-<div
+<div 
 	x-data="{
-	id: {{
-	id
-	}},
-	get expanded() {
-		return this.active === this.id
-	},
-	set expanded(value) {
-		this.active = value ? this.id : null
-	},
-}"
+		id: {{ id }},
+		get expanded() {
+			return this.active === this.id
+		},
+		set expanded(value) {
+			this.active = value ? this.id : null
+		},
+	}"
 	role="region"
-	class="block bg-grey-100 rounded-2xl mb-8 last:mb-0 anim-fade-up"
+	class="block bg-grey-100 rounded-2xl mb-5 last:mb-0 anim-fade-up"
 >
 	<button
 		type="button"
@@ -27,18 +25,9 @@
 		{{ component('typography/h3', { heading: item.title, class: 'text-black' }) }}
 
 		<div
-			class="h-8 w-8 rounded-full flex items-center justify-center bg-purple"
-			x-show="expanded"
-			x-cloak
+			class="h-8 w-8 rounded-full flex items-center justify-center  duration-300"
 			aria-hidden="true"
-		>
-			{{ svg('@webroot/svg/icon-cross.svg')|attr({ class: 'text-black w-5' }) }}
-		</div>
-
-		<div
-			class="h-8 w-8 rounded-full flex items-center justify-center bg-white"
-			x-show="!expanded"
-			aria-hidden="true"
+			:class="expanded ? 'rotate-45 bg-purple' : 'bg-white rotate-0'"
 		>
 			{{ svg('@webroot/svg/icon-plus.svg')|attr({ class: 'w-5 text-black' }) }}
 		</div>
@@ -46,13 +35,15 @@
 
 	<div x-show="expanded" x-collapse>
 		<div class="px-10 pb-6 grid grid-cols-1 md:grid-cols-2 gap-10">
-			<div class="{{ image ? 'lg:col-span-1' : 'lg:col-span-2' }}">
+			<div class="flex flex-col {{ image ? 'lg:col-span-1' : 'lg:col-span-2' }}">
 				<p class="text-lg">
 					{{ item.description }}
 				</p>
 
 				{% if item.button %}
-					{{ component('button', { button: item.button, class: 'mt-10' }) }}
+					<div class="mt-auto">
+						{{ component('button', { button: item.button, class: 'mt-5' }) }}
+					</div>
 				{% endif %}
 			</div>
 

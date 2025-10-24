@@ -11,9 +11,12 @@
 			{{ component('typography/intro-copy', { copy: block.description, class: 'text-black anim-fade-up' }) }}
 		</div>
 
-		<div class="col-span-full lg:col-span-1" x-data="{active: 2}">
+		<div class="col-span-full lg:col-span-1" x-data="{active: null}">
 			{% for item in block.accordionItems.with('image').all() %}
-				{{ component('accordion-item', { item: item, id: loop.index }) }}
+				{{ component('accordion-item', { 
+					item: item, 
+					id: loop.index 
+				}) }}
 			{% endfor %}
 		</div>
 	</div>
