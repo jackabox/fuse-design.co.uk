@@ -15,21 +15,21 @@
 	<a 
 		href="/" 
 		title="{{ siteName }}"
-		class="block transition-all overflow-hidden duration-300"
+		class="block transition-all overflow-hidden duration-100"
 		:class="{
 			'w-0' : atTop,
 			'w-[56px]' : !atTop,
 		}"
 	>
-		{{ svg('@webroot/svg/logo-sm.svg')|attr({ class: 'w-[56px] h-[56px]' }) }}
+		{{ svg('@webroot/svg/logo-sm.svg')|attr({ class: 'w-[56px] h-[56px] duration-300 hover:text-purple' }) }}
 	</a>
 
-	<ul class="flex flex-col lg:flex-row">
+	<ul class="flex flex-col lg:flex-row mr-0.5">
 		
 		{% for node in mainNav %}
 			<li class="relative">
 				<a
-					class="py-2 text-2xl text-center lg:text-left lg:text-base leading-normal relative px-5 py-4 block hover:bg-black hover:text-white lg:rounded-full"
+					class="py-2 text-2xl text-center lg:text-left lg:text-base leading-normal relative px-5 py-3.5 block hover:bg-black duration-400 hover:text-white lg:rounded-full"
 					href="{{ node.url }}"
 					{% if node.newWindow %} target="_blank" rel="noopener" {% endif %}
 					{% for attribute in node.customAttributes %}{{ attribute.attribute }}="{{ attribute.value }}"{% endfor %}
