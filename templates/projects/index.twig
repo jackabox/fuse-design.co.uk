@@ -6,7 +6,7 @@
 {% block site %}
 	{{ component('blocks/hero-simple', { block: entry.heroSimple }) }}
 
-	<section class="bg-white {{ spacer('none', 'large')|spaceless }}">
+	<section class="bg-white -mt-10 lg:mt-0 {{ spacer('none', 'large')|spaceless }}">
 		<div class="container">
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-11">
 				{% for project in entry.projects.all() %}
