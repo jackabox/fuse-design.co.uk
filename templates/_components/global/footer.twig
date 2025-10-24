@@ -19,7 +19,7 @@
 			<div class="col-span-full lg:col-span-1">
 				{{ component('typography/h3', { heading: 'Contact', class: 'text-grey mb-6' }) }}
 
-				<div class="flex flex-col gap-6">
+				<div class="flex flex-col gap-3 lg:gap-6">
 					<p>
 						<a
 							class="text-3xl font-normal duration-300 hover:text-purple"
@@ -41,7 +41,7 @@
 					</p>
 				</div>
 
-				<div class="mt-18 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+				<div class="mt-10 lg:mt-18 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
 					<div>
 						{{ component('typography/h3', { heading: 'Nottingham', class: 'text-grey mb-6' }) }}
 						<address class="not-italic text-lg">
@@ -94,14 +94,14 @@
 			</div>
 		</div>
 
-		<div class="my-10 grid grid-cols-2 gap-5 lg:gap-12 lg:items-end">
-			<div class="col-span-full md:col-span-1 order-2 lg:order-1">
+		<div class="my-10 grid grid-cols-2 gap-5 lg:gap-12 items-end">
+			<div class="col-span-1">
 				<p class="text-sm">
 					&copy; {{ siteName }} {{ currentYear }}
 				</p>
 			</div>
 
-			<div class="col-span-full md:col-span-1 order-1 lg:order-2">
+			<div class="col-span-1 text-right">
 				{{ component('navigation/footer-privacy') }}
 			</div>
 		</div>
