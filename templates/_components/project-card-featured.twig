@@ -13,7 +13,7 @@
 	title="Read more about our project: {{ project.title }}"
 	class="grid grid-cols-1 lg:grid-cols-2 relative group"
 >
-	<div class="px-6 lg:px-0 lg:py-10 flex flex-col col-span-1 order-2 {{ even ? 'lg:order-2' : 'lg:order-1' }}">
+	<div class="lg:py-10 flex flex-col col-span-1 order-2 {{ even ? 'lg:order-2' : 'lg:order-1' }}">
 		<div
 			class="flex p-6 md:p-10 lg:p-15 flex-col h-full rounded-b-2xl {{ textColour }} {{
 			even
@@ -48,7 +48,7 @@
 		{{ image(
 			project.image.one(),
 			{
-				wrapperClass: 'aspect-[4/3] lg:aspect-[9/8] rounded-2xl block overflow-hidden transition-all duration-500 drop-shadow-img-trans group-hover:drop-shadow-img',
+				wrapperClass: 'aspect-[4/3] lg:aspect-[9/8] rounded-t-2xl lg:rounded-2xl block overflow-hidden transition-all duration-500 drop-shadow-img-trans group-hover:drop-shadow-img',
 				class: 'w-full h-full object-cover ',
 				lazy: true
 			}
