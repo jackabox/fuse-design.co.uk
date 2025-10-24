@@ -1,0 +1,21 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 5aa2454b-593c-4148-b89b-e964a43e7f2c # Services
+handle: sectors
+maxAuthors: 1
+name: Sectors
+previewTargets:
+  -
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  203be7d0-1104-40bc-88e9-d49e038b32ae: # $CRAFT_SITE_NAME
+    enabledByDefault: true
+    hasUrls: true
+    template: sectors/_entry.twig
+    uriFormat: 'sector/{slug}'
+type: channel

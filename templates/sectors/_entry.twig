@@ -1,0 +1,11 @@
+{% from '_macros/component' import component, spacer %}
+
+{% extends '_layouts/global' %}
+
+{% block site %}
+	{% if entry.heroSimple.heading %}
+  		{{ component('blocks/hero-simple', { block: entry.heroSimple }) }}
+    {% endif %}
+
+    {{ include('_components/page-builder', { blocks: entry.blocks.all() }) }}
+{% endblock %}
